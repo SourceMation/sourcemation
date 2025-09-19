@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Extensions on SourceMation</title><link>https://sourcemation.github.io/sourcemation/categories/extensions/</link><description>Recent content in Extensions on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 17 Sep 2025 13:11:55 +0200</lastBuildDate><atom:link href="https://sourcemation.github.io/sourcemation/categories/extensions/index.xml" rel="self" type="application/rss+xml"/><item><title>Openapi Generator CLI</title><link>https://sourcemation.github.io/sourcemation/catalog/openapi-generator-cli/</link><pubDate>Wed, 17 Sep 2025 13:11:55 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/openapi-generator-cli/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;The OpenAPI Generator CLI is a powerful command-line utility that automates the creation of client libraries, server
+stubs, and API documentation from OpenAPI specifications. This tool significantly accelerates development workflows by
+generating consistent, well-structured code across multiple programming languages and frameworks.&lt;/p&gt;
+&lt;p&gt;SourceMation&amp;rsquo;s distribution comes pre-configured with a secure user environment and includes an enhanced CLI script for
+simplified version management. The container is built with security best practices, running under a non-root user
+account to minimize potential attack vectors. Our automated build process ensures you receive the latest stable release
+with all necessary dependencies properly configured for immediate use.&lt;/p&gt;</description></item><item><title>JRE-21</title><link>https://sourcemation.github.io/sourcemation/catalog/jre-21/</link><pubDate>Tue, 16 Sep 2025 16:31:38 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/jre-21/</guid><description>&lt;p&gt;JRE 21 is the Java Runtime Environment derived from the JDK 21
+Long-Term Support (LTS) release, and it&amp;rsquo;s intended for end-users or
+servers that only need to run pre-compiled Java applications. It
+contains the core components, primarily the Java Virtual Machine (JVM)
+and core class libraries, but omits development tools like the
+compiler (javac). Any application running on JRE 21 gains the benefits
+of the JDK 21 platform, including the performance improvements from
+the finalization of Virtual Threads and other new language features.&lt;/p&gt;</description></item><item><title>RabbitMQ Management</title><link>https://sourcemation.github.io/sourcemation/catalog/rabbitmq-4-management/</link><pubDate>Tue, 16 Sep 2025 14:39:56 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/rabbitmq-4-management/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;RabbitMQ (ver 4.x) Management delivers enterprise-grade message brokering with an intuitive web interface for real-time
+monitoring and administrative control. This solution combines robust AMQP message processing with advanced management
+features including queue analytics, connection tracking, and cluster health monitoring.&lt;/p&gt;
+&lt;p&gt;The management interface enables administrators to visualize message flows, configure exchanges and bindings, and manage
+user permissions through a responsive web dashboard. Built for production environments, it supports high-throughput
+messaging scenarios while maintaining operational transparency and control.&lt;/p&gt;</description></item><item><title>Redis Exporter</title><link>https://sourcemation.github.io/sourcemation/catalog/redis-exporter/</link><pubDate>Tue, 16 Sep 2025 14:16:03 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/redis-exporter/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Redis Exporter is a specialized monitoring tool that bridges Redis databases with Prometheus-based observability
+platforms. It continuously collects comprehensive metrics including memory usage, connection statistics, command
+execution rates, and replication status from Redis instances.&lt;/p&gt;
+&lt;p&gt;The exporter transforms Redis INFO command output and custom queries into Prometheus-compatible metrics, enabling
+detailed performance analysis and automated alerting. It supports both standalone Redis servers and clustered
+deployments, making it essential for maintaining visibility into Redis infrastructure health and performance trends.&lt;/p&gt;</description></item><item><title>Redis Operator</title><link>https://sourcemation.github.io/sourcemation/catalog/redis-operator/</link><pubDate>Tue, 16 Sep 2025 14:11:13 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/redis-operator/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Redis Operator is a cloud-native solution that automates the deployment and management of Redis instances on Kubernetes
+platforms. It supports both standalone and clustered Redis configurations, handling complex operations like scaling,
+backup, and failover through declarative Kubernetes resources.&lt;/p&gt;
+&lt;p&gt;The operator integrates seamlessly with Kubernetes ecosystem tools and provides comprehensive monitoring through Redis
+exporters. It enables teams to focus on application development while ensuring Redis infrastructure remains highly
+available and optimally configured across cloud and on-premises environments.&lt;/p&gt;</description></item><item><title>Redis Sentinel</title><link>https://sourcemation.github.io/sourcemation/catalog/redis-sentinel/</link><pubDate>Tue, 16 Sep 2025 13:58:05 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/redis-sentinel/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Redis Sentinel is a high availability solution that monitors Redis deployments and automatically handles failover
+scenarios. It ensures continuous service by detecting master failures and promoting replicas through distributed
+consensus among Sentinel nodes. Sentinel makes quorum-based decisions to maintain system integrity and prevent
+split-brain situations.&lt;/p&gt;</description></item><item><title>GP Backup</title><link>https://sourcemation.github.io/sourcemation/catalog/gpbackup/</link><pubDate>Mon, 15 Sep 2025 22:30:13 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gpbackup/</guid><description>&lt;p&gt;GPBackup is an efficient tool for managing backups in Greenplum
+Database. It allows the creation of full and incremental backups of
+entire databases as well as selected tables. With advanced data
+compression and segmentation, it ensures fast backup creation and the
+ability to restore data to any point in time.&lt;/p&gt;</description></item><item><title>GP Diskquota</title><link>https://sourcemation.github.io/sourcemation/catalog/gp-diskquota/</link><pubDate>Mon, 15 Sep 2025 20:34:02 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gp-diskquota/</guid><description>&lt;p&gt;Diskquota is an extension that provides disk usage enforcement for
+database objects in Greenplum DB. Currently it supports to set quota
+limit on schema and role in a given database and limit the amount of
+disk space that a schema or a role can use.&lt;/p&gt;</description></item><item><title>[X] Postgis</title><link>https://sourcemation.github.io/sourcemation/catalog/postgis/</link><pubDate>Mon, 15 Sep 2025 17:26:40 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/postgis/</guid><description>&lt;p&gt;PostGIS is an extension for PostgreSQL that enables processing and
+analysis of geospatial data, in compliance with OGC standards.&lt;/p&gt;</description></item><item><title>Gpbackup S3</title><link>https://sourcemation.github.io/sourcemation/catalog/gpbackup-s3/</link><pubDate>Mon, 15 Sep 2025 17:20:57 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gpbackup-s3/</guid><description>&lt;p&gt;GPBackup-S3 is a tool for automatic backups of Greenplum Database with
+Amazon S3 integration. It enables easy storage, restoration, and
+verification of full and incremental backups in a secure, scalable
+cloud. This is an ideal solution for organizations looking to
+efficiently manage data in the cloud.&lt;/p&gt;</description></item><item><title>[X] Pgbadger</title><link>https://sourcemation.github.io/sourcemation/catalog/pgbadger/</link><pubDate>Mon, 15 Sep 2025 16:31:43 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pgbadger/</guid><description>&lt;p&gt;pgBadger is a PostgreSQL log analyzer that generates detailed reports based on log files.&lt;/p&gt;</description></item><item><title>[X] Pglogical</title><link>https://sourcemation.github.io/sourcemation/catalog/pglogical/</link><pubDate>Mon, 15 Sep 2025 16:28:01 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pglogical/</guid><description>&lt;p&gt;PgLogical is an extension for PostgreSQL that enables logical data
+replication between instances, offering selective data replication and
+support for migrations and synchronization between databases.&lt;/p&gt;</description></item><item><title>[X] Apache Camel</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-camel/</link><pubDate>Mon, 15 Sep 2025 16:10:41 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-camel/</guid><description>&lt;p&gt;Apache Camel is a flexible, open-source integration framework that
+enables the creation of complex data exchange processes across
+different systems. Camel excels in microservice integration and
+business process automation, allowing for easy creation of flexible
+data flows.&lt;/p&gt;</description></item><item><title>Apache Camel Karavan</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-camel-karavan/</link><pubDate>Mon, 15 Sep 2025 16:06:37 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-camel-karavan/</guid><description>&lt;p&gt;Apache Camel Karavan is a visual extension of Apache Camel that
+enables intuitive integration design using Enterprise Integration
+Patterns (EIP) through a drag-and-drop interface. This makes it easier
+for DevOps teams and developers to create complex data flows and
+orchestrate processes, making it ideal for cloud and containerized
+environments.&lt;/p&gt;</description></item><item><title>[X] Apache Felix</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-felix/</link><pubDate>Mon, 15 Sep 2025 15:50:23 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-felix/</guid><description>&lt;p&gt;Apache Felix is an OSGi implementation for building modular Java
+applications with dynamic component management and support for
+microservices.&lt;/p&gt;</description></item><item><title>[X] Gp Geospatial</title><link>https://sourcemation.github.io/sourcemation/catalog/gp-geospatial/</link><pubDate>Fri, 12 Sep 2025 14:40:34 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gp-geospatial/</guid><description>&lt;p&gt;GeoSpatial is a technology for analyzing and visualizing geospatial
+data, used for creating maps, managing locations, and spatial analysis
+in location-based applications.&lt;/p&gt;</description></item><item><title>GP PXF</title><link>https://sourcemation.github.io/sourcemation/catalog/gp-pxf/</link><pubDate>Fri, 12 Sep 2025 14:11:36 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gp-pxf/</guid><description>&lt;p&gt;An extension for Greenplum Database that enables access to data from
+various sources, such as HDFS, Amazon S3, and NoSQL databases, without
+the need to transfer them. It supports data formats like CSV, Parquet,
+and Avro, facilitating big data integration and analysis within a
+single environment&lt;/p&gt;</description></item><item><title>Cert-manager</title><link>https://sourcemation.github.io/sourcemation/catalog/cert-manager/</link><pubDate>Tue, 09 Sep 2025 21:42:40 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/cert-manager/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Cert-manager is a Kubernetes tool that automates the issuance, renewal, and management of TLS certificates using various
+providers like Let&amp;rsquo;s Encrypt. Download our ready Helm Charts tailored for KubeArmor.&lt;/p&gt;</description></item></channel></rss>

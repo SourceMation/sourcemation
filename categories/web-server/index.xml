@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Server on SourceMation</title><link>https://sourcemation.github.io/sourcemation/categories/web-server/</link><description>Recent content in Web Server on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 17 Sep 2025 14:33:46 +0200</lastBuildDate><atom:link href="https://sourcemation.github.io/sourcemation/categories/web-server/index.xml" rel="self" type="application/rss+xml"/><item><title>Nginx Stable</title><link>https://sourcemation.github.io/sourcemation/catalog/nginx-stable/</link><pubDate>Wed, 17 Sep 2025 14:33:46 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/nginx-stable/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Nginx Stable delivers enterprise-grade web serving capabilities with a focus on long-term reliability and consistent
+performance across production environments. This stable branch undergoes extensive testing and validation, making it the
+preferred choice for mission-critical applications that prioritize stability over cutting-edge features.&lt;/p&gt;
+&lt;p&gt;The stable release branch receives only critical bug fixes and security updates, ensuring predictable behavior and
+minimal risk of unexpected changes in production deployments. This approach makes it particularly well-suited for
+enterprise environments where stability and reliability take precedence.&lt;/p&gt;</description></item><item><title>Nginx Mainline</title><link>https://sourcemation.github.io/sourcemation/catalog/nginx-mainline/</link><pubDate>Wed, 17 Sep 2025 14:31:00 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/nginx-mainline/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Nginx Mainline represents the cutting-edge branch of the world&amp;rsquo;s most popular web server, delivering advanced HTTP
+serving, reverse proxy functionality, and sophisticated load balancing capabilities. This version provides access to the
+newest features and optimizations as they&amp;rsquo;re developed, making it ideal for environments that require the latest
+innovations.&lt;/p&gt;
+&lt;p&gt;Known for its exceptional performance characteristics and minimal resource consumption, Nginx excels at handling
+high-concurrency scenarios while maintaining rock-solid stability. The mainline branch receives continuous updates with
+new features, protocol improvements, and performance enhancements.&lt;/p&gt;</description></item><item><title>JRE-21</title><link>https://sourcemation.github.io/sourcemation/catalog/jre-21/</link><pubDate>Tue, 16 Sep 2025 16:31:38 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/jre-21/</guid><description>&lt;p&gt;JRE 21 is the Java Runtime Environment derived from the JDK 21
+Long-Term Support (LTS) release, and it&amp;rsquo;s intended for end-users or
+servers that only need to run pre-compiled Java applications. It
+contains the core components, primarily the Java Virtual Machine (JVM)
+and core class libraries, but omits development tools like the
+compiler (javac). Any application running on JRE 21 gains the benefits
+of the JDK 21 platform, including the performance improvements from
+the finalization of Virtual Threads and other new language features.&lt;/p&gt;</description></item><item><title>Micronaut</title><link>https://sourcemation.github.io/sourcemation/catalog/micronaut/</link><pubDate>Tue, 16 Sep 2025 16:08:47 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/micronaut/</guid><description>&lt;p&gt;Description: Micronaut is a modern, full-stack framework for the JVM
+(supporting Java, Kotlin, and Groovy) designed specifically for
+building modular microservices and serverless applications. Its key
+differentiator is that it performs dependency injection,
+configuration, and aspect-oriented programming at compile time
+(Ahead-of-Time compilation) rather than at runtime using reflection.
+This results in dramatically faster startup times, a much lower memory
+footprint, and makes it an ideal choice for serverless functions and
+containerized microservices.&lt;/p&gt;</description></item><item><title>Manageiq</title><link>https://sourcemation.github.io/sourcemation/catalog/manageiq/</link><pubDate>Tue, 16 Sep 2025 15:59:42 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/manageiq/</guid><description>&lt;p&gt;ManageIQ is an open-source cloud management platform (CMP) that
+provides a single interface for managing hybrid IT environments. It
+discovers and monitors resources across disparate virtualization (like
+VMware), private cloud (like OpenStack), and public cloud (like AWS,
+Azure) platforms, as well as container platforms like Kubernetes. Its
+key features include &amp;ldquo;Insight&amp;rdquo; (discovery, monitoring, analytics),
+&amp;ldquo;Control&amp;rdquo; (security, compliance, policy enforcement), and &amp;ldquo;Automate&amp;rdquo;
+(provisioning workflows, orchestration). It essentially acts as a
+&amp;ldquo;manager of managers,&amp;rdquo; giving administrators a single pane of glass
+for governance and automation.&lt;/p&gt;</description></item><item><title>Kong</title><link>https://sourcemation.github.io/sourcemation/catalog/kong/</link><pubDate>Tue, 16 Sep 2025 15:47:31 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/kong/</guid><description>&lt;p&gt;Kong is a cloud-native API gateway and platform built on top of Nginx
+(specifically OpenResty). It is deployed in front of backend
+microservices to act as a single, controllable entry point for all API
+traffic. Its core function is to provide a comprehensive security and
+management layer, handling tasks like authentication (OAuth2, JWT),
+authorization, rate limiting, and traffic transformation via a
+&amp;ldquo;plugin&amp;rdquo; architecture. By intercepting and proxying all requests, Kong
+also provides critical observability metrics, logs, and traces for
+monitoring API performance.&lt;/p&gt;</description></item><item><title>Helidon</title><link>https://sourcemation.github.io/sourcemation/catalog/helidon/</link><pubDate>Tue, 16 Sep 2025 15:33:52 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/helidon/</guid><description>&lt;p&gt;Helidon is an open-source, cloud-native set of Java libraries from
+Oracle for building microservices. It provides two distinct paths for
+development. Helidon SE is a lightweight, &amp;ldquo;reactive&amp;rdquo; toolkit that uses
+a functional, non-blocking approach (built on Netty) for maximum
+performance and a small footprint. Helidon MP is a full implementation
+of the Eclipse MicroProfile specification, providing a more
+declarative, annotation-driven programming model (similar to Spring
+Boot or Micronaut) for enterprise Java developers.&lt;/p&gt;</description></item><item><title>Apicast</title><link>https://sourcemation.github.io/sourcemation/catalog/apicast/</link><pubDate>Tue, 16 Sep 2025 14:04:50 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apicast/</guid><description>&lt;p&gt;Apicast is the core API gateway component of the 3scale API Management
+platform. It is a high-performance, Nginx-based proxy that processes
+and controls all inbound API traffic. It intercepts requests,
+authenticates them against defined policies (like rate limits, access
+keys, or JWTs), and routes them to the correct upstream service. It&amp;rsquo;s
+designed to be deployed as a container, managing the secure and
+observable flow of communication between API consumers and backend
+services.&lt;/p&gt;</description></item><item><title>ArgoCD</title><link>https://sourcemation.github.io/sourcemation/catalog/argocd/</link><pubDate>Mon, 15 Sep 2025 22:40:00 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/argocd/</guid><description>&lt;p&gt;ArgoCD is a declarative, version-controlled application deployment
+tool designed to automate and manage application configurations and
+environments. It follows the GitOps pattern, utilizing Git
+repositories as the source of truth for defining the desired
+application state. Users can specify Kubernetes manifests using
+various methods such as kustomize applications, Helm charts, JSONnet
+files, or plain directories of YAML/json manifests. ArgoCD automates
+the deployment process based on the desired application state defined
+in Git repositories, making application deployment and lifecycle
+management easy, auditable, and understandable.&lt;/p&gt;</description></item><item><title>[X] CyberArk Conjur</title><link>https://sourcemation.github.io/sourcemation/catalog/cyberark-conjur/</link><pubDate>Mon, 15 Sep 2025 22:25:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/cyberark-conjur/</guid><description>&lt;p&gt;CyberArk Conjur is a secrets management tool that provides an
+interface for secure authentication, access control, and auditing for
+processes across various tools, applications, containers, and cloud
+environments.&lt;/p&gt;</description></item><item><title>[X] Spring Boot</title><link>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</link><pubDate>Mon, 15 Sep 2025 22:11:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</guid><description>&lt;p&gt;Spring Boot is an extension of the Spring Framework that simplifies
+the creation and deployment of Java applications by automating
+configuration and supporting the rapid development of web
+applications, REST services, and microservices. With Spring Boot, the
+process of creating Spring-based applications becomes more efficient,
+allowing for quick setup and deployment with minimal configuration.&lt;/p&gt;</description></item><item><title>Harbor</title><link>https://sourcemation.github.io/sourcemation/catalog/harbor/</link><pubDate>Mon, 15 Sep 2025 21:55:16 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/harbor/</guid><description>&lt;p&gt;Harbor operates as a platform enabling the management of container
+repositories in Kubernetes environments.&lt;/p&gt;</description></item><item><title>Jenkins</title><link>https://sourcemation.github.io/sourcemation/catalog/jenkins/</link><pubDate>Mon, 15 Sep 2025 20:49:27 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/jenkins/</guid><description>&lt;p&gt;Jenkins is an open-source automation server used for continuous
+integration and continuous delivery (CI/CD) pipelines, enabling
+developers to automate building, testing, and deploying software.
+Download our ready Helm Charts tailored for Jenkins.&lt;/p&gt;</description></item><item><title>[X] Activiti</title><link>https://sourcemation.github.io/sourcemation/catalog/activiti/</link><pubDate>Mon, 15 Sep 2025 20:40:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/activiti/</guid><description>&lt;p&gt;Activiti is a BPM platform for business process automation, compliant
+with BPMN 2.0. It enables modeling, monitoring, and integration of
+processes using a graphical editor and API for programmatic control.&lt;/p&gt;</description></item><item><title>Prometheus</title><link>https://sourcemation.github.io/sourcemation/catalog/prometheus/</link><pubDate>Mon, 15 Sep 2025 19:20:32 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/prometheus/</guid><description>&lt;p&gt;Prometheus is a monitoring and alerting system widely used in cloud
+and microservices environments. It is an open-source tool that enables
+the collection of metrics from various components of IT
+infrastructure, such as servers, containers, databases, etc.&lt;/p&gt;</description></item><item><title>Pgadmin</title><link>https://sourcemation.github.io/sourcemation/catalog/pgadmin/</link><pubDate>Mon, 15 Sep 2025 19:06:25 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pgadmin/</guid><description>&lt;p&gt;pgAdmin functions as an open-source platform for administering and developing PostgreSQL.&lt;/p&gt;</description></item><item><title>Sonarqube</title><link>https://sourcemation.github.io/sourcemation/catalog/sonarqube/</link><pubDate>Mon, 15 Sep 2025 18:56:29 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/sonarqube/</guid><description>&lt;p&gt;SonarQube operates as a platform for automatic code quality analysis.&lt;/p&gt;</description></item><item><title>[X] Forgejo</title><link>https://sourcemation.github.io/sourcemation/catalog/forgejo/</link><pubDate>Mon, 15 Sep 2025 18:20:35 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/forgejo/</guid><description>&lt;p&gt;Forgejo operates as a platform for self-hosting software, managing
+projects, collaborating, and developing software according to one&amp;rsquo;s
+own preferences and needs.&lt;/p&gt;</description></item><item><title>Apache Karaf</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-karaf/</link><pubDate>Mon, 15 Sep 2025 17:12:40 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-karaf/</guid><description>&lt;p&gt;Apache Karaf is a lightweight OSGi container that enables easy
+deployment, management, and updating of applications and services in
+modular environments. It offers flexibility, dynamic module loading,
+and clustering, making it an ideal solution for managing applications
+in enterprise environments. Karaf is also ideal for Java applications,
+enabling modular deployment and management of services in large and
+complex environments.&lt;/p&gt;</description></item><item><title>[X] Pgbadger</title><link>https://sourcemation.github.io/sourcemation/catalog/pgbadger/</link><pubDate>Mon, 15 Sep 2025 16:31:43 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pgbadger/</guid><description>&lt;p&gt;pgBadger is a PostgreSQL log analyzer that generates detailed reports based on log files.&lt;/p&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.github.io/sourcemation/catalog/kibana/</link><pubDate>Mon, 15 Sep 2025 16:19:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
+serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Apache Camel Karavan</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-camel-karavan/</link><pubDate>Mon, 15 Sep 2025 16:06:37 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-camel-karavan/</guid><description>&lt;p&gt;Apache Camel Karavan is a visual extension of Apache Camel that
+enables intuitive integration design using Enterprise Integration
+Patterns (EIP) through a drag-and-drop interface. This makes it easier
+for DevOps teams and developers to create complex data flows and
+orchestrate processes, making it ideal for cloud and containerized
+environments.&lt;/p&gt;</description></item><item><title>Gitea</title><link>https://sourcemation.github.io/sourcemation/catalog/gitea/</link><pubDate>Mon, 15 Sep 2025 15:40:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gitea/</guid><description>&lt;p&gt;Gitea is a software including Git hosting, code review, team
+collaboration, package registry and CI/CD.&lt;/p&gt;</description></item><item><title>Nodejs</title><link>https://sourcemation.github.io/sourcemation/catalog/nodejs/</link><pubDate>Mon, 15 Sep 2025 15:24:32 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/nodejs/</guid><description>&lt;p&gt;Node.js stands as a dynamic runtime environment, utilizing the V8
+engine, specifically crafted for the development of contemporary,
+interactive web applications.&lt;/p&gt;</description></item><item><title>[X] Spring Framework</title><link>https://sourcemation.github.io/sourcemation/catalog/spring-framework/</link><pubDate>Fri, 12 Sep 2025 16:08:29 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/spring-framework/</guid><description>&lt;p&gt;Spring Framework is a versatile Java framework that supports the
+development of web applications, REST services, and microservices. It
+offers tools such as Dependency Injection and AOP, as well as support
+for enterprise applications, including transaction management,
+security, and other aspects of application development. With its
+flexible architecture, Spring simplifies the creation of complex
+systems, improving their quality and performance.&lt;/p&gt;</description></item></channel></rss>

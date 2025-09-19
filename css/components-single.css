@@ -1,0 +1,417 @@
+/* Component Single Page Styles */
+
+/* Component Header */
+.component-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.component-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.component-type {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Main Layout */
+.main-content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .main-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Card Base Styles */
+.card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 1rem 0;
+}
+
+/* Metadata Table */
+.metadata-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.metadata-table th,
+.metadata-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #f3f4f6;
+    font-size: 0.875rem;
+}
+
+.metadata-table th {
+    background-color: #f9fafb;
+    font-weight: 600;
+    color: #374151;
+    width: 150px;
+}
+
+.metadata-table td {
+    color: #6b7280;
+}
+
+.metadata-table a {
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.metadata-table a:hover {
+    text-decoration: underline;
+}
+
+/* Risk Analysis */
+.risk-analysis {
+    position: relative;
+}
+
+.risk-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.score-subtitle {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+.score-circles {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .score-circles {
+        gap: 1rem;
+    }
+}
+
+.score-circle {
+    text-align: center;
+    flex: 0 0 auto;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin: 0 auto 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    border-radius: 50%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.circle.activity {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+}
+
+.circle.contributors {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+}
+
+.circle.code {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+}
+
+.circle.main-score {
+    width: 120px;
+    height: 120px;
+    font-size: 2.25rem;
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+}
+
+.score-label {
+    font-size: 0.875rem;
+    color: #374151;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.score-status {
+    font-size: 0.75rem;
+    color: #059669;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.score-description {
+    font-size: 0.875rem;
+    color: #6b7280;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* CVE Section */
+.cve-section {
+    margin-bottom: 2rem;
+}
+
+
+.contribution-section {
+    margin-bottom: 2rem;
+}
+
+
+.cve-section h3 {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cve-section h3::before {
+    content: '🛡️';
+    font-size: 1.25rem;
+}
+
+.cve-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+
+.cve-table th,
+.cve-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.cve-table th {
+    background-color: #f9fafb;
+    font-weight: 600;
+    color: #374151;
+}
+
+.cve-table td {
+    color: #6b7280;
+}
+
+.cve-link {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.cve-link:hover {
+    text-decoration: underline;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.right-sidebar .card h4 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 0 0 1rem 0;
+}
+
+/* Programming Languages */
+.programming-languages {
+    margin-bottom: 2rem;
+}
+
+.lang-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.lang-item:last-child {
+    border-bottom: none;
+}
+
+.lang-name {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 500;
+    color: #374151;
+}
+
+.lang-icon {
+    flex-shrink: 0;
+    filter: opacity(0.8);
+    transition: filter 0.2s ease;
+}
+
+.lang-icon:hover {
+    filter: opacity(1);
+}
+
+.lang-stats {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.75rem;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+/* Component Stats */
+.component-stats .stat-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.component-stats .stat-item:last-child {
+    border-bottom: none;
+}
+
+.stat-label {
+    font-weight: 500;
+    color: #374151;
+}
+
+.stat-value {
+    font-weight: 600;
+    color: #111827;
+}
+
+/* Recent CVEs */
+.recent-cves .cve-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.recent-cves .cve-item:last-child {
+    border-bottom: none;
+}
+
+.cve-id {
+    font-weight: 500;
+}
+
+.cve-date {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+.cve-more {
+    padding: 0.75rem 0;
+    font-size: 0.875rem;
+    color: #6b7280;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .component-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    .score-circles {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle.main-score {
+        width: 140px;
+        height: 140px;
+    }
+
+    .metadata-table th,
+    .metadata-table td {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .lang-stats {
+        flex-direction: column;
+        gap: 0.25rem;
+        text-align: right;
+    }
+}

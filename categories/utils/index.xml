@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utils on SourceMation</title><link>https://sourcemation.github.io/sourcemation/categories/utils/</link><description>Recent content in Utils on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 17 Sep 2025 14:33:46 +0200</lastBuildDate><atom:link href="https://sourcemation.github.io/sourcemation/categories/utils/index.xml" rel="self" type="application/rss+xml"/><item><title>Nginx Stable</title><link>https://sourcemation.github.io/sourcemation/catalog/nginx-stable/</link><pubDate>Wed, 17 Sep 2025 14:33:46 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/nginx-stable/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Nginx Stable delivers enterprise-grade web serving capabilities with a focus on long-term reliability and consistent
+performance across production environments. This stable branch undergoes extensive testing and validation, making it the
+preferred choice for mission-critical applications that prioritize stability over cutting-edge features.&lt;/p&gt;
+&lt;p&gt;The stable release branch receives only critical bug fixes and security updates, ensuring predictable behavior and
+minimal risk of unexpected changes in production deployments. This approach makes it particularly well-suited for
+enterprise environments where stability and reliability take precedence.&lt;/p&gt;</description></item><item><title>Nginx Mainline</title><link>https://sourcemation.github.io/sourcemation/catalog/nginx-mainline/</link><pubDate>Wed, 17 Sep 2025 14:31:00 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/nginx-mainline/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Nginx Mainline represents the cutting-edge branch of the world&amp;rsquo;s most popular web server, delivering advanced HTTP
+serving, reverse proxy functionality, and sophisticated load balancing capabilities. This version provides access to the
+newest features and optimizations as they&amp;rsquo;re developed, making it ideal for environments that require the latest
+innovations.&lt;/p&gt;
+&lt;p&gt;Known for its exceptional performance characteristics and minimal resource consumption, Nginx excels at handling
+high-concurrency scenarios while maintaining rock-solid stability. The mainline branch receives continuous updates with
+new features, protocol improvements, and performance enhancements.&lt;/p&gt;</description></item><item><title>Mosquitto</title><link>https://sourcemation.github.io/sourcemation/catalog/mosquitto/</link><pubDate>Wed, 17 Sep 2025 14:26:38 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/mosquitto/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Eclipse Mosquitto is a widely-adopted open-source MQTT broker that serves as the backbone for countless IoT deployments
+worldwide. Developed under the Eclipse Foundation, it implements the MQTT protocol versions 5.0, 3.1.1, and 3.1, making
+it compatible with virtually any MQTT client application.&lt;/p&gt;
+&lt;p&gt;The broker is renowned for its lightweight architecture and exceptional performance, capable of handling thousands of
+concurrent connections while maintaining minimal memory usage. Mosquitto supports advanced features including message
+persistence, SSL/TLS encryption, bridge connections, and flexible authentication mechanisms.&lt;/p&gt;</description></item><item><title>Openapi Generator CLI</title><link>https://sourcemation.github.io/sourcemation/catalog/openapi-generator-cli/</link><pubDate>Wed, 17 Sep 2025 13:11:55 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/openapi-generator-cli/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;The OpenAPI Generator CLI is a powerful command-line utility that automates the creation of client libraries, server
+stubs, and API documentation from OpenAPI specifications. This tool significantly accelerates development workflows by
+generating consistent, well-structured code across multiple programming languages and frameworks.&lt;/p&gt;
+&lt;p&gt;SourceMation&amp;rsquo;s distribution comes pre-configured with a secure user environment and includes an enhanced CLI script for
+simplified version management. The container is built with security best practices, running under a non-root user
+account to minimize potential attack vectors. Our automated build process ensures you receive the latest stable release
+with all necessary dependencies properly configured for immediate use.&lt;/p&gt;</description></item><item><title>JRE-21</title><link>https://sourcemation.github.io/sourcemation/catalog/jre-21/</link><pubDate>Tue, 16 Sep 2025 16:31:38 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/jre-21/</guid><description>&lt;p&gt;JRE 21 is the Java Runtime Environment derived from the JDK 21
+Long-Term Support (LTS) release, and it&amp;rsquo;s intended for end-users or
+servers that only need to run pre-compiled Java applications. It
+contains the core components, primarily the Java Virtual Machine (JVM)
+and core class libraries, but omits development tools like the
+compiler (javac). Any application running on JRE 21 gains the benefits
+of the JDK 21 platform, including the performance improvements from
+the finalization of Virtual Threads and other new language features.&lt;/p&gt;</description></item><item><title>JDK-21</title><link>https://sourcemation.github.io/sourcemation/catalog/jdk-21/</link><pubDate>Tue, 16 Sep 2025 16:31:29 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/jdk-21/</guid><description>&lt;p&gt;JDK 21 is the official Java Development Kit for the Java 21 Long-Term
+Support (LTS) release, designed for application developers. It
+includes all the tools needed to compile, debug, and run Java
+applications, such as the javac compiler and the Java Virtual Machine.
+This version is critically important as it finalizes several major
+features from Project Loom, most notably Virtual Threads, which
+fundamentally simplifies the development of high-throughput concurrent
+applications. It also introduces other key features like Sequenced
+Collections, Scoped Values, and enhanced Pattern Matching.&lt;/p&gt;</description></item><item><title>Micronaut</title><link>https://sourcemation.github.io/sourcemation/catalog/micronaut/</link><pubDate>Tue, 16 Sep 2025 16:08:47 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/micronaut/</guid><description>&lt;p&gt;Description: Micronaut is a modern, full-stack framework for the JVM
+(supporting Java, Kotlin, and Groovy) designed specifically for
+building modular microservices and serverless applications. Its key
+differentiator is that it performs dependency injection,
+configuration, and aspect-oriented programming at compile time
+(Ahead-of-Time compilation) rather than at runtime using reflection.
+This results in dramatically faster startup times, a much lower memory
+footprint, and makes it an ideal choice for serverless functions and
+containerized microservices.&lt;/p&gt;</description></item><item><title>Maven</title><link>https://sourcemation.github.io/sourcemation/catalog/maven/</link><pubDate>Tue, 16 Sep 2025 16:03:30 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/maven/</guid><description>&lt;p&gt;Apache Maven is a foundational software project management and build
+automation tool. Using a central XML configuration file (the pom.xml),
+Maven manages all project dependencies (downloading required libraries
+from repositories) and executes a standardized build lifecycle (e.g.,
+compile, test, package, install, deploy). This
+convention-over-configuration approach simplifies the build process,
+making it reproducible and standard across all Java-based projects.&lt;/p&gt;</description></item><item><title>Manageiq</title><link>https://sourcemation.github.io/sourcemation/catalog/manageiq/</link><pubDate>Tue, 16 Sep 2025 15:59:42 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/manageiq/</guid><description>&lt;p&gt;ManageIQ is an open-source cloud management platform (CMP) that
+provides a single interface for managing hybrid IT environments. It
+discovers and monitors resources across disparate virtualization (like
+VMware), private cloud (like OpenStack), and public cloud (like AWS,
+Azure) platforms, as well as container platforms like Kubernetes. Its
+key features include &amp;ldquo;Insight&amp;rdquo; (discovery, monitoring, analytics),
+&amp;ldquo;Control&amp;rdquo; (security, compliance, policy enforcement), and &amp;ldquo;Automate&amp;rdquo;
+(provisioning workflows, orchestration). It essentially acts as a
+&amp;ldquo;manager of managers,&amp;rdquo; giving administrators a single pane of glass
+for governance and automation.&lt;/p&gt;</description></item><item><title>Kubectl</title><link>https://sourcemation.github.io/sourcemation/catalog/kubectl/</link><pubDate>Tue, 16 Sep 2025 15:55:26 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/kubectl/</guid><description>&lt;p&gt;kubectl is the primary command-line interface (CLI) used to
+communicate with and manage a Kubernetes cluster. It communicates with
+the Kubernetes API server to execute commands. Administrators and
+developers use this utility for nearly all cluster operations,
+including deploying applications (using .yaml manifests), checking the
+status and logs of running pods (observability), managing node health,
+and configuring all Kubernetes resources like services, deployments,
+and secrets.&lt;/p&gt;</description></item><item><title>Kong</title><link>https://sourcemation.github.io/sourcemation/catalog/kong/</link><pubDate>Tue, 16 Sep 2025 15:47:31 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/kong/</guid><description>&lt;p&gt;Kong is a cloud-native API gateway and platform built on top of Nginx
+(specifically OpenResty). It is deployed in front of backend
+microservices to act as a single, controllable entry point for all API
+traffic. Its core function is to provide a comprehensive security and
+management layer, handling tasks like authentication (OAuth2, JWT),
+authorization, rate limiting, and traffic transformation via a
+&amp;ldquo;plugin&amp;rdquo; architecture. By intercepting and proxying all requests, Kong
+also provides critical observability metrics, logs, and traces for
+monitoring API performance.&lt;/p&gt;</description></item><item><title>Debian 11 Slim</title><link>https://sourcemation.github.io/sourcemation/catalog/debian-11-slim/</link><pubDate>Tue, 16 Sep 2025 15:44:01 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/debian-11-slim/</guid><description>&lt;p&gt;This is the minimal (&amp;ldquo;slim&amp;rdquo;) variant of the official Docker image for
+Debian 11 (codenamed &amp;ldquo;Bullseye&amp;rdquo;), which now serves as the &amp;ldquo;oldstable&amp;rdquo;
+release. It&amp;rsquo;s a &amp;ldquo;minbase&amp;rdquo; install of Debian where non-essential
+files—such as man pages, documentation, and extra utilities—have been
+removed to create the smallest possible image size . This results in a
+significantly reduced attack surface and faster container deployments,
+making it a highly reliable and secure base OS for containerized
+applications that depend on the stability of the Bullseye package set.&lt;/p&gt;</description></item><item><title>Debian 12 Slim</title><link>https://sourcemation.github.io/sourcemation/catalog/debian-12-slim/</link><pubDate>Tue, 16 Sep 2025 15:44:01 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/debian-12-slim/</guid><description>&lt;p&gt;This is the minimal (&amp;ldquo;slim&amp;rdquo;) variant of the official Docker image for
+Debian 12 (codenamed &amp;ldquo;Bookworm&amp;rdquo;), the current stable operating system.
+Like other slim images, it&amp;rsquo;s stripped of all non-essential packages
+(like documentation and locales) to create the smallest possible base
+for secure, fast-deploying applications. It includes the more modern
+toolchain from the &amp;ldquo;Bookworm&amp;rdquo; release, which is built on Linux Kernel
+6.1 and includes newer packages like Python 3.11 and PostgreSQL 15,
+providing a modern yet highly stable OS layer for new cloud-native
+services.&lt;/p&gt;</description></item><item><title>Helidon</title><link>https://sourcemation.github.io/sourcemation/catalog/helidon/</link><pubDate>Tue, 16 Sep 2025 15:33:52 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/helidon/</guid><description>&lt;p&gt;Helidon is an open-source, cloud-native set of Java libraries from
+Oracle for building microservices. It provides two distinct paths for
+development. Helidon SE is a lightweight, &amp;ldquo;reactive&amp;rdquo; toolkit that uses
+a functional, non-blocking approach (built on Netty) for maximum
+performance and a small footprint. Helidon MP is a full implementation
+of the Eclipse MicroProfile specification, providing a more
+declarative, annotation-driven programming model (similar to Spring
+Boot or Micronaut) for enterprise Java developers.&lt;/p&gt;</description></item><item><title>GCC-13</title><link>https://sourcemation.github.io/sourcemation/catalog/gcc-13/</link><pubDate>Tue, 16 Sep 2025 14:41:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gcc-13/</guid><description>&lt;p&gt;GCC 13, the GNU Compiler Collection, is the foundational toolchain for
+most Linux systems. This version significantly expanded its language
+support by introducing an initial front-end for the Rust programming
+language. It also solidified its C++ support by completing many C++20
+features and introducing initial capabilities from the C++23 standard.
+As a critical component, it takes source code from these languages
+(plus C, Fortran, etc.) and translates it into optimized machine code,
+while adding improved static analysis tools (like SARIF diagnostics)
+for all developers.&lt;/p&gt;</description></item><item><title>GCC-14</title><link>https://sourcemation.github.io/sourcemation/catalog/gcc-14/</link><pubDate>Tue, 16 Sep 2025 14:41:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gcc-14/</guid><description>&lt;p&gt;GCC 14, the GNU Compiler Collection, continues its role as the core
+compiler for the GNU project. This release is notable for its
+significant progress on the C++23 standard, implementing new features
+like static operator() and import std;. It also enhances its support
+for modern hardware, introducing improved code generation for new Arm
+and RISC-V processor extensions, and expands its parallelism
+capabilities with deeper support for the OpenMP 5.1 and 5.2 standards.
+It translates human-readable source code into the optimized machine
+code required for all open-source compilation.&lt;/p&gt;</description></item><item><title>GCC-15</title><link>https://sourcemation.github.io/sourcemation/catalog/gcc-15/</link><pubDate>Tue, 16 Sep 2025 14:41:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gcc-15/</guid><description>&lt;p&gt;GCC 15, the GNU Compiler Collection, serves as the critical compiler
+toolchain for most Linux distributions. This version marks a major
+milestone by officially changing the default C language standard from
+GNU17 to GNU23. It also dramatically expands its language support by
+introducing a new front-end for the COBOL programming language. As a
+core component of open-source development, it translates source code
+into optimized machine code while providing powerful new features like
+incremental Link-Time Optimization (LTO) to speed up builds.&lt;/p&gt;</description></item><item><title>GCC-16</title><link>https://sourcemation.github.io/sourcemation/catalog/gcc-16/</link><pubDate>Tue, 16 Sep 2025 14:41:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gcc-16/</guid><description>&lt;p&gt;GCC 16, representing the current development trunk of the GNU Compiler
+Collection, is the next major iteration of the foundational
+open-source toolchain. As the default compiler for the Linux
+ecosystem, its development is focused on pushing language standards
+forward, primarily by introducing experimental support for the
+upcoming C++26 standard (such as std::function_ref). It continues to
+be the critical utility that translates human-readable C, C++, and
+other languages into the optimized machine code that powers the
+open-source world, with a focus on new optimization techniques and
+hardware support.&lt;/p&gt;</description></item><item><title>CloudNativePG-16</title><link>https://sourcemation.github.io/sourcemation/catalog/cnpg-16/</link><pubDate>Tue, 16 Sep 2025 14:30:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/cnpg-16/</guid><description>&lt;p&gt;CloudNativePG (CNPG) is a Kubernetes operator designed by PostgreSQL
+experts to manage PostgreSQL database workloads natively on
+Kubernetes. It covers the entire operational lifecycle, automatically
+managing database deployment, high-availability configurations
+(primary/standby replication), rolling updates, backups, and failover
+procedures. It integrates directly with the Kubernetes API, automating
+the complex tasks that a human database administrator would normally
+perform.&lt;/p&gt;</description></item><item><title>CloudNativePG-17</title><link>https://sourcemation.github.io/sourcemation/catalog/cnpg-17/</link><pubDate>Tue, 16 Sep 2025 14:30:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/cnpg-17/</guid><description>&lt;p&gt;CloudNativePG (CNPG) is a Kubernetes operator designed by PostgreSQL
+experts to manage PostgreSQL database workloads natively on
+Kubernetes. It covers the entire operational lifecycle, automatically
+managing database deployment, high-availability configurations
+(primary/standby replication), rolling updates, backups, and failover
+procedures. It integrates directly with the Kubernetes API, automating
+the complex tasks that a human database administrator would normally
+perform.&lt;/p&gt;</description></item><item><title>RabbitMQ Cluster Operator</title><link>https://sourcemation.github.io/sourcemation/catalog/rabbitmq-cluster-operator/</link><pubDate>Tue, 16 Sep 2025 14:24:29 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/rabbitmq-cluster-operator/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;The RabbitMQ Cluster Operator streamlines message broker operations by providing cloud-native orchestration capabilities
+for RabbitMQ deployments. It enables teams to define cluster specifications through Kubernetes custom resources,
+automatically handling complex tasks like node provisioning, federation setup, and persistent storage configuration.&lt;/p&gt;
+&lt;p&gt;This operator ensures reliable message processing infrastructure by managing cluster topology, implementing backup
+strategies, and facilitating seamless upgrades without service disruption. It integrates with Kubernetes networking and
+security policies, making RabbitMQ clusters production-ready with minimal operational overhead.&lt;/p&gt;</description></item><item><title>Apicast</title><link>https://sourcemation.github.io/sourcemation/catalog/apicast/</link><pubDate>Tue, 16 Sep 2025 14:04:50 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apicast/</guid><description>&lt;p&gt;Apicast is the core API gateway component of the 3scale API Management
+platform. It is a high-performance, Nginx-based proxy that processes
+and controls all inbound API traffic. It intercepts requests,
+authenticates them against defined policies (like rate limits, access
+keys, or JWTs), and routes them to the correct upstream service. It&amp;rsquo;s
+designed to be deployed as a container, managing the secure and
+observable flow of communication between API consumers and backend
+services.&lt;/p&gt;</description></item><item><title>EZD-RP</title><link>https://sourcemation.github.io/sourcemation/catalog/ezd-rp/</link><pubDate>Mon, 15 Sep 2025 22:48:34 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/ezd-rp/</guid><description>&lt;p&gt;Complete and ready-to-deploy set of software and tools, compatible
+with the EZD RP application, necessary for its installation in your
+own infrastructure, along with ongoing updates.&lt;/p&gt;</description></item><item><title>Elastic Agent</title><link>https://sourcemation.github.io/sourcemation/catalog/elastic-agent/</link><pubDate>Mon, 15 Sep 2025 22:44:11 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/elastic-agent/</guid><description>&lt;p&gt;Elastic Agent is a versatile tool for collecting logs, metrics, and
+performance data, integrating with Elastic Stack. It enables
+performance monitoring and supports security by sending data to
+Elasticsearch for analysis.&lt;/p&gt;</description></item><item><title>ArgoCD</title><link>https://sourcemation.github.io/sourcemation/catalog/argocd/</link><pubDate>Mon, 15 Sep 2025 22:40:00 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/argocd/</guid><description>&lt;p&gt;ArgoCD is a declarative, version-controlled application deployment
+tool designed to automate and manage application configurations and
+environments. It follows the GitOps pattern, utilizing Git
+repositories as the source of truth for defining the desired
+application state. Users can specify Kubernetes manifests using
+various methods such as kustomize applications, Helm charts, JSONnet
+files, or plain directories of YAML/json manifests. ArgoCD automates
+the deployment process based on the desired application state defined
+in Git repositories, making application deployment and lifecycle
+management easy, auditable, and understandable.&lt;/p&gt;</description></item><item><title>GP Backup</title><link>https://sourcemation.github.io/sourcemation/catalog/gpbackup/</link><pubDate>Mon, 15 Sep 2025 22:30:13 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gpbackup/</guid><description>&lt;p&gt;GPBackup is an efficient tool for managing backups in Greenplum
+Database. It allows the creation of full and incremental backups of
+entire databases as well as selected tables. With advanced data
+compression and segmentation, it ensures fast backup creation and the
+ability to restore data to any point in time.&lt;/p&gt;</description></item><item><title>[X] CyberArk Conjur</title><link>https://sourcemation.github.io/sourcemation/catalog/cyberark-conjur/</link><pubDate>Mon, 15 Sep 2025 22:25:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/cyberark-conjur/</guid><description>&lt;p&gt;CyberArk Conjur is a secrets management tool that provides an
+interface for secure authentication, access control, and auditing for
+processes across various tools, applications, containers, and cloud
+environments.&lt;/p&gt;</description></item><item><title>Sealed Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</link><pubDate>Mon, 15 Sep 2025 22:21:43 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</guid><description>&lt;p&gt;Sealed Secret is a tool used in the Kubernetes ecosystem for securely
+storing sensitive data, such as passwords or private keys.&lt;/p&gt;</description></item><item><title>GP Upgrade</title><link>https://sourcemation.github.io/sourcemation/catalog/gpupgrade/</link><pubDate>Mon, 15 Sep 2025 22:14:02 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gpupgrade/</guid><description>&lt;p&gt;GPUpgrade is an automation tool for upgrading Greenplum Database,
+providing a fast and secure process for data migration and system
+updates. It minimizes the risk of errors and downtime, supporting
+software modernization and data conversion. It also offers monitoring
+and rollback mechanisms, ensuring compliance and stability in
+production systems.&lt;/p&gt;</description></item><item><title>[X] Spring Boot</title><link>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</link><pubDate>Mon, 15 Sep 2025 22:11:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</guid><description>&lt;p&gt;Spring Boot is an extension of the Spring Framework that simplifies
+the creation and deployment of Java applications by automating
+configuration and supporting the rapid development of web
+applications, REST services, and microservices. With Spring Boot, the
+process of creating Spring-based applications becomes more efficient,
+allowing for quick setup and deployment with minimal configuration.&lt;/p&gt;</description></item><item><title>[X?] External Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</link><pubDate>Mon, 15 Sep 2025 22:07:34 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</guid><description>&lt;p&gt;External Secrets Operator is a tool for Kubernetes environments that
+enables integration with various external secret management systems.
+It operates by retrieving data from these external sources using their
+APIs and automatically injecting this data into Kubernetes Secret
+resources. Its goal is to facilitate the synchronization and
+management of secrets between external systems and Kubernetes.&lt;/p&gt;</description></item><item><title>Harbor</title><link>https://sourcemation.github.io/sourcemation/catalog/harbor/</link><pubDate>Mon, 15 Sep 2025 21:55:16 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/harbor/</guid><description>&lt;p&gt;Harbor operates as a platform enabling the management of container
+repositories in Kubernetes environments.&lt;/p&gt;</description></item><item><title>[X] Tekton Operator</title><link>https://sourcemation.github.io/sourcemation/catalog/tekton-operator/</link><pubDate>Mon, 15 Sep 2025 21:52:25 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/tekton-operator/</guid><description>&lt;p&gt;Tekton Operator is a management mechanism within the Kubernetes
+ecosystem that automates the deployment, scaling, and management of
+resources associated with the Tekton platform. Download our ready Helm
+Charts tailored for Tekton-Operator.&lt;/p&gt;</description></item><item><title>[X] Barman</title><link>https://sourcemation.github.io/sourcemation/catalog/barman/</link><pubDate>Mon, 15 Sep 2025 21:40:42 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/barman/</guid><description>&lt;p&gt;Barman is a tool for managing backups and data recovery in PostgreSQL,
+offering full and incremental backups, WAL archiving, and fast
+disaster recovery.&lt;/p&gt;</description></item><item><title>[X] Zaproxy</title><link>https://sourcemation.github.io/sourcemation/catalog/zaproxy/</link><pubDate>Mon, 15 Sep 2025 21:38:18 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/zaproxy/</guid><description>&lt;p&gt;ZAProxy is an open-source tool for testing web application security,
+detecting vulnerabilities like SQL Injection and XSS, with proxy
+functionality and CI/CD support.&lt;/p&gt;</description></item><item><title>[X] Shipwright Operator</title><link>https://sourcemation.github.io/sourcemation/catalog/shipwright-operator/</link><pubDate>Mon, 15 Sep 2025 20:56:04 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/shipwright-operator/</guid><description>&lt;p&gt;Shipwright-Operator is a tool managing the delivery, building, and
+testing of container images in Kubernetes-based environments.&lt;/p&gt;</description></item><item><title>Jenkins</title><link>https://sourcemation.github.io/sourcemation/catalog/jenkins/</link><pubDate>Mon, 15 Sep 2025 20:49:27 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/jenkins/</guid><description>&lt;p&gt;Jenkins is an open-source automation server used for continuous
+integration and continuous delivery (CI/CD) pipelines, enabling
+developers to automate building, testing, and deploying software.
+Download our ready Helm Charts tailored for Jenkins.&lt;/p&gt;</description></item><item><title>[X] Repmgr</title><link>https://sourcemation.github.io/sourcemation/catalog/repmgr/</link><pubDate>Mon, 15 Sep 2025 20:46:48 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/repmgr/</guid><description>&lt;p&gt;repmgr operates as a replication manager for PostgreSQL clusters.&lt;/p&gt;</description></item><item><title>GP Diskquota</title><link>https://sourcemation.github.io/sourcemation/catalog/gp-diskquota/</link><pubDate>Mon, 15 Sep 2025 20:34:02 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gp-diskquota/</guid><description>&lt;p&gt;Diskquota is an extension that provides disk usage enforcement for
+database objects in Greenplum DB. Currently it supports to set quota
+limit on schema and role in a given database and limit the amount of
+disk space that a schema or a role can use.&lt;/p&gt;</description></item><item><title>Apache Camel K</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-camel-k/</link><pubDate>Mon, 15 Sep 2025 20:17:07 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-camel-k/</guid><description>&lt;p&gt;Apache Camel K is a lightweight, Kubernetes-native version of Apache
+Camel that enables rapid deployment of integrations in cloud-based
+container environments. It automates application lifecycle processes,
+making it easier to scale microservices and monitor integrations.&lt;/p&gt;</description></item><item><title>Trivy</title><link>https://sourcemation.github.io/sourcemation/catalog/trivy/</link><pubDate>Mon, 15 Sep 2025 19:47:26 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/trivy/</guid><description>&lt;p&gt;Trivy is a vulnerability analysis tool for containers. It is a
+vulnerability scanner that automatically scans container images and
+reports discovered security vulnerabilities and other potential
+threats.&lt;/p&gt;</description></item><item><title>[X] Shipwright-CLI</title><link>https://sourcemation.github.io/sourcemation/catalog/shipwright-cli/</link><pubDate>Mon, 15 Sep 2025 19:39:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/shipwright-cli/</guid><description>&lt;p&gt;Shipwright-CLI is an interactive command-line tool used for managing
+and automating processes related to building, testing, and deploying
+container images in Kubernetes-based environments. Download our ready
+Helm Charts tailored for Shipwright-CLI.&lt;/p&gt;</description></item><item><title>[X] Kyverno Policy Reporter</title><link>https://sourcemation.github.io/sourcemation/catalog/kyverno-policy-reporter/</link><pubDate>Mon, 15 Sep 2025 19:30:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/kyverno-policy-reporter/</guid><description>&lt;p&gt;Kyverno Policy Reporter is a tool for monitoring Kubernetes resource
+compliance with Kyverno policies, supporting data visualization and
+integration with notification systems like Slack and Elasticsearch.&lt;/p&gt;</description></item><item><title>Prometheus</title><link>https://sourcemation.github.io/sourcemation/catalog/prometheus/</link><pubDate>Mon, 15 Sep 2025 19:20:32 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/prometheus/</guid><description>&lt;p&gt;Prometheus is a monitoring and alerting system widely used in cloud
+and microservices environments. It is an open-source tool that enables
+the collection of metrics from various components of IT
+infrastructure, such as servers, containers, databases, etc.&lt;/p&gt;</description></item><item><title>Pgadmin</title><link>https://sourcemation.github.io/sourcemation/catalog/pgadmin/</link><pubDate>Mon, 15 Sep 2025 19:06:25 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pgadmin/</guid><description>&lt;p&gt;pgAdmin functions as an open-source platform for administering and developing PostgreSQL.&lt;/p&gt;</description></item><item><title>Sonarqube</title><link>https://sourcemation.github.io/sourcemation/catalog/sonarqube/</link><pubDate>Mon, 15 Sep 2025 18:56:29 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/sonarqube/</guid><description>&lt;p&gt;SonarQube operates as a platform for automatic code quality analysis.&lt;/p&gt;</description></item><item><title>Kyverno</title><link>https://sourcemation.github.io/sourcemation/catalog/kyverno/</link><pubDate>Mon, 15 Sep 2025 18:37:50 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/kyverno/</guid><description>&lt;p&gt;Kyverno is an open source policy engine for Kubernetes, enabling the
+definition, management, and enforcement of security and compliance
+policies within a Kubernetes cluster.&lt;/p&gt;</description></item><item><title>Istio</title><link>https://sourcemation.github.io/sourcemation/catalog/istio/</link><pubDate>Mon, 15 Sep 2025 18:30:02 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/istio/</guid><description>&lt;p&gt;Istio is a platform for managing traffic, securing, and monitoring
+services in microservices environments.&lt;/p&gt;</description></item><item><title>[X] Forgejo</title><link>https://sourcemation.github.io/sourcemation/catalog/forgejo/</link><pubDate>Mon, 15 Sep 2025 18:20:35 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/forgejo/</guid><description>&lt;p&gt;Forgejo operates as a platform for self-hosting software, managing
+projects, collaborating, and developing software according to one&amp;rsquo;s
+own preferences and needs.&lt;/p&gt;</description></item><item><title>[X] Postgis</title><link>https://sourcemation.github.io/sourcemation/catalog/postgis/</link><pubDate>Mon, 15 Sep 2025 17:26:40 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/postgis/</guid><description>&lt;p&gt;PostGIS is an extension for PostgreSQL that enables processing and
+analysis of geospatial data, in compliance with OGC standards.&lt;/p&gt;</description></item><item><title>Gpbackup S3</title><link>https://sourcemation.github.io/sourcemation/catalog/gpbackup-s3/</link><pubDate>Mon, 15 Sep 2025 17:20:57 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gpbackup-s3/</guid><description>&lt;p&gt;GPBackup-S3 is a tool for automatic backups of Greenplum Database with
+Amazon S3 integration. It enables easy storage, restoration, and
+verification of full and incremental backups in a secure, scalable
+cloud. This is an ideal solution for organizations looking to
+efficiently manage data in the cloud.&lt;/p&gt;</description></item><item><title>Apache Karaf</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-karaf/</link><pubDate>Mon, 15 Sep 2025 17:12:40 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-karaf/</guid><description>&lt;p&gt;Apache Karaf is a lightweight OSGi container that enables easy
+deployment, management, and updating of applications and services in
+modular environments. It offers flexibility, dynamic module loading,
+and clustering, making it an ideal solution for managing applications
+in enterprise environments. Karaf is also ideal for Java applications,
+enabling modular deployment and management of services in large and
+complex environments.&lt;/p&gt;</description></item><item><title>Redis</title><link>https://sourcemation.github.io/sourcemation/catalog/redis/</link><pubDate>Mon, 15 Sep 2025 16:56:32 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/redis/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Redis functions as an efficient, non-relational database management
+system that stores data in a key-value structure within the primary
+storage of the server, ensuring swift access to information.&lt;/p&gt;</description></item><item><title>[X] Pgloader</title><link>https://sourcemation.github.io/sourcemation/catalog/pgloader/</link><pubDate>Mon, 15 Sep 2025 16:37:26 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pgloader/</guid><description>&lt;p&gt;pgLoader is a data loading tool for PostgreSQL.&lt;/p&gt;</description></item><item><title>[X] Pgbadger</title><link>https://sourcemation.github.io/sourcemation/catalog/pgbadger/</link><pubDate>Mon, 15 Sep 2025 16:31:43 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pgbadger/</guid><description>&lt;p&gt;pgBadger is a PostgreSQL log analyzer that generates detailed reports based on log files.&lt;/p&gt;</description></item><item><title>[X] Pglogical</title><link>https://sourcemation.github.io/sourcemation/catalog/pglogical/</link><pubDate>Mon, 15 Sep 2025 16:28:01 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pglogical/</guid><description>&lt;p&gt;PgLogical is an extension for PostgreSQL that enables logical data
+replication between instances, offering selective data replication and
+support for migrations and synchronization between databases.&lt;/p&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.github.io/sourcemation/catalog/kibana/</link><pubDate>Mon, 15 Sep 2025 16:19:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
+serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>[X] Apache Camel</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-camel/</link><pubDate>Mon, 15 Sep 2025 16:10:41 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-camel/</guid><description>&lt;p&gt;Apache Camel is a flexible, open-source integration framework that
+enables the creation of complex data exchange processes across
+different systems. Camel excels in microservice integration and
+business process automation, allowing for easy creation of flexible
+data flows.&lt;/p&gt;</description></item><item><title>Apache Camel Karavan</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-camel-karavan/</link><pubDate>Mon, 15 Sep 2025 16:06:37 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-camel-karavan/</guid><description>&lt;p&gt;Apache Camel Karavan is a visual extension of Apache Camel that
+enables intuitive integration design using Enterprise Integration
+Patterns (EIP) through a drag-and-drop interface. This makes it easier
+for DevOps teams and developers to create complex data flows and
+orchestrate processes, making it ideal for cloud and containerized
+environments.&lt;/p&gt;</description></item><item><title>ActiveMQ</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-activemq/</link><pubDate>Mon, 15 Sep 2025 15:56:03 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-activemq/</guid><description>&lt;p&gt;ActiveMQ is an open-source message queuing system that supports
+protocols such as JMS, STOMP, MQTT, and AMQP. It enables asynchronous
+message exchange in distributed environments, providing reliability,
+scalability, and ease of use. Ideal for cloud and microservice
+applications, ActiveMQ offers high availability and support for
+clustering and message replication, enabling the creation of
+event-driven applications and system integration.&lt;/p&gt;</description></item><item><title>[X] Apache Felix</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-felix/</link><pubDate>Mon, 15 Sep 2025 15:50:23 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-felix/</guid><description>&lt;p&gt;Apache Felix is an OSGi implementation for building modular Java
+applications with dynamic component management and support for
+microservices.&lt;/p&gt;</description></item><item><title>Gitea</title><link>https://sourcemation.github.io/sourcemation/catalog/gitea/</link><pubDate>Mon, 15 Sep 2025 15:40:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gitea/</guid><description>&lt;p&gt;Gitea is a software including Git hosting, code review, team
+collaboration, package registry and CI/CD.&lt;/p&gt;</description></item><item><title>Nodejs</title><link>https://sourcemation.github.io/sourcemation/catalog/nodejs/</link><pubDate>Mon, 15 Sep 2025 15:24:32 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/nodejs/</guid><description>&lt;p&gt;Node.js stands as a dynamic runtime environment, utilizing the V8
+engine, specifically crafted for the development of contemporary,
+interactive web applications.&lt;/p&gt;</description></item><item><title>[X] Coder</title><link>https://sourcemation.github.io/sourcemation/catalog/coder/</link><pubDate>Mon, 15 Sep 2025 15:07:03 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/coder/</guid><description>&lt;p&gt;Coder is a platform that enables remote access to development environments through a web browser.&lt;/p&gt;</description></item><item><title>[X] pgbouncer</title><link>https://sourcemation.github.io/sourcemation/catalog/pgbouncer/</link><pubDate>Mon, 15 Sep 2025 14:52:17 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pgbouncer/</guid><description>&lt;p&gt;PgBouncer operates as a lightweight connection pooler for PostgreSQL.&lt;/p&gt;</description></item><item><title>[X] Spring Data Commons</title><link>https://sourcemation.github.io/sourcemation/catalog/spring-data-commons/</link><pubDate>Fri, 12 Sep 2025 18:16:49 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/spring-data-commons/</guid><description>&lt;p&gt;Spring Data Commons is the foundation of the Spring Data ecosystem,
+providing a unified abstraction over diverse database technologies,
+from SQL to NoSQL. It standardizes data management in Spring
+applications, simplifying integration and enabling developers to
+efficiently work with various data sources.&lt;/p&gt;</description></item><item><title>RabbitMQ</title><link>https://sourcemation.github.io/sourcemation/catalog/rabbitmq/</link><pubDate>Fri, 12 Sep 2025 15:32:57 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/rabbitmq/</guid><description>&lt;p&gt;RabbitMQ is a sophisticated system for message queuing, serving as a
+resilient intermediary solution that facilitates seamless
+communication among different elements within distributed
+applications.&lt;/p&gt;</description></item><item><title>GP pgbouncer</title><link>https://sourcemation.github.io/sourcemation/catalog/gp-pgbouncer/</link><pubDate>Fri, 12 Sep 2025 15:04:36 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gp-pgbouncer/</guid><description>&lt;p&gt;GP-pgBouncer is a lightweight connection proxy for Greenplum Database
+that optimizes connection management through pooling, latency
+reduction, and performance improvement. It enables better scalability
+and access control in high-load environments.&lt;/p&gt;</description></item><item><title>[X] Apache CXF</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-cxf/</link><pubDate>Fri, 12 Sep 2025 14:51:04 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-cxf/</guid><description>&lt;p&gt;Apache CXF is an open-source framework for creating and deploying web
+services that supports SOAP, REST, and many other standards. It
+enables easy creation of scalable applications, integrating popular
+technologies such as Spring, and providing advanced features like
+security, transactions, and web service management. With support for a
+wide range of web service standards, CXF is an ideal solution for
+creating interoperable applications in complex environments.&lt;/p&gt;</description></item><item><title>[X] pgpool-II</title><link>https://sourcemation.github.io/sourcemation/catalog/pgpool-ii/</link><pubDate>Fri, 12 Sep 2025 12:34:42 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pgpool-ii/</guid><description>&lt;p&gt;Pgpool-II provides the following features.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connection Pooling: pgpool-II saves connections to the PostgreSQL servers, and reuse them whenever a new connection
+with the same properties (i.e. username, database, protocol version) comes in. It reduces connection overhead,
+and improves system&amp;rsquo;s overall throughput.&lt;/li&gt;
+&lt;li&gt;Replication: pgpool-II can manage multiple PostgreSQL servers. Using the replication function enables creating a
+realtime backup on 2 or more physical disks, so that the service can continue without stopping servers
+in case of a disk failure.&lt;/li&gt;
+&lt;li&gt;Load Balance: If a database is replicated, executing a SELECT query on any server will return the same result.
+pgpool-II takes an advantage of the replication feature to reduce the load on each PostgreSQL server by distributing
+SELECT queries among multiple servers, improving system&amp;rsquo;s overall throughput. At best, performance improves
+proportionally to the number of PostgreSQL servers. Load balance works best in a situation where there are
+a lot of users executing many queries at the same time.&lt;/li&gt;
+&lt;li&gt;Limiting Exceeding Connections: There is a limit on the maximum number of concurrent connections with PostgreSQL,
+and connections are rejected after this many connections. Setting the maximum number of connections, however,
+increases resource consumption and affect system performance. pgpool-II also has a limit on the maximum number of
+connections, but extra connections will be queued instead of returning an error immediately.&lt;/li&gt;
+&lt;li&gt;Parallel Query: Using the parallel query function, data can be divided among the multiple servers, so that a query
+can be executed on all the servers concurrently to reduce the overall execution time. Parallel query works the best
+when searching large-scale data.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>CloudNative-PG</title><link>https://sourcemation.github.io/sourcemation/catalog/cloudnativepg/</link><pubDate>Fri, 12 Sep 2025 12:28:54 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/cloudnativepg/</guid><description>&lt;p&gt;CloudNativePG (CNPG) is an open-source platform designed to seamlessly manage PostgreSQL databases
+in Kubernetes environments. It covers the entire operational lifecycle—from deployment to ongoing
+maintenance—through its core component, the CloudNativePG operator.&lt;/p&gt;</description></item><item><title>[X] Pgmodeler</title><link>https://sourcemation.github.io/sourcemation/catalog/pgmodeler/</link><pubDate>Fri, 12 Sep 2025 12:18:47 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/pgmodeler/</guid><description>&lt;p&gt;pgModeler is an open-source, cross-platform database modeler designed specifically for PostgreSQL.
+Aiming to be a reference database design tool in the FOSS ecosystem for PostgreSQL, it offers a robust
+and feature-rich interface that enables efficient data modeling and rapid code deployment to servers. One of its
+standout features is reverse engineering, which allows users to generate visual representations of existing databases,
+making it easier to understand and modify complex structures.&lt;/p&gt;</description></item><item><title>Angular</title><link>https://sourcemation.github.io/sourcemation/catalog/angular/</link><pubDate>Fri, 12 Sep 2025 11:07:57 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/angular/</guid><description>&lt;h2&gt;&lt;/h2&gt;
+&lt;p&gt;Maintained by a dedicated team at Google, Angular provides a broad suite of tools, APIs, and libraries to simplify and
+streamline your development workflow. Angular gives you a solid platform on which to build fast, reliable applications
+that scale with both the size of your team and the size of your codebase.&lt;/p&gt;</description></item><item><title>Apache Kafka</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-kafka/</link><pubDate>Tue, 09 Sep 2025 21:57:34 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-kafka/</guid><description>&lt;p&gt;Apache Kafka is a distributed event store and stream-processing
+platform. It is an open-source system developed by the Apache Software
+Foundation written in Java and Scala.&lt;/p&gt;</description></item><item><title>Apache Servicemix</title><link>https://sourcemation.github.io/sourcemation/catalog/apache-servicemix/</link><pubDate>Tue, 09 Sep 2025 21:54:31 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/apache-servicemix/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;</description></item><item><title>Cert-manager</title><link>https://sourcemation.github.io/sourcemation/catalog/cert-manager/</link><pubDate>Tue, 09 Sep 2025 21:42:40 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/cert-manager/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Cert-manager is a Kubernetes tool that automates the issuance, renewal, and management of TLS certificates using various
+providers like Let&amp;rsquo;s Encrypt. Download our ready Helm Charts tailored for KubeArmor.&lt;/p&gt;</description></item><item><title>Java</title><link>https://sourcemation.github.io/sourcemation/catalog/java/</link><pubDate>Tue, 09 Sep 2025 17:46:18 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/java/</guid><description>&lt;p&gt;Java is an advanced programming platform known for three key attributes: reliability, robust security measures, and the
+ability to seamlessly transport code. It&amp;rsquo;s well known for its &amp;ldquo;write once, run anywhere&amp;rdquo; capability, allowing developers
+to create applications that can operate across various devices and operating systems without modification.&lt;/p&gt;
+&lt;p&gt;We are providing the most popular OpenJDK.&lt;/p&gt;</description></item></channel></rss>

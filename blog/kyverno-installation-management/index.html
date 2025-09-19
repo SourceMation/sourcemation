@@ -1,0 +1,274 @@
+<html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><meta name=robots content="noindex,nofollow"><link rel=canonical href=https://sourcemation.com><title>Kyverno and Kubernetes Admission Controllers | SourceMation</title><link rel=stylesheet href=/sourcemation/css/z_style.css><link rel=stylesheet href=/sourcemation/css/z_effects.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin=anonymous referrerpolicy=no-referrer><link rel="shortcut icon" href=/sourcemation/images/favicon.ico type=image/x-icon><script src=https://code.jquery.com/jquery-3.7.1.min.js integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin=anonymous></script></head><body><div class=site-container><header class=site-header><section class="top container"><div class=brand><a href=/><img src=/images/sm-logo.svg alt="SourceMation Logo"></a></div><nav class="menu main-menu"><ul><li><a href=/sourcemation/catalog/><span>Catalog</span></a></li><li><a href=/sourcemation/risk-analysis/><span>Risk Analysis</span></a></li><li><a href=/sourcemation/blog/><span>Blog</span></a></li><li><a href=/sourcemation/component/><span>Software Components</span></a></li><li><a href=/sourcemation/contact/><span>Contact</span></a></li></ul><span class="theme-switcher hidden"><img src=media/img/day-f.png></span>
+<span class=menu-button tabindex=0><i></i><i></i><i></i></span></nav></section><section class=mobile-section><nav class="menu mobile-menu container"><ul><li><a href=/sourcemation/catalog/><span>Catalog</span></a></li><li><a href=/sourcemation/risk-analysis/><span>Risk Analysis</span></a></li><li><a href=/sourcemation/blog/><span>Blog</span></a></li><li><a href=/sourcemation/component/><span>Software Components</span></a></li><li><a href=/sourcemation/contact/><span>Contact</span></a></li></ul></nav></section></header><main class=main-content><section class="hero hero-minimal"><div class="alpha alpha-ending"></div><div class="body container"><div class="text-body text-body-promo"><h2>Sourcemation - the Single Source of Container Images</h2><p><a href=/blog class=link>Return to blog index</a></p></div></div><div class="alpha alpha-ending"></div></section><article class=page><div class=page-header><div class=container><div class=featured-image style=background-image:url(/images/blog/kyverno.png);height:400px;background-size:cover;background-position:50%;border-radius:8px;margin-bottom:2rem></div><h1 class=title>Kyverno and Kubernetes Admission Controllers</h1><p>Kubernetes, the leading container orchestration platform, brings immense flexibility but also new security challenges. As adoption grows, robust security practices...</p><div class=meta><span class=tag>Kyverno</span>
+<span class=tag>Kubernetes</span>
+<span class=tag>Containers</span>
+<span class=tag>Security</span>
+<span class=date>Published:
+<datetime>2025-09-09</datetime></span></div></div></div><div class="page-content container"><p><strong>Kubernetes</strong>, the leading container orchestration platform, brings
+immense flexibility but also new security challenges. As adoption grows,
+robust security practices are no longer optional they&rsquo;re critical.
+While it&rsquo;s possible to rely on individual users to adopt good
+practices, this approach is often unrealistic. Security measures often
+add complexity to developers&rsquo; workflows, raising the barrier for
+project onboarding and delivery. From their perspective, ensuring the
+application functions correctly is the top priority, while security
+often takes a back seat. An effective solution is a tool that
+automatically verifies which objects are being applied to the cluster
+and how. In other words, Kubernetes administrators should be empowered
+to automatically control what is applied. One promising solution is
+<strong>Kyverno</strong>.</p><p>The Kubernetes community has long recognized the importance of security.
+Hence, attempts were made to implement tools to enhance the overall
+cluster security level. This led to the creation of
+<strong>PodSecurityPolicy (PSP)</strong>.</p><p>Unfortunately, PSP didn&rsquo;t gain widespread adoption, likely due to its
+complex and unintuitive configuration. It was removed in Kubernetes
+version 1.25 and replaced with a new mechanism <strong>PodSecurity</strong>.
+The new mechanism is significantly simpler. It serves as an excellent
+starting point for introducing basic security principles and helping
+users adapt. It defines three standards: <strong>privileged</strong>,
+<strong>baseline</strong>, and <strong>restricted</strong>, each of which can be enforced
+in one of three modes: <strong>enforce</strong>, <strong>audit</strong>, or <strong>warn</strong>.</p><p>If basic policy levels are sufficient, the native <strong>PodSecurity</strong>
+mechanism is worth using. However, as organizations grow, specific
+requirements may arise that call for custom policies. This is where
+<a href=https://sourcemation.com/products/964f004a-9e82-4255-a055-b755502daab8/deployments>Kyverno</a>
+comes into play.</p><h2 id=what-is-kyverno>What is Kyverno?</h2><p>Kyverno, a Kubernetes-native policy engine developed under CNCF, has
+earned significant recognition within the GitHub community for its
+simplicity and power. Kyverno allows you to:</p><ul><li>Create security policies.</li><li>Validate objects against predefined policies and enforce compliance.</li><li>Manage metadata.</li><li>Generate reports.</li><li>Test policies before deployment (using Kyverno CLI), with the option
+to integrate this step into CI/CD pipelines.</li><li>Scan existing objects.</li></ul><p>Additionally, all configurations are handled using YAML files,
+eliminating the need to learn a new language.</p><h2 id=admission-controller>Admission Controller</h2><p>Before diving into Kyverno&rsquo;s capabilities, let&rsquo;s explore how it works
+and what mechanism underpins its functionality. The key component here
+is the <strong>Admission Controller</strong>. Operating at the API server level,
+it determines whether resource requests should be accepted or rejected.
+This native Kubernetes mechanism requires no additional configuration or
+installation.</p><p>Among Kubernetes&rsquo; many controllers, Kyverno primarily leverages:</p><ul><li>ValidatingAdmissionWebhook - Validates requests for creating or
+updating Kubernetes resources, ensuring compliance with specified
+policies;</li><li>MutatingAdmissionWebhook - Modifies requests for creating or
+updating resources, automatically adding configurations or tweaking
+settings.</li></ul><p><a href=https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/>Source:
+https://kubernetes.io/blog/2019/03/21/a-guide-to-kubernetes-admission-controllers/</a></p><h2 id=practical-setup---prerequisites>Practical Setup - Prerequisites</h2><p>The demonstration will be conducted in a local environment. The following
+software needs to be installed, and for macOS users, the <strong>brew</strong> package
+manager will be utilized. Linux is also supported. Windows users can opt for
+WSL2, although some issues may arise.</p><h3 id=docker>Docker</h3><p>Docker is used to install a lightweight Kubernetes cluster.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>brew install docker
+</span></span></code></pre></div><h3 id=kubectl>Kubectl</h3><p>Kubectl will be needed to communicate with the Kubernetes API.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>brew install kubernetes-cli
+</span></span></code></pre></div><h3 id=kind>KiND</h3><p>One of the simplest and fastest ways to create Kubernetes clusters is by
+using the KiND (Kubernetes in Docker) tool. Since we won&rsquo;t be running a
+large number of applications on the cluster, the node requirements are
+not demanding. A minimum of 2 GB is suggested, although 4 GB is
+recommended.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>brew install kind
+</span></span></code></pre></div><h3 id=helm>Helm</h3><p>Using the Helm package manager, we can easily install Kyverno and a set
+of Kyverno policies.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>brew install helm
+</span></span></code></pre></div><h3 id=creating-a-kubernetes-cluster>Creating a Kubernetes Cluster</h3><p>KiND will be used to create the cluster. Without specifying parameters,
+it will install a Kubernetes cluster in the latest available version -
+at the time of writing this article, it was version v1.30. After a
+moment, the following message should appear:</p><pre tabindex=0><code>kind create cluster --name kyverno-sourcemation
+
+Creating cluster &#34;kyverno-sourcemation&#34; ...
+  ✓ Ensuring node image (kindest/node:v1.30.0) 🖼
+  ✓ Preparing nodes 📦
+  ✓ Writing configuration 📜
+  ✓ Starting control-plane 🕹️
+  ✓ Installing CNI 🔌
+  ✓ Installing StorageClass 💾
+Set kubectl context to &#34;kind-kyverno-sourcemation&#34;
+You can now use your cluster with:
+
+kubectl cluster-info --context kind-kyverno-sourcemation
+
+Have a nice day! 👋
+</code></pre><p>As you can see, the cluster is available and ready for the next steps.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>kubectl cluster-info --context kind-kyverno-sourcemation
+</span></span><span style=display:flex><span><span style=color:#f92672>(</span>...<span style=color:#f92672>)</span>
+</span></span><span style=display:flex><span>Kubernetes control plane is running at https://127.0.0.1:55291
+</span></span><span style=display:flex><span>CoreDNS is running at https://127.0.0.1:55291/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+</span></span><span style=display:flex><span>To further debug and diagnose cluster problems, use <span style=color:#e6db74>&#39;kubectl cluster-info dump&#39;</span>.
+</span></span></code></pre></div><h3 id=installation-of-kyverno>Installation of Kyverno</h3><p>There are two ways to install Kyverno. For the purposes of this article,
+I will use the method with a Helm Chart. Kyverno will be installed in
+Standalone mode.</p><p><strong>For production purposes, it is recommended to install Kyverno in High
+Availability mode.</strong></p><p>Adding and updating the Helm repository:</p><pre tabindex=0><code>helm repo add kyverno https://kyverno.github.io/kyverno/
+
+&#34;kyverno&#34; has been added to your repositories
+helm repo update
+Hang tight while we grab the latest from your chart repositories...
+...Successfully got an update from the &#34;kyverno&#34; chart repository
+Update Complete. ⎈Happy Helming!⎈
+</code></pre><p>The table below shows the compatibility between Kubernetes and Kyverno
+versions. It is important to keep this in mind before proceeding with
+the installation.</p><table><thead><tr><th style=text-align:left>Kyverno Version</th><th style=text-align:left>Kubernetes Min</th><th style=text-align:left>Kubernetes Max</th></tr></thead><tbody><tr><td style=text-align:left>1.8.x</td><td style=text-align:left>1.23</td><td style=text-align:left>1.25</td></tr><tr><td style=text-align:left>1.9.x</td><td style=text-align:left>1.24</td><td style=text-align:left>1.26</td></tr><tr><td style=text-align:left>1.10.x</td><td style=text-align:left>1.24</td><td style=text-align:left>1.26</td></tr><tr><td style=text-align:left>1.11.x</td><td style=text-align:left>1.25</td><td style=text-align:left>1.28</td></tr><tr><td style=text-align:left>1.12.x</td><td style=text-align:left>1.26</td><td style=text-align:left>1.29</td></tr></tbody></table><h3 id=installation-of-kyverno-helm-chart>Installation of Kyverno Helm Chart</h3><p>If we run the default command, Helm will install Kyverno in the latest
+available version. At the time of writing this article, it is version
+v1.12.5. A dedicated namespace, <strong><code>kyverno-example</code></strong>, will also
+be automatically created.</p><pre tabindex=0><code>helm install kyverno kyverno/kyverno -n kyverno-example --create-namespace
+ 
+NAME: kyverno
+LAST DEPLOYED: Tue Jul 30 15:23:08 2024
+NAMESPACE: kyverno-example
+STATUS: deployed
+REVISION: 1
+NOTES:
+Chart version: 3.2.6
+Kyverno version: v1.12.5
+Thank you for installing kyverno! Your release is named kyverno.
+The following components have been installed in your cluster:
+- CRDs
+- Admission controller
+- Reports controller
+- Cleanup controller
+- Background controller
+</code></pre><p>With the <code>kubectl</code> command, we can check what has been installed.</p><pre tabindex=0><code>kubectl get pod -o name -n kyverno-example
+ 
+NAME
+kyverno-admission-controller-7547cf7664-92zw5
+kyverno-background-controller-86b9f95c96-wmwkr
+kyverno-cleanup-controller-7f6f5447bf-md6f8
+kyverno-reports-controller-665ccb5b65-r2969
+</code></pre><p>The default Kyverno installation creates the following objects (Custom
+Resource Definitions):</p><pre tabindex=0><code>kubectl get crd -o name | grep kyverno
+
+admissionreports.kyverno.io
+backgroundscanreports.kyverno.io
+cleanuppolicies.kyverno.io
+clusteradmissionreports.kyverno.io
+clusterbackgroundscanreports.kyverno.io
+clustercleanuppolicies.kyverno.io
+clusterephemeralreports.reports.kyverno.io
+clusterpolicies.kyverno.io
+ephemeralreports.reports.kyverno.io
+globalcontextentries.kyverno.io
+policies.kyverno.io
+policyexceptions.kyverno.io
+updaterequests.kyverno.io
+</code></pre><h3 id=kyverno-cli>Kyverno CLI</h3><p>The Kyverno CLI simplifies policy testing, allowing users to validate
+configurations before deploying them to Kubernetes.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>brew install kyverno
+</span></span></code></pre></div><h3 id=kyverno-policies>Kyverno Policies</h3><p>One of the major advantages of Kyverno is its rich collection of
+predefined security policies. The community can contribute to the
+development of new policies, which also positively impacts the growth of
+the project. The selection of policies can be tailored to specific
+environments, such as AWS, Openshift, or Istio. There are also sets of
+best practices, such as Best Practices and Software Supply Chain
+Security. Policies can be applied across the entire cluster or within a
+single namespace, offering flexibility to meet the organization&rsquo;s
+requirements.</p><p>Before proceeding with the installation of the policy set, it is worth
+checking what the <code>values.yaml</code> file from the
+<code>kyverno/kyverno-policies</code> chart contains. We will use the <code>helm inspect</code> command and redirect the output to a local <code>values.yaml</code>
+file.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>helm inspect values kyverno/kyverno-policies &gt; values.yaml
+</span></span></code></pre></div><p>Since this file is quite long, I will only cover a portion of the
+available configuration options.</p><pre tabindex=0><code># -- Policy kind (`ClusterPolicy`, `Policy`)
+# Set to `Policy` if you need namespaced policies and not cluster policies
+policyKind: ClusterPolicy
+
+# -- Pod Security Standard profile (`baseline`, `restricted`, `privileged`, `custom`).
+# For more info https://kyverno.io/policies/pod-security.
+podSecurityStandard: baseline
+
+# -- Pod Security Standard (`low`, `medium`, `high`).
+podSecuritySeverity: medium
+
+# -- Policies to include when `podSecurityStandard` is `custom`.
+podSecurityPolicies: []
+
+# -- Additional policies to include from `other`.
+includeOtherPolicies: []
+# - require-non-root-groups
+
+# -- Additional policies to include from `restricted`.
+includeRestrictedPolicies: []
+# - require-run-as-non-root-user
+</code></pre><p>As seen from the commented lines in the code block above, there is quite
+a bit of flexibility in configuration. We can choose whether the policy
+applies to the entire cluster or only to a specific namespace
+(policyKind). It&rsquo;s possible to select one of the security profiles
+(podSecurityStandard), as well as the severity level
+(podSecuritySeverity). Additional policies not included in the default
+profiles can also be added.</p><p>Take some time to explore the <code>values.yaml</code> file &mdash; it&rsquo;s a great way
+to uncover Kyverno&rsquo;s full potential.</p><h3 id=policy-installation>Policy Installation</h3><p>Let&rsquo;s install the default baseline policy package in Audit mode.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>helm install kyverno-policies kyverno/kyverno-policies -n kyverno-example
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>NAME: kyverno-policies
+</span></span><span style=display:flex><span>LAST DEPLOYED: Wed Jul <span style=color:#ae81ff>31</span> 09:58:34 <span style=color:#ae81ff>2024</span>
+</span></span><span style=display:flex><span>NAMESPACE: kyverno-example
+</span></span><span style=display:flex><span>STATUS: deployed
+</span></span><span style=display:flex><span>REVISION: <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>TEST SUITE: None
+</span></span><span style=display:flex><span>NOTES:
+</span></span><span style=display:flex><span>Thank you <span style=color:#66d9ef>for</span> installing kyverno-policies 3.2.5 😀
+</span></span></code></pre></div><p>We have installed the &ldquo;baseline&rdquo; profile of Pod Security Standards and set them in Audit mode.
+Visit <a href=https://kyverno.io/policies/>https://kyverno.io/policies/</a> to find more sample policies</p><p>The <code>kubectl</code> command returns the following policies. We are
+displaying the new <code>clusterpolicies</code> object.</p><pre tabindex=0><code>kubectl get clusterpolicies.kyverno.io
+
+NAME                               ADMISSION   BACKGROUND  VALIDATE ACTION     READY   AGE     MESSAGE
+disallow-capabilities              true        true        Audit               True    73s     Ready
+disallow-host-namespaces           true        true        Audit               True    73s     Ready
+disallow-host-path                 true        true        Audit               True    73s     Ready
+disallow-host-ports                true        true        Audit               True    73s     Ready
+disallow-host-process              true        true        Audit               True    73s     Ready
+disallow-privileged-containers     true        true        Audit               True    73s     Ready
+disallow-proc-mount                true        true        Audit               True    73s     Ready
+disallow-selinux                   true        true        Audit               True    73s     Ready
+restrict-apparmor-profiles         true        true        Audit               True    73s     Ready
+restrict-seccomp                   true        true        Audit               True    73s     Ready
+restrict-sysctls                   true        true        Audit               True    73s     Ready
+</code></pre><h3 id=practical-operation>Practical operation</h3><p>We will focus on the practical operation of one of the installed
+policies. As an example, we will use the policy named
+disallow-privileged-containers. The structure of the yaml file can be
+checked with the following command:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>kubectl get clusterpolicies.kyverno.io disallow-privileged-containers -o yaml |less
+</span></span></code></pre></div><p>The <code>disallow-privileged-containers</code> policy blocks the execution of
+containers with privileged mode enabled. In the code block below, I&rsquo;ve
+prepared a deployment that should violate the established rules. The
+most important part here is the section
+<strong>spec.template.spec.containers.securityContext</strong>.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>apps/v1</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Deployment</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>metadata</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>nginx-kyverno-testing</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>spec</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>selector</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>matchLabels</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>app</span>: <span style=color:#ae81ff>nginx-kyverno</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>replicas</span>: <span style=color:#ae81ff>1</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>template</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>metadata</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>labels</span>:
+</span></span><span style=display:flex><span>        <span style=color:#f92672>app</span>: <span style=color:#ae81ff>nginx-kyverno</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>spec</span>:
+</span></span><span style=display:flex><span>      <span style=color:#f92672>containers</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>nginx</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>securityContext</span>:
+</span></span><span style=display:flex><span>          <span style=color:#f92672>privileged</span>: <span style=color:#66d9ef>true</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>image</span>: <span style=color:#ae81ff>nginx:latest</span>
+</span></span><span style=display:flex><span>        <span style=color:#f92672>ports</span>:
+</span></span><span style=display:flex><span>        - <span style=color:#f92672>containerPort</span>: <span style=color:#ae81ff>80</span>
+</span></span></code></pre></div><p>Surprisingly, despite applying the above manifest, the nginx-kyverno
+container started successfully. Why? Kyverno should not have allowed its
+execution, as the deployment clearly violates the policy of running
+containers in privileged mode.</p><p>Remember, this policy was created in Audit mode. In practice, this means
+that Kyverno will display a warning to the user but allow the object to
+be created. This feature allows users to adapt gradually to the enforced
+changes.</p><pre tabindex=0><code>kubectl describe deployments.apps nginx-kyverno-testing -n nginx-kyverno
+.
+.
+.
+Events:
+  Type      Reason              Age   From                Message
+  ----      ------              ----  ----                -------
+  Warning   PolicyViolation     77s   kyverno-admission   policy disallow-privileged-containers/autogen-privileged-containers fail: validation error: Privileged mode is disallowed.
+                                                          The fields spec.containers[*].securityContext.privileged and spec.initContainers[*].securityContext.privileged must be unset
+                                                          or set to `false`. rule autogen-privileged-containers failed at path /spec/template/spec/containers/0/securityContext/privileged/
+</code></pre><p>I will delete the nginx-kyverno-testing deployment and then recreate it.
+However, before doing so, I will change the
+disallow-privileged-containers policy to Enforce mode.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>kubectl delete -f nginx.yaml -n nginx-kyverno
+</span></span><span style=display:flex><span>kubectl patch clusterpolicy disallow-privileged-containers -p <span style=color:#e6db74>&#39;{&#34;spec&#34;: {&#34;validationFailureAction&#34;: &#34;Enforce&#34;}}&#39;</span> --type<span style=color:#f92672>=</span>merge
+</span></span></code></pre></div><p>After the change, when attempting to recreate the deployment, Kyverno
+does not allow it. You immediately receive the following message:</p><pre tabindex=0><code>kubectl apply -f nginx.yaml -n nginx-kyverno
+
+Error from server: error when creating &#34;nginx.yaml&#34;: admission webhook &#34;validate.kyverno.svc-fail&#34; denied the request:
+resource Deployment/nginx-kyverno/nginx-kyverno-testing was blocked due to the following policies
+disallow-privileged-containers:
+autogen-privileged-containers: &#39;validation error: Privileged mode is disallowed.
+The fields spec.containers[*].securityContext.privileged and spec.initContainers[*].securityContext.privileged
+must be unset or set to `false`. rule autogen-privileged-containers failed at
+path /spec/template/spec/containers/0/securityContext/privileged/&#39;
+</code></pre><h3 id=removing-the-test-kubernetes-cluster>Removing the test Kubernetes cluster</h3><p>To remove the containers creating the test cluster, we will use the
+following command:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>kind delete cluster --name kyverno-sourcemation
+</span></span></code></pre></div><h2 id=summary>Summary</h2><p>This article introduces Kyverno. It includes instructions for setting up
+the environment and installation. A practical usage example is also
+shown. There are many more use cases, but the goal of this article was
+not to make it too long or hard to read. This article aimed to introduce
+Kyverno and inspire further exploration of its capabilities in securing
+Kubernetes clusters.</p></div></article></main><div class=footer-after></div><div class=site-footer><section class="footer-links container"><div class=col-1>© 2024-2025 Sourcemation, © 2024-2025 LinuxPolska Sp. z o.o.<br><a href=#>Terms of use</a> | <a href=#>Privacy Policy</a></div><div class=col-2>Made in Europe</div></section><section class="footer-links credits container"><div class=col-1><p>The Sourcemation project (Risk analyzing system for open-source components' based sofware) is co-financed by the European Regional
+Development Fund (EU) under the Intelligent Development Operational Program and aims to provide
+software according to <strong>National Cybersecurity Standards (NCS)</strong>.</p></div><div class=col-2><a class=source-button href=https://github.com/sourcemation target=_blank rel="noopener noreferrer" aria-label=GitHub><i class="fab fa-github"></i><span>Sourcemation on GitHub</span></a></div></section></div><div class="footer-after hidden"></div></div><script>window.onload=function(){const e=document.querySelector(".slide-in");e&&e.classList.add("active")},$(".site-header .menu-button").click(function(){$(".site-header").toggleClass("menu-open"),$(".site-header .mobile-section").slideToggle(300)})</script></body></html>
