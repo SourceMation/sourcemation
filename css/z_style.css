@@ -98,6 +98,10 @@ h3.title {font-size: 18px;}
 .hero .body .text-body .btn-container {margin-top: 30px; padding-left--: 160px; text-align: left;}
 .hero .body .text-body .btn-container .btn-primary {margin-top: 8px; margin-bottom: 10px; font-weight: 400; background-color: var(--accent-no, #ffe800); min-width: 230px; text-align: center; color: var(--text); box-shadow: 0px 2px 4px #4E3D69; transition: box-shadow 160ms linear;}
 .hero .body .text-body .btn-container .btn-primary:hover {color: var(--lavender-text); }
+.hero .body .text-body .btn-container .btn-primary {font-weight: 500; padding: 12px 26px; font-size: 16px; text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12); overflow: hidden; position: relative; box-shadow: 0 20px 40px rgba(59, 130, 246, 0.3)}
+.hero .body .text-body .btn-container .btn-left {border-radius: 12px 0 0 12px; background-image: linear-gradient(to bottom, white -10%, var(--accent) 50%, var(--accent-sup)); text-shadow: 0px 1px 1px #f1f1f1;}
+.hero .body .text-body .btn-container .btn-right {border-radius: 0 12px 12px 0; background-image: linear-gradient(to bottom, #3b82f6 0%, #764ba2, var(--lavender)); color: white; }
+.hero .body .text-body .btn-container .btn-right:hover {color: var(--secondary-sup) }
 .hero .body .text-body-wide {max-width: 960px;}
 .hero .body .text-body-promo {text-align: center;}
 .hero .body .text-body-promo h2 {text-align: center; font-size: 26px; margin-bottom: 5px; font-weight: 400}
@@ -112,6 +116,9 @@ h3.title {font-size: 18px;}
 @media (max-width: 1195px) {
 	.hero .body-with-image .image-body {margin-top: -40px; margin-bottom: -30px;}
 }
+@media (max-width: 663px) {
+	.hero .body .text-body .btn-container .btn-primary {border-radius: 12px;}
+}
 @media (max-width: 480px) {
 	.hero .body .text-body h1 {font-size: 28px;}
 	.hero .alpha .curated-links {text-align: center; line-height: 1.8; padding: 8px 0;}
@@ -124,12 +131,7 @@ h3.title {font-size: 18px;}
 	.hero-again .body .text-body p {font-size: 16px;}
 }
 
-.hero .body .text-body .btn-container .btn-primary {font-weight: 500; padding: 12px 26px; font-size: 16px; text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12); overflow: hidden; position: relative;}
-.hero .body .text-body .btn-container .btn-left {border-radius: 12px 0 0 12px;}
-.hero .body .text-body .btn-container .btn-right {border-radius: 0 12px 12px 0;}
-.hero .body .text-body .btn-container .btn-left {background-image: linear-gradient(to bottom, #fbf0cc, var(--accent));  }
-.hero .body .text-body .btn-container .btn-right {background-image: linear-gradient(to bottom, var(--lavender), var(--lavender-text)); color: white; }
-.hero .body .text-body .btn-container .btn-right:hover {color: var(--secondary-sup) }
+
 
 .home-features {background-color--: #C2C8F358; background-color: #c2c8f32e; padding: 40px 0; padding-bottom: 50px}
 .home-features .section-header {}
@@ -137,7 +139,7 @@ h3.title {font-size: 18px;}
 .home-features .section-header .title strike {text-decoration: none; position: relative; display: inline-block; padding: 0 12px;}
 .home-features .section-header .title strike::before {content: ""; width: 100%; height: 4px; transform--: rotate(10deg); border-top: 3px solid red; left: 0; top: 50%; display: block; position: absolute; opacity: 0.6}
 .home-features .section-header .title strong {font-weight: 600; display: inline-block; transform: rotate(-20deg); color: var(--lavender); font-size: 120%; position: relative; left: 0px;}
-.home-features .section-header .title strong {font-size: 19px; text-transform: uppercase; border: solid 4px var(--lavender); border-radius: 8px; height: 30px; box-sizing: border-box; line-height: 30px; width: 100px; background-color: white;}
+.home-features .section-header .title strong {font-size: 19px; text-transform: uppercase; border: solid 4px var(--lavender); border-radius: 8px; height: 30px; box-sizing: boder-box; line-height: 30px; width: 100px; background-color: white;}
 .home-features .section-header p {text-align: center; margin-bottom: 30px;}
 .home-features .grid {display: flex; gap: 40px; flex-wrap: wrap; padding: 0 40px;}
 .home-features .grid > div { border-radius: 16px; padding: 20px 40px; flex: 1 1; flex-basis: 400px; box-sizing: border-box;}
@@ -342,3 +344,10 @@ background: linear-gradient(317deg, #C2C8F338, #ffffff); background--: white; cl
 .page .page-content .cards .card.main header {background-image: linear-gradient(135deg, var(--accent), var(--accent-sup)); color: var(--text); }
 .page .page-content .cards .card.main header h3 {text-shadow: -1px -1px 1px white; font-size: 18px;}
 .page .page-content .cards .card.main .body {font-weight: 500; font-size: 18px; padding-top: 20px;}
+
+
+
+
+
+
+
