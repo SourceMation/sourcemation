@@ -176,10 +176,7 @@ management easy, auditable, and understandable.&lt;/p&gt;</description></item><i
 Database. It allows the creation of full and incremental backups of
 entire databases as well as selected tables. With advanced data
 compression and segmentation, it ensures fast backup creation and the
-ability to restore data to any point in time.&lt;/p&gt;</description></item><item><title>[X] CyberArk Conjur</title><link>https://sourcemation.github.io/sourcemation/catalog/cyberark-conjur/</link><pubDate>Mon, 15 Sep 2025 22:25:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/cyberark-conjur/</guid><description>&lt;p&gt;CyberArk Conjur is a secrets management tool that provides an
-interface for secure authentication, access control, and auditing for
-processes across various tools, applications, containers, and cloud
-environments.&lt;/p&gt;</description></item><item><title>Sealed Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</link><pubDate>Mon, 15 Sep 2025 22:21:43 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</guid><description>&lt;p&gt;Sealed Secret is a tool used in the Kubernetes ecosystem for securely
+ability to restore data to any point in time.&lt;/p&gt;</description></item><item><title>Sealed Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</link><pubDate>Mon, 15 Sep 2025 22:21:43 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</guid><description>&lt;p&gt;Sealed Secret is a tool used in the Kubernetes ecosystem for securely
 storing sensitive data, such as passwords or private keys.&lt;/p&gt;</description></item><item><title>GP Upgrade</title><link>https://sourcemation.github.io/sourcemation/catalog/gpupgrade/</link><pubDate>Mon, 15 Sep 2025 22:14:02 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/gpupgrade/</guid><description>&lt;p&gt;GPUpgrade is an automation tool for upgrading Greenplum Database,
 providing a fast and secure process for data migration and system
 updates. It minimizes the risk of errors and downtime, supporting
@@ -216,10 +213,7 @@ container environments. It automates application lifecycle processes,
 making it easier to scale microservices and monitor integrations.&lt;/p&gt;</description></item><item><title>Trivy</title><link>https://sourcemation.github.io/sourcemation/catalog/trivy/</link><pubDate>Mon, 15 Sep 2025 19:47:26 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/trivy/</guid><description>&lt;p&gt;Trivy is a vulnerability analysis tool for containers. It is a
 vulnerability scanner that automatically scans container images and
 reports discovered security vulnerabilities and other potential
-threats.&lt;/p&gt;</description></item><item><title>[X] Shipwright-CLI</title><link>https://sourcemation.github.io/sourcemation/catalog/shipwright-cli/</link><pubDate>Mon, 15 Sep 2025 19:39:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/shipwright-cli/</guid><description>&lt;p&gt;Shipwright-CLI is an interactive command-line tool used for managing
-and automating processes related to building, testing, and deploying
-container images in Kubernetes-based environments. Download our ready
-Helm Charts tailored for Shipwright-CLI.&lt;/p&gt;</description></item><item><title>[X] Kyverno Policy Reporter</title><link>https://sourcemation.github.io/sourcemation/catalog/kyverno-policy-reporter/</link><pubDate>Mon, 15 Sep 2025 19:30:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/kyverno-policy-reporter/</guid><description>&lt;p&gt;Kyverno Policy Reporter is a tool for monitoring Kubernetes resource
+threats.&lt;/p&gt;</description></item><item><title>[X] Kyverno Policy Reporter</title><link>https://sourcemation.github.io/sourcemation/catalog/kyverno-policy-reporter/</link><pubDate>Mon, 15 Sep 2025 19:30:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/kyverno-policy-reporter/</guid><description>&lt;p&gt;Kyverno Policy Reporter is a tool for monitoring Kubernetes resource
 compliance with Kyverno policies, supporting data visualization and
 integration with notification systems like Slack and Elasticsearch.&lt;/p&gt;</description></item><item><title>Prometheus</title><link>https://sourcemation.github.io/sourcemation/catalog/prometheus/</link><pubDate>Mon, 15 Sep 2025 19:20:32 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/prometheus/</guid><description>&lt;p&gt;Prometheus is a monitoring and alerting system widely used in cloud
 and microservices environments. It is an open-source tool that enables

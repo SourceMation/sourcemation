@@ -64,10 +64,7 @@ data analytics in distributed environments, utilizing a massively
 parallel processing (MPP) architecture. It enables the simultaneous
 processing of large datasets across multiple nodes, providing high
 performance and scalability, and supports advanced business analytics
-and big data processing.&lt;/p&gt;</description></item><item><title>[X] CyberArk Conjur</title><link>https://sourcemation.github.io/sourcemation/catalog/cyberark-conjur/</link><pubDate>Mon, 15 Sep 2025 22:25:59 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/cyberark-conjur/</guid><description>&lt;p&gt;CyberArk Conjur is a secrets management tool that provides an
-interface for secure authentication, access control, and auditing for
-processes across various tools, applications, containers, and cloud
-environments.&lt;/p&gt;</description></item><item><title>Sealed Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</link><pubDate>Mon, 15 Sep 2025 22:21:43 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</guid><description>&lt;p&gt;Sealed Secret is a tool used in the Kubernetes ecosystem for securely
+and big data processing.&lt;/p&gt;</description></item><item><title>Sealed Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</link><pubDate>Mon, 15 Sep 2025 22:21:43 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</guid><description>&lt;p&gt;Sealed Secret is a tool used in the Kubernetes ecosystem for securely
 storing sensitive data, such as passwords or private keys.&lt;/p&gt;</description></item><item><title>[X] Spring Boot</title><link>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</link><pubDate>Mon, 15 Sep 2025 22:11:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</guid><description>&lt;p&gt;Spring Boot is an extension of the Spring Framework that simplifies
 the creation and deployment of Java applications by automating
 configuration and supporting the rapid development of web
