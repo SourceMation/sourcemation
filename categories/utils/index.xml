@@ -182,12 +182,7 @@ providing a fast and secure process for data migration and system
 updates. It minimizes the risk of errors and downtime, supporting
 software modernization and data conversion. It also offers monitoring
 and rollback mechanisms, ensuring compliance and stability in
-production systems.&lt;/p&gt;</description></item><item><title>[X] Spring Boot</title><link>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</link><pubDate>Mon, 15 Sep 2025 22:11:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</guid><description>&lt;p&gt;Spring Boot is an extension of the Spring Framework that simplifies
-the creation and deployment of Java applications by automating
-configuration and supporting the rapid development of web
-applications, REST services, and microservices. With Spring Boot, the
-process of creating Spring-based applications becomes more efficient,
-allowing for quick setup and deployment with minimal configuration.&lt;/p&gt;</description></item><item><title>[X?] External Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</link><pubDate>Mon, 15 Sep 2025 22:07:34 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</guid><description>&lt;p&gt;External Secrets Operator is a tool for Kubernetes environments that
+production systems.&lt;/p&gt;</description></item><item><title>[X?] External Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</link><pubDate>Mon, 15 Sep 2025 22:07:34 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</guid><description>&lt;p&gt;External Secrets Operator is a tool for Kubernetes environments that
 enables integration with various external secret management systems.
 It operates by retrieving data from these external sources using their
 APIs and automatically injecting this data into Kubernetes Secret

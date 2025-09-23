@@ -65,12 +65,7 @@ parallel processing (MPP) architecture. It enables the simultaneous
 processing of large datasets across multiple nodes, providing high
 performance and scalability, and supports advanced business analytics
 and big data processing.&lt;/p&gt;</description></item><item><title>Sealed Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</link><pubDate>Mon, 15 Sep 2025 22:21:43 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/sealed-secrets/</guid><description>&lt;p&gt;Sealed Secret is a tool used in the Kubernetes ecosystem for securely
-storing sensitive data, such as passwords or private keys.&lt;/p&gt;</description></item><item><title>[X] Spring Boot</title><link>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</link><pubDate>Mon, 15 Sep 2025 22:11:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</guid><description>&lt;p&gt;Spring Boot is an extension of the Spring Framework that simplifies
-the creation and deployment of Java applications by automating
-configuration and supporting the rapid development of web
-applications, REST services, and microservices. With Spring Boot, the
-process of creating Spring-based applications becomes more efficient,
-allowing for quick setup and deployment with minimal configuration.&lt;/p&gt;</description></item><item><title>[X?] External Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</link><pubDate>Mon, 15 Sep 2025 22:07:34 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</guid><description>&lt;p&gt;External Secrets Operator is a tool for Kubernetes environments that
+storing sensitive data, such as passwords or private keys.&lt;/p&gt;</description></item><item><title>[X?] External Secrets</title><link>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</link><pubDate>Mon, 15 Sep 2025 22:07:34 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/external-secrets/</guid><description>&lt;p&gt;External Secrets Operator is a tool for Kubernetes environments that
 enables integration with various external secret management systems.
 It operates by retrieving data from these external sources using their
 APIs and automatically injecting this data into Kubernetes Secret

@@ -160,12 +160,7 @@ various methods such as kustomize applications, Helm charts, JSONnet
 files, or plain directories of YAML/json manifests. ArgoCD automates
 the deployment process based on the desired application state defined
 in Git repositories, making application deployment and lifecycle
-management easy, auditable, and understandable.&lt;/p&gt;</description></item><item><title>[X] Spring Boot</title><link>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</link><pubDate>Mon, 15 Sep 2025 22:11:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</guid><description>&lt;p&gt;Spring Boot is an extension of the Spring Framework that simplifies
-the creation and deployment of Java applications by automating
-configuration and supporting the rapid development of web
-applications, REST services, and microservices. With Spring Boot, the
-process of creating Spring-based applications becomes more efficient,
-allowing for quick setup and deployment with minimal configuration.&lt;/p&gt;</description></item><item><title>[X] Tekton Operator</title><link>https://sourcemation.github.io/sourcemation/catalog/tekton-operator/</link><pubDate>Mon, 15 Sep 2025 21:52:25 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/tekton-operator/</guid><description>&lt;p&gt;Tekton Operator is a management mechanism within the Kubernetes
+management easy, auditable, and understandable.&lt;/p&gt;</description></item><item><title>[X] Tekton Operator</title><link>https://sourcemation.github.io/sourcemation/catalog/tekton-operator/</link><pubDate>Mon, 15 Sep 2025 21:52:25 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/tekton-operator/</guid><description>&lt;p&gt;Tekton Operator is a management mechanism within the Kubernetes
 ecosystem that automates the deployment, scaling, and management of
 resources associated with the Tekton platform. Download our ready Helm
 Charts tailored for Tekton-Operator.&lt;/p&gt;</description></item><item><title>Ruby</title><link>https://sourcemation.github.io/sourcemation/catalog/ruby/</link><pubDate>Mon, 15 Sep 2025 21:43:44 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/ruby/</guid><description>&lt;p&gt;Ruby stands as an easy-to-use, interpreted, dynamically-typed,

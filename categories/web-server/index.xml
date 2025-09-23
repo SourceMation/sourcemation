@@ -66,12 +66,7 @@ various methods such as kustomize applications, Helm charts, JSONnet
 files, or plain directories of YAML/json manifests. ArgoCD automates
 the deployment process based on the desired application state defined
 in Git repositories, making application deployment and lifecycle
-management easy, auditable, and understandable.&lt;/p&gt;</description></item><item><title>[X] Spring Boot</title><link>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</link><pubDate>Mon, 15 Sep 2025 22:11:14 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/spring-boot/</guid><description>&lt;p&gt;Spring Boot is an extension of the Spring Framework that simplifies
-the creation and deployment of Java applications by automating
-configuration and supporting the rapid development of web
-applications, REST services, and microservices. With Spring Boot, the
-process of creating Spring-based applications becomes more efficient,
-allowing for quick setup and deployment with minimal configuration.&lt;/p&gt;</description></item><item><title>Harbor</title><link>https://sourcemation.github.io/sourcemation/catalog/harbor/</link><pubDate>Mon, 15 Sep 2025 21:55:16 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/harbor/</guid><description>&lt;p&gt;Harbor operates as a platform enabling the management of container
+management easy, auditable, and understandable.&lt;/p&gt;</description></item><item><title>Harbor</title><link>https://sourcemation.github.io/sourcemation/catalog/harbor/</link><pubDate>Mon, 15 Sep 2025 21:55:16 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/harbor/</guid><description>&lt;p&gt;Harbor operates as a platform enabling the management of container
 repositories in Kubernetes environments.&lt;/p&gt;</description></item><item><title>Jenkins</title><link>https://sourcemation.github.io/sourcemation/catalog/jenkins/</link><pubDate>Mon, 15 Sep 2025 20:49:27 +0200</pubDate><guid>https://sourcemation.github.io/sourcemation/catalog/jenkins/</guid><description>&lt;p&gt;Jenkins is an open-source automation server used for continuous
 integration and continuous delivery (CI/CD) pipelines, enabling
 developers to automate building, testing, and deploying software.
