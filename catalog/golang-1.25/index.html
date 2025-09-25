@@ -16,10 +16,15 @@ View on platform</span></div></a><div class=platform-components-link><span class
 View on platform</span></div></a><div class=platform-components-link><span class=components-link-placeholder><i class="fas fa-hourglass-half"></i>
 <span>No report available yet</span></span></div></div></div></div><div class="content-card mb-4"><div class=content-card-header><h2><i class="fas fa-info-circle"></i>
 Details</h2></div><div class=content-card-body><div class=prose><p>This image features Go 1.25, the stable release of the Go programming language, designed to enhance performance, it
-was released August 2025.</p><p>For developers, Go 1.25 introduces practical enhancements including a new tool directive in go.mod files to properly
-track tool dependencies (modernizing and replacing the traditional tools.go pattern), a streamlined testing.B.Loop
-method for more intuitive benchmarking workflows, and substantial improvements to the vet tool with expanded
-capabilities to detect common errors in test functions and other code patterns.</p><p>These performance optimizations and developer experience improvements make Go 1.25 a compelling upgrade for
-containerized applications and cloud-native development workflows.</p></div></div></div><div class="text-center mb-4"><a href=/catalog class="btn btn-primary"><i class="fas fa-arrow-left"></i>
+was released August 2025.</p><p>The most significant updates in Go 1.25 are heavily focused on performance and
+developer tooling. A major highlight is the introduction of a new experimental
+garbage collector that promises a <strong>10-40% reduction in overhead, greatly
+boosting efficiency for memory-intensive applications</strong>. For modern cloud-native
+environments, <code>GOMAXPROCS</code> is now container-aware, automatically adjusting to
+cgroup CPU limits to improve resource utilization in platforms like Kubernetes.
+Furthermore, the release introduces the new <code>testing/synctest</code> package, which
+simplifies the process of writing reliable tests for concurrent code by
+providing a virtualized time environment, enhancing code quality and
+robustness.</p></div></div></div><div class="text-center mb-4"><a href=/catalog class="btn btn-primary"><i class="fas fa-arrow-left"></i>
 Back to Catalog</a></div></div></main><div class=footer-after></div><div class=site-footer><section class="footer-links container"><div class=col-1>© 2024-2025 SourceMation, © 2024-2025 LinuxPolska Sp. z o.o.<br><a href=#>Terms of use</a> | <a href=#>Privacy Policy</a></div><div class=col-2>Made in Europe</div></section><section class="footer-links credits container"><div class=col-1><p>SourceMation project co-financed by the European Regional Development Fund under the Intelligent Development Operational Program
 Read more [Polish]: <a href=https://linuxpolska.com/pl/projekt-badawczy-system-analizy-ryzyka-open-source/ target=_blank>Linux Polska Website</a></p></div><div class=col-2><a class=source-button href=https://github.com/sourcemation target=_blank rel="noopener noreferrer" aria-label=GitHub><i class="fab fa-github"></i><span>SourceMation on GitHub</span></a></div></section></div><div class="footer-after hidden"></div></div><script>window.onload=function(){const e=document.querySelector(".slide-in");e&&e.classList.add("active")},$(".site-header .menu-button").click(function(){$(".site-header").toggleClass("menu-open"),$(".site-header .mobile-section").slideToggle(300)})</script></body></html>

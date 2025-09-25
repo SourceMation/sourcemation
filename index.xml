@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>SourceMation</title><link>https://sourcemation.com/</link><description>Recent content on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 24 Sep 2025 14:40:02 +0200</lastBuildDate><atom:link href="https://sourcemation.com/index.xml" rel="self" type="application/rss+xml"/><item><title>golang-1.25</title><link>https://sourcemation.com/catalog/golang-1.25/</link><pubDate>Wed, 24 Sep 2025 14:40:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.25/</guid><description>&lt;p&gt;This image features Go 1.25, the stable release of the Go programming language, designed to enhance performance, it
 was released August 2025.&lt;/p&gt;
-&lt;p&gt;For developers, Go 1.25 introduces practical enhancements including a new tool directive in go.mod files to properly
-track tool dependencies (modernizing and replacing the traditional tools.go pattern), a streamlined testing.B.Loop
-method for more intuitive benchmarking workflows, and substantial improvements to the vet tool with expanded
-capabilities to detect common errors in test functions and other code patterns.&lt;/p&gt;</description></item><item><title>Nginx Stable</title><link>https://sourcemation.com/catalog/nginx-stable/</link><pubDate>Wed, 17 Sep 2025 14:33:46 +0200</pubDate><guid>https://sourcemation.com/catalog/nginx-stable/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;The most significant updates in Go 1.25 are heavily focused on performance and
+developer tooling. A major highlight is the introduction of a new experimental
+garbage collector that promises a &lt;strong&gt;10-40% reduction in overhead, greatly
+boosting efficiency for memory-intensive applications&lt;/strong&gt;. For modern cloud-native
+environments, &lt;code&gt;GOMAXPROCS&lt;/code&gt; is now container-aware, automatically adjusting to
+cgroup CPU limits to improve resource utilization in platforms like Kubernetes.
+Furthermore, the release introduces the new &lt;code&gt;testing/synctest&lt;/code&gt; package, which
+simplifies the process of writing reliable tests for concurrent code by
+providing a virtualized time environment, enhancing code quality and
+robustness.&lt;/p&gt;</description></item><item><title>Nginx Stable</title><link>https://sourcemation.com/catalog/nginx-stable/</link><pubDate>Wed, 17 Sep 2025 14:33:46 +0200</pubDate><guid>https://sourcemation.com/catalog/nginx-stable/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Nginx Stable delivers enterprise-grade web serving capabilities with a focus on long-term reliability and consistent
 performance across production environments. This stable branch undergoes extensive testing and validation, making it the
 preferred choice for mission-critical applications that prioritize stability over cutting-edge features.&lt;/p&gt;
