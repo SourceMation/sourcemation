@@ -15,6 +15,19 @@
 }
 html, body, header, figure {margin: 0;} html, body {font-family: Cairo, sans-serif; font-size: 15px; font-weight: 200; line-height: 1.4}
 body {font-family: Raleway, sans-serif; font-weight: 300; -webkit-font-smoothing: subpixel-antialiased;}
+
+/* Site container flexbox layout for sticky footer */
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main content should grow to fill available space */
+main {
+    flex: 1;
+}
+
 .container {margin: 0 auto; max-width: 1580px; padding: 0 40px} ::selection {background-color: var(--accent); color: var(--text);}
 .centered {text-align: center;} .hidden {display: none;} h1, h2, h3, h4 {margin-top: 0;} p {margin-top: 0;}
 body {overflow-x: hidden;} a {text-decoration: none; text-underline-offset: 2px; color: inherit;} a.link {text-decoration: underline;}
@@ -177,7 +190,7 @@ background: linear-gradient(317deg, #C2C8F338, #ffffff); background--: white; cl
 	.home-platforms .grid > div i {font-size: 64px;}
 }
 
-.site-footer {background: #191919; background-color: #372752; color: var(--secondary-sup); padding: 20px 0; padding-bottom: 15px;}
+.site-footer {background: #191919; background-color: #372752; color: var(--secondary-sup); padding: 20px 0; padding-bottom: 15px; flex-shrink: 0;}
 .site-footer section {padding-top: 0; padding-bottom: 0;}
 .site-footer .container {padding-top: 12px; padding-bottom: 12px;}
 .site-footer .footer-links {display: flex; column-gap: 40px; justify-content: space-between; flex-wrap: wrap; row-gap: 20px;}
@@ -250,7 +263,7 @@ background: linear-gradient(317deg, #C2C8F338, #ffffff); background--: white; cl
 .images-dir .grid > div .item-footer span {}
 .images-dir .grid > div .item-footer strong {font-weight: 400;}
 .images-dir .grid > div .item-footer {position: relative;}
-.images-dir .grid > div .item-footer::after {content: ""; position: absolute; right: 0px; bottom: 0px; width: 59px; height: 30px; background-image: url('/sourcemation/images/tetris-v.png'); z-index: 2; background-repeat: no-repeat; background-position: right bottom; background-size: 48px; opacity: 0.2}
+.images-dir .grid > div .item-footer::after {content: ""; position: absolute; right: 0px; bottom: 0px; width: 59px; height: 30px; background-image: url('/images/tetris-v.png'); z-index: 2; background-repeat: no-repeat; background-position: right bottom; background-size: 48px; opacity: 0.2}
 .images-dir .grid > div:hover .item-footer::after {opacity: 1;}
 .images-dir .section-footer {text-align: right; padding-top: 15px;}
 @media (max-width: 780px) {
@@ -344,10 +357,3 @@ background: linear-gradient(317deg, #C2C8F338, #ffffff); background--: white; cl
 .page .page-content .cards .card.main header {background-image: linear-gradient(135deg, var(--accent), var(--accent-sup)); color: var(--text); }
 .page .page-content .cards .card.main header h3 {text-shadow: -1px -1px 1px white; font-size: 18px;}
 .page .page-content .cards .card.main .body {font-weight: 500; font-size: 18px; padding-top: 20px;}
-
-
-
-
-
-
-

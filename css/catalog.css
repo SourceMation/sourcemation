@@ -376,6 +376,16 @@
     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
 }
 
+/* Fix for back to catalog button spacing */
+.catalog-single-page .text-center {
+    margin-bottom: 3rem !important;
+}
+
+/* Alternative: Target the main content to ensure proper bottom spacing */
+.main-content {
+    margin-bottom: 3rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .catalog-single-info {
