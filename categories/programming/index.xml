@@ -6,7 +6,7 @@ a powerful templating engine, and generates a complete, ready-to-deploy
 static website (HTML, CSS, JS). Its robust feature set includes a built-in
 asset pipeline (Hugo Pipes), flexible content and data modeling, and native
 support for fetching content from external APIs, making it a versatile tool
-for everything from simple blogs to large corporate websites.&lt;/p&gt;</description></item><item><title>golang-1.25</title><link>https://sourcemation.com/catalog/golang-1.25/</link><pubDate>Wed, 24 Sep 2025 14:40:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.25/</guid><description>&lt;p&gt;This image features Go 1.25, the stable release of the Go programming language, designed to enhance performance, it
+for everything from simple blogs to large corporate websites.&lt;/p&gt;</description></item><item><title>Golang 1.25</title><link>https://sourcemation.com/catalog/golang-1.25/</link><pubDate>Wed, 24 Sep 2025 14:40:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.25/</guid><description>&lt;p&gt;This image features Go 1.25, the stable release of the Go programming language, designed to enhance performance, it
 was released August 2025.&lt;/p&gt;
 &lt;p&gt;The most significant updates in Go 1.25 are heavily focused on performance and
 developer tooling. A major highlight is the introduction of a new experimental
@@ -108,7 +108,7 @@ threads) that communicate via messages (the &amp;ldquo;Actor Model&amp;rdquo;). 
 it crash&amp;rdquo; philosophy allows for the creation of fault-tolerant systems
 where failures in one part do not bring down the entire application,
 making it ideal for telecom (its original use), messaging (like
-RabbitMQ), and other distributed, high-availability backend systems.&lt;/p&gt;</description></item><item><title>golang-1.23</title><link>https://sourcemation.com/catalog/golang-1.23/</link><pubDate>Tue, 16 Sep 2025 14:51:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.23/</guid><description>&lt;p&gt;This is the Go programming language, version 1.23 (released August
+RabbitMQ), and other distributed, high-availability backend systems.&lt;/p&gt;</description></item><item><title>Golang 1.23</title><link>https://sourcemation.com/catalog/golang-1.23/</link><pubDate>Tue, 16 Sep 2025 14:51:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.23/</guid><description>&lt;p&gt;This is the Go programming language, version 1.23 (released August
 2024). This major release finalized a significant new language
 feature: range-over functions, which allows iterating over function
 calls in for&amp;hellip;range loops, greatly simplifying iterative code. This
@@ -116,7 +116,7 @@ version also brought major updates to its toolchain, significantly
 reducing the build time overhead for Profile-Guided Optimization (PGO)
 and fixing a long-standing source of memory leaks by garbage
 collecting time.Timer and time.Ticker objects even if their Stop
-methods are not called.&lt;/p&gt;</description></item><item><title>golang-1.24</title><link>https://sourcemation.com/catalog/golang-1.24/</link><pubDate>Tue, 16 Sep 2025 14:51:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.24/</guid><description>&lt;p&gt;This is the Go programming language, version 1.24 (released February
+methods are not called.&lt;/p&gt;</description></item><item><title>Golang 1.24</title><link>https://sourcemation.com/catalog/golang-1.24/</link><pubDate>Tue, 16 Sep 2025 14:51:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.24/</guid><description>&lt;p&gt;This is the Go programming language, version 1.24 (released February
 2025). This release focused heavily on runtime and toolchain
 performance. Key features include a new implementation for maps based
 on Swiss Tables, resulting in faster map operations and 2-3% lower CPU
