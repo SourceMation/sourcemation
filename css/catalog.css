@@ -379,6 +379,7 @@
 /* Fix for back to catalog button spacing */
 .catalog-single-page .text-center {
     margin-bottom: 3rem !important;
+    margin-top: 3rem !important;
 }
 
 /* Alternative: Target the main content to ensure proper bottom spacing */
