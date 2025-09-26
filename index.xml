@@ -333,12 +333,7 @@ providing a fast and secure process for data migration and system
 updates. It minimizes the risk of errors and downtime, supporting
 software modernization and data conversion. It also offers monitoring
 and rollback mechanisms, ensuring compliance and stability in
-production systems.&lt;/p&gt;</description></item><item><title>[X?] External Secrets</title><link>https://sourcemation.com/catalog/external-secrets/</link><pubDate>Mon, 15 Sep 2025 22:07:34 +0200</pubDate><guid>https://sourcemation.com/catalog/external-secrets/</guid><description>&lt;p&gt;External Secrets Operator is a tool for Kubernetes environments that
-enables integration with various external secret management systems.
-It operates by retrieving data from these external sources using their
-APIs and automatically injecting this data into Kubernetes Secret
-resources. Its goal is to facilitate the synchronization and
-management of secrets between external systems and Kubernetes.&lt;/p&gt;</description></item><item><title>Harbor</title><link>https://sourcemation.com/catalog/harbor/</link><pubDate>Mon, 15 Sep 2025 21:55:16 +0200</pubDate><guid>https://sourcemation.com/catalog/harbor/</guid><description>&lt;p&gt;Harbor operates as a platform enabling the management of container
+production systems.&lt;/p&gt;</description></item><item><title>Harbor</title><link>https://sourcemation.com/catalog/harbor/</link><pubDate>Mon, 15 Sep 2025 21:55:16 +0200</pubDate><guid>https://sourcemation.com/catalog/harbor/</guid><description>&lt;p&gt;Harbor operates as a platform enabling the management of container
 repositories in Kubernetes environments.&lt;/p&gt;</description></item><item><title>Ruby</title><link>https://sourcemation.com/catalog/ruby/</link><pubDate>Mon, 15 Sep 2025 21:43:44 +0200</pubDate><guid>https://sourcemation.com/catalog/ruby/</guid><description>&lt;p&gt;Ruby stands as an easy-to-use, interpreted, dynamically-typed,
 object-oriented, and universal programming language capable of
 supporting multiple paradigms.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Mon, 15 Sep 2025 21:34:46 +0200</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
