@@ -11,14 +11,7 @@ newest features and optimizations as they&amp;rsquo;re developed, making it idea
 innovations.&lt;/p&gt;
 &lt;p&gt;Known for its exceptional performance characteristics and minimal resource consumption, Nginx excels at handling
 high-concurrency scenarios while maintaining rock-solid stability. The mainline branch receives continuous updates with
-new features, protocol improvements, and performance enhancements.&lt;/p&gt;</description></item><item><title>JRE-21</title><link>https://sourcemation.com/catalog/jre-21/</link><pubDate>Tue, 16 Sep 2025 16:31:38 +0200</pubDate><guid>https://sourcemation.com/catalog/jre-21/</guid><description>&lt;p&gt;JRE 21 is the Java Runtime Environment derived from the JDK 21
-Long-Term Support (LTS) release, and it&amp;rsquo;s intended for end-users or
-servers that only need to run pre-compiled Java applications. It
-contains the core components, primarily the Java Virtual Machine (JVM)
-and core class libraries, but omits development tools like the
-compiler (javac). Any application running on JRE 21 gains the benefits
-of the JDK 21 platform, including the performance improvements from
-the finalization of Virtual Threads and other new language features.&lt;/p&gt;</description></item><item><title>Micronaut</title><link>https://sourcemation.com/catalog/micronaut/</link><pubDate>Tue, 16 Sep 2025 16:08:47 +0200</pubDate><guid>https://sourcemation.com/catalog/micronaut/</guid><description>&lt;p&gt;Description: Micronaut is a modern, full-stack framework for the JVM
+new features, protocol improvements, and performance enhancements.&lt;/p&gt;</description></item><item><title>Micronaut</title><link>https://sourcemation.com/catalog/micronaut/</link><pubDate>Tue, 16 Sep 2025 16:08:47 +0200</pubDate><guid>https://sourcemation.com/catalog/micronaut/</guid><description>&lt;p&gt;Description: Micronaut is a modern, full-stack framework for the JVM
 (supporting Java, Kotlin, and Groovy) designed specifically for
 building modular microservices and serverless applications. Its key
 differentiator is that it performs dependency injection,

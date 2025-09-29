@@ -12,14 +12,7 @@ and standards compliance, it supports both SQL relational and JSON non-relationa
 &lt;p&gt;Our PostgreSQL 17 container is meticulously built by SourceMation&amp;rsquo;s automated infrastructure using the latest stable
 release. Running on our optimized Debian 12 Slim base image, this distribution ensures minimal attack surface while
 maintaining full functionality. The build pipeline includes cryptographic verification of all source components,
-delivering a secure and trustworthy database solution for production environments.&lt;/p&gt;</description></item><item><title>JRE-21</title><link>https://sourcemation.com/catalog/jre-21/</link><pubDate>Tue, 16 Sep 2025 16:31:38 +0200</pubDate><guid>https://sourcemation.com/catalog/jre-21/</guid><description>&lt;p&gt;JRE 21 is the Java Runtime Environment derived from the JDK 21
-Long-Term Support (LTS) release, and it&amp;rsquo;s intended for end-users or
-servers that only need to run pre-compiled Java applications. It
-contains the core components, primarily the Java Virtual Machine (JVM)
-and core class libraries, but omits development tools like the
-compiler (javac). Any application running on JRE 21 gains the benefits
-of the JDK 21 platform, including the performance improvements from
-the finalization of Virtual Threads and other new language features.&lt;/p&gt;</description></item><item><title>CloudNativePG-16</title><link>https://sourcemation.com/catalog/cnpg-16/</link><pubDate>Tue, 16 Sep 2025 14:30:59 +0200</pubDate><guid>https://sourcemation.com/catalog/cnpg-16/</guid><description>&lt;p&gt;CloudNativePG (CNPG) is a Kubernetes operator designed by PostgreSQL
+delivering a secure and trustworthy database solution for production environments.&lt;/p&gt;</description></item><item><title>CloudNativePG-16</title><link>https://sourcemation.com/catalog/cnpg-16/</link><pubDate>Tue, 16 Sep 2025 14:30:59 +0200</pubDate><guid>https://sourcemation.com/catalog/cnpg-16/</guid><description>&lt;p&gt;CloudNativePG (CNPG) is a Kubernetes operator designed by PostgreSQL
 experts to manage PostgreSQL database workloads natively on
 Kubernetes. It covers the entire operational lifecycle, automatically
 managing database deployment, high-availability configurations

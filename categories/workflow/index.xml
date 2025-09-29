@@ -12,14 +12,7 @@ worldwide. Developed under the Eclipse Foundation, it implements the MQTT protoc
 it compatible with virtually any MQTT client application.&lt;/p&gt;
 &lt;p&gt;The broker is renowned for its lightweight architecture and exceptional performance, capable of handling thousands of
 concurrent connections while maintaining minimal memory usage. Mosquitto supports advanced features including message
-persistence, SSL/TLS encryption, bridge connections, and flexible authentication mechanisms.&lt;/p&gt;</description></item><item><title>JRE-21</title><link>https://sourcemation.com/catalog/jre-21/</link><pubDate>Tue, 16 Sep 2025 16:31:38 +0200</pubDate><guid>https://sourcemation.com/catalog/jre-21/</guid><description>&lt;p&gt;JRE 21 is the Java Runtime Environment derived from the JDK 21
-Long-Term Support (LTS) release, and it&amp;rsquo;s intended for end-users or
-servers that only need to run pre-compiled Java applications. It
-contains the core components, primarily the Java Virtual Machine (JVM)
-and core class libraries, but omits development tools like the
-compiler (javac). Any application running on JRE 21 gains the benefits
-of the JDK 21 platform, including the performance improvements from
-the finalization of Virtual Threads and other new language features.&lt;/p&gt;</description></item><item><title>Maven</title><link>https://sourcemation.com/catalog/maven/</link><pubDate>Tue, 16 Sep 2025 16:03:30 +0200</pubDate><guid>https://sourcemation.com/catalog/maven/</guid><description>&lt;p&gt;Apache Maven is a foundational software project management and build
+persistence, SSL/TLS encryption, bridge connections, and flexible authentication mechanisms.&lt;/p&gt;</description></item><item><title>Maven</title><link>https://sourcemation.com/catalog/maven/</link><pubDate>Tue, 16 Sep 2025 16:03:30 +0200</pubDate><guid>https://sourcemation.com/catalog/maven/</guid><description>&lt;p&gt;Apache Maven is a foundational software project management and build
 automation tool. Using a central XML configuration file (the pom.xml),
 Maven manages all project dependencies (downloading required libraries
 from repositories) and executes a standardized build lifecycle (e.g.,

@@ -5,14 +5,7 @@ generating consistent, well-structured code across multiple programming language
 &lt;p&gt;SourceMation&amp;rsquo;s distribution comes pre-configured with a secure user environment and includes an enhanced CLI script for
 simplified version management. The container is built with security best practices, running under a non-root user
 account to minimize potential attack vectors. Our automated build process ensures you receive the latest stable release
-with all necessary dependencies properly configured for immediate use.&lt;/p&gt;</description></item><item><title>JRE-21</title><link>https://sourcemation.com/catalog/jre-21/</link><pubDate>Tue, 16 Sep 2025 16:31:38 +0200</pubDate><guid>https://sourcemation.com/catalog/jre-21/</guid><description>&lt;p&gt;JRE 21 is the Java Runtime Environment derived from the JDK 21
-Long-Term Support (LTS) release, and it&amp;rsquo;s intended for end-users or
-servers that only need to run pre-compiled Java applications. It
-contains the core components, primarily the Java Virtual Machine (JVM)
-and core class libraries, but omits development tools like the
-compiler (javac). Any application running on JRE 21 gains the benefits
-of the JDK 21 platform, including the performance improvements from
-the finalization of Virtual Threads and other new language features.&lt;/p&gt;</description></item><item><title>RabbitMQ Management</title><link>https://sourcemation.com/catalog/rabbitmq-4-management/</link><pubDate>Tue, 16 Sep 2025 14:39:56 +0200</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-4-management/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+with all necessary dependencies properly configured for immediate use.&lt;/p&gt;</description></item><item><title>RabbitMQ Management</title><link>https://sourcemation.com/catalog/rabbitmq-4-management/</link><pubDate>Tue, 16 Sep 2025 14:39:56 +0200</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-4-management/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;RabbitMQ (ver 4.x) Management delivers enterprise-grade message brokering with an intuitive web interface for real-time
 monitoring and administrative control. This solution combines robust AMQP message processing with advanced management
 features including queue analytics, connection tracking, and cluster health monitoring.&lt;/p&gt;
