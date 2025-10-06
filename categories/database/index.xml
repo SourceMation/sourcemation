@@ -84,7 +84,7 @@ Optimized for handling massive datasets, ClickHouse enables
 lightning-fast execution of complex SQL queries, making it ideal for
 companies focused on big data and business analytics. It supports
 cluster processing, allowing efficient querying of distributed data
-and real-time report generation.&lt;/p&gt;</description></item><item><title>Gpbackup S3</title><link>https://sourcemation.com/catalog/gpbackup-s3/</link><pubDate>Mon, 15 Sep 2025 17:20:57 +0200</pubDate><guid>https://sourcemation.com/catalog/gpbackup-s3/</guid><description>&lt;p&gt;GPBackup-S3 is a tool for automatic backups of Greenplum Database with
+and real-time report generation.&lt;/p&gt;</description></item><item><title>GPBackup-S3</title><link>https://sourcemation.com/catalog/gpbackup-s3/</link><pubDate>Mon, 15 Sep 2025 17:20:57 +0200</pubDate><guid>https://sourcemation.com/catalog/gpbackup-s3/</guid><description>&lt;p&gt;GPBackup-S3 is a tool for automatic backups of Greenplum Database with
 Amazon S3 integration. It enables easy storage, restoration, and
 verification of full and incremental backups in a secure, scalable
 cloud. This is an ideal solution for organizations looking to

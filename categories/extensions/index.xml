@@ -34,7 +34,7 @@ compression and segmentation, it ensures fast backup creation and the
 ability to restore data to any point in time.&lt;/p&gt;</description></item><item><title>GP Diskquota</title><link>https://sourcemation.com/catalog/gp-diskquota/</link><pubDate>Mon, 15 Sep 2025 20:34:02 +0200</pubDate><guid>https://sourcemation.com/catalog/gp-diskquota/</guid><description>&lt;p&gt;Diskquota is an extension that provides disk usage enforcement for
 database objects in Greenplum DB. Currently it supports to set quota
 limit on schema and role in a given database and limit the amount of
-disk space that a schema or a role can use.&lt;/p&gt;</description></item><item><title>Gpbackup S3</title><link>https://sourcemation.com/catalog/gpbackup-s3/</link><pubDate>Mon, 15 Sep 2025 17:20:57 +0200</pubDate><guid>https://sourcemation.com/catalog/gpbackup-s3/</guid><description>&lt;p&gt;GPBackup-S3 is a tool for automatic backups of Greenplum Database with
+disk space that a schema or a role can use.&lt;/p&gt;</description></item><item><title>GPBackup-S3</title><link>https://sourcemation.com/catalog/gpbackup-s3/</link><pubDate>Mon, 15 Sep 2025 17:20:57 +0200</pubDate><guid>https://sourcemation.com/catalog/gpbackup-s3/</guid><description>&lt;p&gt;GPBackup-S3 is a tool for automatic backups of Greenplum Database with
 Amazon S3 integration. It enables easy storage, restoration, and
 verification of full and incremental backups in a secure, scalable
 cloud. This is an ideal solution for organizations looking to
