@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on SourceMation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 26 Sep 2025 14:05:22 +0200</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://sourcemation.com/catalog/hugo/</link><pubDate>Fri, 26 Sep 2025 14:05:22 +0200</pubDate><guid>https://sourcemation.com/catalog/hugo/</guid><description>&lt;p&gt;Hugo is one of the world&amp;rsquo;s most popular open-source static site generators (SSGs),
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on SourceMation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 20 Oct 2025 02:10:43 +0200</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>MariaDB</title><link>https://sourcemation.com/catalog/mariadb/</link><pubDate>Mon, 20 Oct 2025 02:10:43 +0200</pubDate><guid>https://sourcemation.com/catalog/mariadb/</guid><description>&lt;p&gt;MariaDB is a popular open source relational database that was created by the
+original developers of MySQL. It&amp;rsquo;s well known for better performance,
+scalability, and having more features compared to MySQL, while being in most
+cases a drop-in-replacement for MySQL. It&amp;rsquo;s managed by the MariaDB Foundation to
+ensure its continued development as the real open source software. This image
+use the official MariaDB packages and is optimized for container workloads.&lt;/p&gt;</description></item><item><title>Debian 13 Slim</title><link>https://sourcemation.com/catalog/debian-13-slim/</link><pubDate>Mon, 20 Oct 2025 01:59:33 +0200</pubDate><guid>https://sourcemation.com/catalog/debian-13-slim/</guid><description>&lt;p&gt;This is the minimal (&amp;ldquo;slim&amp;rdquo;) variant of the Sourcemation Docker image for
+Debian 13, codenamed &amp;ldquo;Trixie&amp;rdquo;, which is the current stable release of the
+Debian operating system. It&amp;rsquo;s built from scratch, and stripped of all
+non-essential packages—like documentation, locales, but also common packages
+like &lt;code&gt;tzdata&lt;/code&gt; or even &lt;code&gt;ca-certificates&lt;/code&gt; - to create the smallest, but fully
+functional base image possible. This results in a significantly reduced footprint,
+enhanced security, and faster container deployments, making it an ideal base image
+that we are internally using for many of our containerized applications that require
+a stable and modern OS layer.&lt;/p&gt;</description></item><item><title>External Dns</title><link>https://sourcemation.com/catalog/external-dns/</link><pubDate>Mon, 20 Oct 2025 01:45:27 +0200</pubDate><guid>https://sourcemation.com/catalog/external-dns/</guid><description>&lt;p&gt;This is the official Sourcemation Docker image for ExternalDNS, a Kubernetes
+addon that works with various DNS providers to manage DNS records dynamically
+based on the resources in your cluster. The list of supported providers is
+extensive, including the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS Route 53&lt;/li&gt;
+&lt;li&gt;AzureDNS&lt;/li&gt;
+&lt;li&gt;CloudFlare&lt;/li&gt;
+&lt;li&gt;Google Cloud DNS&lt;/li&gt;
+&lt;li&gt;DigitalOcean&lt;/li&gt;
+&lt;li&gt;CoreDNS&lt;/li&gt;
+&lt;li&gt;OVHcloud&lt;/li&gt;
+&lt;li&gt;Scaleway&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;and many more.&lt;/p&gt;
+&lt;p&gt;Our external-DNS is compiled from the source provided by the Kubernetes Special
+Interest Group (SIG) team.&lt;/p&gt;</description></item><item><title>Hugo</title><link>https://sourcemation.com/catalog/hugo/</link><pubDate>Fri, 26 Sep 2025 14:05:22 +0200</pubDate><guid>https://sourcemation.com/catalog/hugo/</guid><description>&lt;p&gt;Hugo is one of the world&amp;rsquo;s most popular open-source static site generators (SSGs),
 written in the Go programming language. It is renowned for its blazing-fast
 build speeds, often rendering even large, complex websites in a fraction of
 a second. Hugo takes content written in markdown, processes it through
