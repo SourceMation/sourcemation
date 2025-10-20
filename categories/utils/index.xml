@@ -85,22 +85,7 @@ management layer, handling tasks like authentication (OAuth2, JWT),
 authorization, rate limiting, and traffic transformation via a
 &amp;ldquo;plugin&amp;rdquo; architecture. By intercepting and proxying all requests, Kong
 also provides critical observability metrics, logs, and traces for
-monitoring API performance.&lt;/p&gt;</description></item><item><title>Debian 11 Slim</title><link>https://sourcemation.com/catalog/debian-11-slim/</link><pubDate>Tue, 16 Sep 2025 15:44:01 +0200</pubDate><guid>https://sourcemation.com/catalog/debian-11-slim/</guid><description>&lt;p&gt;This is the minimal (&amp;ldquo;slim&amp;rdquo;) variant of the official Docker image for
-Debian 11 (codenamed &amp;ldquo;Bullseye&amp;rdquo;), which now serves as the &amp;ldquo;oldstable&amp;rdquo;
-release. It&amp;rsquo;s a &amp;ldquo;minbase&amp;rdquo; install of Debian where non-essential
-files—such as man pages, documentation, and extra utilities—have been
-removed to create the smallest possible image size . This results in a
-significantly reduced attack surface and faster container deployments,
-making it a highly reliable and secure base OS for containerized
-applications that depend on the stability of the Bullseye package set.&lt;/p&gt;</description></item><item><title>Debian 12 Slim</title><link>https://sourcemation.com/catalog/debian-12-slim/</link><pubDate>Tue, 16 Sep 2025 15:44:01 +0200</pubDate><guid>https://sourcemation.com/catalog/debian-12-slim/</guid><description>&lt;p&gt;This is the minimal (&amp;ldquo;slim&amp;rdquo;) variant of the official Docker image for
-Debian 12 (codenamed &amp;ldquo;Bookworm&amp;rdquo;), the current stable operating system.
-Like other slim images, it&amp;rsquo;s stripped of all non-essential packages
-(like documentation and locales) to create the smallest possible base
-for secure, fast-deploying applications. It includes the more modern
-toolchain from the &amp;ldquo;Bookworm&amp;rdquo; release, which is built on Linux Kernel
-6.1 and includes newer packages like Python 3.11 and PostgreSQL 15,
-providing a modern yet highly stable OS layer for new cloud-native
-services.&lt;/p&gt;</description></item><item><title>Helidon</title><link>https://sourcemation.com/catalog/helidon/</link><pubDate>Tue, 16 Sep 2025 15:33:52 +0200</pubDate><guid>https://sourcemation.com/catalog/helidon/</guid><description>&lt;p&gt;Helidon is an open-source, cloud-native set of Java libraries from
+monitoring API performance.&lt;/p&gt;</description></item><item><title>Helidon</title><link>https://sourcemation.com/catalog/helidon/</link><pubDate>Tue, 16 Sep 2025 15:33:52 +0200</pubDate><guid>https://sourcemation.com/catalog/helidon/</guid><description>&lt;p&gt;Helidon is an open-source, cloud-native set of Java libraries from
 Oracle for building microservices. It provides two distinct paths for
 development. Helidon SE is a lightweight, &amp;ldquo;reactive&amp;rdquo; toolkit that uses
 a functional, non-blocking approach (built on Netty) for maximum
