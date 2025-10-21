@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on SourceMation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 20 Oct 2025 02:10:43 +0200</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>MariaDB</title><link>https://sourcemation.com/catalog/mariadb/</link><pubDate>Mon, 20 Oct 2025 02:10:43 +0200</pubDate><guid>https://sourcemation.com/catalog/mariadb/</guid><description>&lt;p&gt;MariaDB is a popular open source relational database that was created by the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on SourceMation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 21 Oct 2025 01:54:41 +0200</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>ZooKeeper</title><link>https://sourcemation.com/catalog/zookeeper/</link><pubDate>Tue, 21 Oct 2025 01:54:41 +0200</pubDate><guid>https://sourcemation.com/catalog/zookeeper/</guid><description>&lt;p&gt;Apache ZooKeeper is a well-known high-performance, centralized service
+providing coordination primitives. It&amp;rsquo;s frequently used with distributed
+applications, as all of them need this kind of synchronization in one form or
+another.&lt;/p&gt;
+&lt;p&gt;The most important features provided by ZooKeeper include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Synchronization: Reliable way to coordinate access to shared resources.&lt;/li&gt;
+&lt;li&gt;Configuration: Centralized service for configuration management.&lt;/li&gt;
+&lt;li&gt;Naming: Distributed naming registry.&lt;/li&gt;
+&lt;li&gt;Group Services: Facilitates group membership and leader/followers election.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ZooKeeper is engineered with ultra large-scale systems, that require high
+throughput, low latency, fault-tolerance, and high availability.&lt;/p&gt;</description></item><item><title>Git</title><link>https://sourcemation.com/catalog/git/</link><pubDate>Mon, 20 Oct 2025 17:52:16 +0200</pubDate><guid>https://sourcemation.com/catalog/git/</guid><description>&lt;p&gt;Git is well-known as &amp;ldquo;the stupid content tracker&amp;rdquo; made by Linus Torvalds after
+problems with BitKeeper licensing in early 2000s. It was designed to be fast,
+efficient, and capable of handling large projects with ease - as Linux kernel
+itself is one of the biggest open source projects ever created. Today git is
+de-facto standard for version control in software development, with a vast
+ecosystem of plugins, integrations, and hosting services built around it.&lt;/p&gt;</description></item><item><title>MariaDB</title><link>https://sourcemation.com/catalog/mariadb/</link><pubDate>Mon, 20 Oct 2025 02:10:43 +0200</pubDate><guid>https://sourcemation.com/catalog/mariadb/</guid><description>&lt;p&gt;MariaDB is a popular open source relational database that was created by the
 original developers of MySQL. It&amp;rsquo;s well known for better performance,
 scalability, and having more features compared to MySQL, while being in most
 cases a drop-in-replacement for MySQL. It&amp;rsquo;s managed by the MariaDB Foundation to
