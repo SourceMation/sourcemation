@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on SourceMation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 26 Sep 2025 14:05:22 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://sourcemation.com/catalog/hugo/</link><pubDate>Fri, 26 Sep 2025 14:05:22 +0200</pubDate><guid>https://sourcemation.com/catalog/hugo/</guid><description>&lt;p&gt;Hugo is one of the world&amp;rsquo;s most popular open-source static site generators (SSGs),
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 26 Sep 2025 14:05:22 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo</title><link>https://sourcemation.com/catalog/hugo/</link><pubDate>Fri, 26 Sep 2025 14:05:22 +0200</pubDate><guid>https://sourcemation.com/catalog/hugo/</guid><description>&lt;p&gt;Hugo is one of the world&amp;rsquo;s most popular open-source static site generators (SSGs),
 written in the Go programming language. It is renowned for its blazing-fast
 build speeds, often rendering even large, complex websites in a fraction of
 a second. Hugo takes content written in markdown, processes it through
@@ -21,35 +21,35 @@ robustness.&lt;/p&gt;</description></item><item><title>NodeJS 20</title><link>ht
 &lt;p&gt;Node.js 20 offers a mature and reliable platform for JavaScript development, supporting everything from lightweight
 utilities to enterprise-grade applications. Its proven stability and extensive ecosystem make it an excellent choice for
 production environments requiring long-term support.&lt;/p&gt;
-&lt;p&gt;SourceMation&amp;rsquo;s Node.js 20 distribution is built on our hardened Debian 12 Slim base image and includes Yarn Classic
+&lt;p&gt;Sourcemation&amp;rsquo;s Node.js 20 distribution is built on our hardened Debian 12 Slim base image and includes Yarn Classic
 package manager for enhanced dependency management. This build-optimized version contains all necessary compilation
 tools and development packages, ensuring seamless integration with complex Node.js projects that require native module
 compilation and advanced build workflows.&lt;/p&gt;</description></item><item><title>NodeJS 22</title><link>https://sourcemation.com/catalog/nodejs-22/</link><pubDate>Wed, 17 Sep 2025 13:36:50 +0200</pubDate><guid>https://sourcemation.com/catalog/nodejs-22/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Node.js 22 provides a robust foundation for developing modern JavaScript applications across diverse use cases, from
 simple automation scripts to complex enterprise platforms. Its asynchronous, event-driven architecture enables efficient
 handling of concurrent operations while maintaining excellent performance characteristics.&lt;/p&gt;
-&lt;p&gt;Our Node.js 22 container builds upon the secure SourceMation Debian 12 Slim base image and includes Yarn Classic for
+&lt;p&gt;Our Node.js 22 container builds upon the secure Sourcemation Debian 12 Slim base image and includes Yarn Classic for
 streamlined dependency management. The distribution is optimized for development workflows and includes compilation
 tools necessary for building native modules, making it ideal for professional development environments where build
 reproducibility is essential.&lt;/p&gt;</description></item><item><title>NodeJS 24</title><link>https://sourcemation.com/catalog/nodejs-24/</link><pubDate>Wed, 17 Sep 2025 13:33:29 +0200</pubDate><guid>https://sourcemation.com/catalog/nodejs-24/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Node.js 24 delivers exceptional performance for modern JavaScript applications, enabling developers to build everything
 from APIs to real-time applications using a single language across the entire stack. Its event-driven, non-blocking I/O
 model makes it particularly well-suited for data-intensive applications that run across distributed devices.&lt;/p&gt;
-&lt;p&gt;SourceMation&amp;rsquo;s Node.js 24 distribution comes bundled with Yarn Classic package manager and essential build tools on our
+&lt;p&gt;Sourcemation&amp;rsquo;s Node.js 24 distribution comes bundled with Yarn Classic package manager and essential build tools on our
 secure Debian 12 Slim foundation. This comprehensive setup provides developers with everything needed for advanced
 Node.js development workflows, including compilation capabilities and dependency management. While this results in a
 larger image size, it ensures complete functionality for professional development environments.&lt;/p&gt;</description></item><item><title>Openapi Generator CLI</title><link>https://sourcemation.com/catalog/openapi-generator-cli/</link><pubDate>Wed, 17 Sep 2025 13:11:55 +0200</pubDate><guid>https://sourcemation.com/catalog/openapi-generator-cli/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;The OpenAPI Generator CLI is a powerful command-line utility that automates the creation of client libraries, server
 stubs, and API documentation from OpenAPI specifications. This tool significantly accelerates development workflows by
 generating consistent, well-structured code across multiple programming languages and frameworks.&lt;/p&gt;
-&lt;p&gt;SourceMation&amp;rsquo;s distribution comes pre-configured with a secure user environment and includes an enhanced CLI script for
+&lt;p&gt;Sourcemation&amp;rsquo;s distribution comes pre-configured with a secure user environment and includes an enhanced CLI script for
 simplified version management. The container is built with security best practices, running under a non-root user
 account to minimize potential attack vectors. Our automated build process ensures you receive the latest stable release
 with all necessary dependencies properly configured for immediate use.&lt;/p&gt;</description></item><item><title>Python 3.12</title><link>https://sourcemation.com/catalog/python-3.12/</link><pubDate>Wed, 17 Sep 2025 13:00:30 +0200</pubDate><guid>https://sourcemation.com/catalog/python-3.12/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Python delivers exceptional productivity through its intuitive syntax and comprehensive standard library, empowering
 developers across web development, data analysis, and automation projects. The language&amp;rsquo;s design philosophy emphasizes
 code readability and developer efficiency.&lt;/p&gt;
-&lt;p&gt;This Python 3.12 build is automatically compiled and maintained by SourceMation&amp;rsquo;s secure infrastructure. Each release
+&lt;p&gt;This Python 3.12 build is automatically compiled and maintained by Sourcemation&amp;rsquo;s secure infrastructure. Each release
 includes the latest security patches and comes pre-configured with pip, providing you with a reliable and up-to-date
 Python environment for your projects.&lt;/p&gt;</description></item><item><title>JRE-21</title><link>https://sourcemation.com/catalog/jre-21/</link><pubDate>Tue, 16 Sep 2025 16:31:38 +0200</pubDate><guid>https://sourcemation.com/catalog/jre-21/</guid><description>&lt;p&gt;JRE 21 is the Java Runtime Environment derived from the JDK 21
 Long-Term Support (LTS) release, and it&amp;rsquo;s intended for end-users or
@@ -91,14 +91,14 @@ Boot or Micronaut) for enterprise Java developers.&lt;/p&gt;</description></item
 &lt;p&gt;Python excels as a versatile programming language that combines elegant syntax with powerful capabilities, making it an
 ideal choice for everything from web applications to machine learning projects. Its emphasis on code clarity and
 extensive library ecosystem enables rapid development across multiple domains.&lt;/p&gt;
-&lt;p&gt;Our Python 3.11 distribution is automatically built from verified source code by SourceMation&amp;rsquo;s secure build
+&lt;p&gt;Our Python 3.11 distribution is automatically built from verified source code by Sourcemation&amp;rsquo;s secure build
 infrastructure. This release receives consistent patch updates and includes pip pre-installed for convenient package
 management. Built on our optimized Debian 12 slim base image, it provides a secure, self-contained Python environment
 with cryptographic verification throughout the build process.&lt;/p&gt;</description></item><item><title>Python 3.13</title><link>https://sourcemation.com/catalog/python-3.13/</link><pubDate>Tue, 16 Sep 2025 14:57:30 +0200</pubDate><guid>https://sourcemation.com/catalog/python-3.13/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Python stands out as a highly readable and versatile programming language, making it ideal for diverse applications from
 web development to machine learning. Its clean syntax and rich library ecosystem enable developers to build robust
 solutions efficiently.&lt;/p&gt;
-&lt;p&gt;Our Python 3.13 distribution is built from the latest sources by SourceMation&amp;rsquo;s automation infrastructure. This version
+&lt;p&gt;Our Python 3.13 distribution is built from the latest sources by Sourcemation&amp;rsquo;s automation infrastructure. This version
 receives regular patch updates and includes pip for streamlined package management, ensuring you have the most current
 and secure Python environment.&lt;/p&gt;</description></item><item><title>Erlang</title><link>https://sourcemation.com/catalog/erlang/</link><pubDate>Tue, 16 Sep 2025 14:55:54 +0200</pubDate><guid>https://sourcemation.com/catalog/erlang/</guid><description>&lt;p&gt;Erlang is a functional programming language and runtime environment
 (known as OTP - Open Telecom Platform) built by Ericsson. Its entire

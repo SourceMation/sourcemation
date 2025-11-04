@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on SourceMation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on SourceMation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 20 Oct 2025 02:10:43 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>MariaDB</title><link>https://sourcemation.com/catalog/mariadb/</link><pubDate>Mon, 20 Oct 2025 02:10:43 +0200</pubDate><guid>https://sourcemation.com/catalog/mariadb/</guid><description>&lt;p&gt;MariaDB is a popular open source relational database that was created by the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Sourcemation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 20 Oct 2025 02:10:43 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>MariaDB</title><link>https://sourcemation.com/catalog/mariadb/</link><pubDate>Mon, 20 Oct 2025 02:10:43 +0200</pubDate><guid>https://sourcemation.com/catalog/mariadb/</guid><description>&lt;p&gt;MariaDB is a popular open source relational database that was created by the
 original developers of MySQL. It&amp;rsquo;s well known for better performance,
 scalability, and having more features compared to MySQL, while being in most
 cases a drop-in-replacement for MySQL. It&amp;rsquo;s managed by the MariaDB Foundation to
@@ -7,14 +7,14 @@ use the official MariaDB packages and is optimized for container workloads.&lt;/
 &lt;p&gt;PostgreSQL 16 represents a mature and battle-tested database solution that has evolved through decades of continuous
 innovation and community contribution. This version combines advanced SQL capabilities with exceptional stability,
 making it the preferred choice for mission-critical applications across industries.&lt;/p&gt;
-&lt;p&gt;SourceMation&amp;rsquo;s PostgreSQL 16 distribution is compiled using our secure automated build system on the latest Debian 12
+&lt;p&gt;Sourcemation&amp;rsquo;s PostgreSQL 16 distribution is compiled using our secure automated build system on the latest Debian 12
 Slim foundation. Each build undergoes rigorous verification processes including cryptographic validation of source
 materials, ensuring you receive a hardened and trustworthy database platform. Regular maintenance updates keep your
 installation current with the latest security patches and performance improvements.&lt;/p&gt;</description></item><item><title>Postgres 17</title><link>https://sourcemation.com/catalog/postgres-17/</link><pubDate>Wed, 17 Sep 2025 13:03:18 +0200</pubDate><guid>https://sourcemation.com/catalog/postgres-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;PostgreSQL stands as one of the most sophisticated open-source database systems available, offering enterprise-level
 capabilities with over three decades of continuous development. Known for its exceptional reliability, extensibility,
 and standards compliance, it supports both SQL relational and JSON non-relational querying.&lt;/p&gt;
-&lt;p&gt;Our PostgreSQL 17 container is meticulously built by SourceMation&amp;rsquo;s automated infrastructure using the latest stable
+&lt;p&gt;Our PostgreSQL 17 container is meticulously built by Sourcemation&amp;rsquo;s automated infrastructure using the latest stable
 release. Running on our optimized Debian 12 Slim base image, this distribution ensures minimal attack surface while
 maintaining full functionality. The build pipeline includes cryptographic verification of all source components,
 delivering a secure and trustworthy database solution for production environments.&lt;/p&gt;</description></item><item><title>CloudNativePG-16</title><link>https://sourcemation.com/catalog/cnpg-16/</link><pubDate>Tue, 16 Sep 2025 14:30:59 +0200</pubDate><guid>https://sourcemation.com/catalog/cnpg-16/</guid><description>&lt;p&gt;CloudNativePG (CNPG) is a Kubernetes operator designed by PostgreSQL
