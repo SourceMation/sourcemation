@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Sourcemation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 20 Oct 2025 02:10:43 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>MariaDB</title><link>https://sourcemation.com/catalog/mariadb/</link><pubDate>Mon, 20 Oct 2025 02:10:43 +0200</pubDate><guid>https://sourcemation.com/catalog/mariadb/</guid><description>&lt;p&gt;MariaDB is a popular open source relational database that was created by the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Sourcemation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 28 Oct 2025 14:38:55 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>MySQL</title><link>https://sourcemation.com/catalog/mysql/</link><pubDate>Tue, 28 Oct 2025 14:38:55 +0100</pubDate><guid>https://sourcemation.com/catalog/mysql/</guid><description>&lt;p&gt;MySQL database management system is a widely used open-source relational
+database. Its famous adopters are WordPress, GitHub, Airbnb and many, many
+more. It&amp;rsquo;s developed and maintained by Oracle Corporation and is available
+under the GNU General Public License (GPL) as well as under a proprietary
+license for those who require advanced features and support. The Oracle
+Corporation involvement is also a reason why MySQL is often chosen for
+enterprise applications, on the other hand there are also forks like MariaDB
+which are fully open source and might provide additional features and risk-free
+usage without concerns about licensing.&lt;/p&gt;</description></item><item><title>MariaDB</title><link>https://sourcemation.com/catalog/mariadb/</link><pubDate>Mon, 20 Oct 2025 02:10:43 +0200</pubDate><guid>https://sourcemation.com/catalog/mariadb/</guid><description>&lt;p&gt;MariaDB is a popular open source relational database that was created by the
 original developers of MySQL. It&amp;rsquo;s well known for better performance,
 scalability, and having more features compared to MySQL, while being in most
 cases a drop-in-replacement for MySQL. It&amp;rsquo;s managed by the MariaDB Foundation to

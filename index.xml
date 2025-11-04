@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sourcemation</title><link>https://sourcemation.com/</link><description>Recent content on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 28 Oct 2025 14:39:08 +0100</lastBuildDate><atom:link href="https://sourcemation.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Matomo</title><link>https://sourcemation.com/catalog/matomo/</link><pubDate>Tue, 28 Oct 2025 14:39:08 +0100</pubDate><guid>https://sourcemation.com/catalog/matomo/</guid><description>&lt;p&gt;Matomo is a leading open-source web analytics platform that is well-known for
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sourcemation</title><link>https://sourcemation.com/</link><description>Recent content on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 04 Nov 2025 17:03:17 +0100</lastBuildDate><atom:link href="https://sourcemation.com/index.xml" rel="self" type="application/rss+xml"/><item><title>JDK 17</title><link>https://sourcemation.com/catalog/jdk-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jdk-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Based on the official OpenJDK Java Development Kit for the Java 17 Long-Term
+Support (LTS) release, designed for application developers. It includes all the
+tools needed to compile, run, and debug Java applications, such as the javac
+compiler and the Java Virtual Machine.&lt;/p&gt;
+&lt;p&gt;JDK 17&amp;rsquo;s end of life date is 31st October 2027, making it a suitable choice for
+users seeking a platform to run not only new but also existing applications that
+require long-term stability and support.&lt;/p&gt;</description></item><item><title>JRE 17</title><link>https://sourcemation.com/catalog/jre-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jre-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Based on the official OpenJDK JRE for the Java 17 Long-Term Support (LTS)
+release, designed for application runtimes. It includes all the tools needed to run Java applications, such as the Java Virtual Machine (JVM), core libraries, and standard utilities.&lt;/p&gt;
+&lt;p&gt;JDK/JRE 17 end of life date is 31st October 2027, making it a suitable choice for
+users seeking a platform to run not only new but also existing applications that
+require long-term stability and support.&lt;/p&gt;</description></item><item><title>Matomo</title><link>https://sourcemation.com/catalog/matomo/</link><pubDate>Tue, 28 Oct 2025 14:39:08 +0100</pubDate><guid>https://sourcemation.com/catalog/matomo/</guid><description>&lt;p&gt;Matomo is a leading open-source web analytics platform that is well-known for
 respecting user privacy and data ownership. This type of analytics is an
 ethical and compliant choice for website owners who want to gain insights into
 their visitors without compromising their privacy and leaking their data to
@@ -16,7 +28,21 @@ first release was just cleaned up code from their implementation of LDAP. Over
 the years OpenLDAP has grown and now is the de facto standard for LDAP
 implementations on Linux and other Unix-like operating systems. The LDAP
 protocol is used for directory services and authentication, and it is widely
-used in both educational and corporate environments.&lt;/p&gt;</description></item><item><title>ZooKeeper</title><link>https://sourcemation.com/catalog/zookeeper/</link><pubDate>Tue, 21 Oct 2025 01:54:41 +0200</pubDate><guid>https://sourcemation.com/catalog/zookeeper/</guid><description>&lt;p&gt;Apache ZooKeeper is a well-known high-performance, centralized service
+used in both educational and corporate environments.&lt;/p&gt;</description></item><item><title>MySQL</title><link>https://sourcemation.com/catalog/mysql/</link><pubDate>Tue, 28 Oct 2025 14:38:55 +0100</pubDate><guid>https://sourcemation.com/catalog/mysql/</guid><description>&lt;p&gt;MySQL database management system is a widely used open-source relational
+database. Its famous adopters are WordPress, GitHub, Airbnb and many, many
+more. It&amp;rsquo;s developed and maintained by Oracle Corporation and is available
+under the GNU General Public License (GPL) as well as under a proprietary
+license for those who require advanced features and support. The Oracle
+Corporation involvement is also a reason why MySQL is often chosen for
+enterprise applications, on the other hand there are also forks like MariaDB
+which are fully open source and might provide additional features and risk-free
+usage without concerns about licensing.&lt;/p&gt;</description></item><item><title>WordPress</title><link>https://sourcemation.com/catalog/wordpress/</link><pubDate>Tue, 21 Oct 2025 10:48:50 +0200</pubDate><guid>https://sourcemation.com/catalog/wordpress/</guid><description>&lt;p&gt;WordPress is the world&amp;rsquo;s most popular website builder and content management
+system (CMS). It is powering over 40% of all websites on the Internet (2025).
+WordPress is built on PHP and can use MySQL or MariaDB as its database backend.
+WordPress is simple, user-friendly, feature-rich and highly customizable.
+Built-in user management, content management, media support, and SEO tools make
+it great choice for bloggers, businesses, non-profits but also large
+enterprises.&lt;/p&gt;</description></item><item><title>ZooKeeper</title><link>https://sourcemation.com/catalog/zookeeper/</link><pubDate>Tue, 21 Oct 2025 01:54:41 +0200</pubDate><guid>https://sourcemation.com/catalog/zookeeper/</guid><description>&lt;p&gt;Apache ZooKeeper is a well-known high-performance, centralized service
 providing coordination primitives. It&amp;rsquo;s frequently used with distributed
 applications, as all of them need this kind of synchronization in one form or
 another.&lt;/p&gt;
