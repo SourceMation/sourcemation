@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Sourcemation</title><link>https://sourcemation.com/categories/security/</link><description>Recent content in Security on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 28 Oct 2025 14:39:04 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/security/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenLDAP</title><link>https://sourcemation.com/catalog/openldap/</link><pubDate>Tue, 28 Oct 2025 14:39:04 +0100</pubDate><guid>https://sourcemation.com/catalog/openldap/</guid><description>&lt;p&gt;OpenLDAP is the most popular open-source implementation of the Lightweight
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Sourcemation</title><link>https://sourcemation.com/categories/security/</link><description>Recent content in Security on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:26:03 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
+serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
+enables processing, indexing, and analysis of large datasets in
+real-time. It functions as a central component of the Elastic Stack,
+which also includes Kibana for data visualization and Logstash for log
+processing. Elasticsearch is utilized in various fields such as log
+analysis, IT infrastructure monitoring, business data analysis,
+content searching, and information security.&lt;/p&gt;</description></item><item><title>OpenLDAP</title><link>https://sourcemation.com/catalog/openldap/</link><pubDate>Tue, 28 Oct 2025 14:39:04 +0100</pubDate><guid>https://sourcemation.com/catalog/openldap/</guid><description>&lt;p&gt;OpenLDAP is the most popular open-source implementation of the Lightweight
 Directory Access Protocol (LDAP). It contains all administrator goodies like a
 load balancer/proxy, libraries, clients and of course the server itself.
 OpenLDAP is managed and developed by the OpenLDAP Foundation. OpenLDAP has a
@@ -54,13 +61,7 @@ processing of large datasets across multiple nodes, providing high
 performance and scalability, and supports advanced business analytics
 and big data processing.&lt;/p&gt;</description></item><item><title>Sealed Secrets</title><link>https://sourcemation.com/catalog/sealed-secrets/</link><pubDate>Mon, 15 Sep 2025 22:21:43 +0200</pubDate><guid>https://sourcemation.com/catalog/sealed-secrets/</guid><description>&lt;p&gt;Sealed Secret is a tool used in the Kubernetes ecosystem for securely
 storing sensitive data, such as passwords or private keys.&lt;/p&gt;</description></item><item><title>Harbor</title><link>https://sourcemation.com/catalog/harbor/</link><pubDate>Mon, 15 Sep 2025 21:55:16 +0200</pubDate><guid>https://sourcemation.com/catalog/harbor/</guid><description>&lt;p&gt;Harbor operates as a platform enabling the management of container
-repositories in Kubernetes environments.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Mon, 15 Sep 2025 21:34:46 +0200</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
-enables processing, indexing, and analysis of large datasets in
-real-time. It functions as a central component of the Elastic Stack,
-which also includes Kibana for data visualization and Logstash for log
-processing. Elasticsearch is utilized in various fields such as log
-analysis, IT infrastructure monitoring, business data analysis,
-content searching, and information security.&lt;/p&gt;</description></item><item><title>Trivy</title><link>https://sourcemation.com/catalog/trivy/</link><pubDate>Mon, 15 Sep 2025 19:47:26 +0200</pubDate><guid>https://sourcemation.com/catalog/trivy/</guid><description>&lt;p&gt;Trivy is a vulnerability analysis tool for containers. It is a
+repositories in Kubernetes environments.&lt;/p&gt;</description></item><item><title>Trivy</title><link>https://sourcemation.com/catalog/trivy/</link><pubDate>Mon, 15 Sep 2025 19:47:26 +0200</pubDate><guid>https://sourcemation.com/catalog/trivy/</guid><description>&lt;p&gt;Trivy is a vulnerability analysis tool for containers. It is a
 vulnerability scanner that automatically scans container images and
 reports discovered security vulnerabilities and other potential
 threats.&lt;/p&gt;</description></item><item><title>Sonarqube</title><link>https://sourcemation.com/catalog/sonarqube/</link><pubDate>Mon, 15 Sep 2025 18:56:29 +0200</pubDate><guid>https://sourcemation.com/catalog/sonarqube/</guid><description>&lt;p&gt;SonarQube operates as a platform for automatic code quality analysis.&lt;/p&gt;</description></item><item><title>Kyverno</title><link>https://sourcemation.com/catalog/kyverno/</link><pubDate>Mon, 15 Sep 2025 18:37:50 +0200</pubDate><guid>https://sourcemation.com/catalog/kyverno/</guid><description>&lt;p&gt;Kyverno is an open source policy engine for Kubernetes, enabling the
@@ -87,8 +88,7 @@ Processing) model, it supports real-time analytical and operational
 queries, making it ideal for big data applications, recommendation
 systems, and business dashboards. Apache Doris offers
 user-friendliness and integration with popular analytics tools,
-enabling quick deployment and efficient report generation.&lt;/p&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Mon, 15 Sep 2025 16:19:59 +0200</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
-serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>ActiveMQ</title><link>https://sourcemation.com/catalog/apache-activemq/</link><pubDate>Mon, 15 Sep 2025 15:56:03 +0200</pubDate><guid>https://sourcemation.com/catalog/apache-activemq/</guid><description>&lt;p&gt;ActiveMQ is an open-source message queuing system that supports
+enabling quick deployment and efficient report generation.&lt;/p&gt;</description></item><item><title>ActiveMQ</title><link>https://sourcemation.com/catalog/apache-activemq/</link><pubDate>Mon, 15 Sep 2025 15:56:03 +0200</pubDate><guid>https://sourcemation.com/catalog/apache-activemq/</guid><description>&lt;p&gt;ActiveMQ is an open-source message queuing system that supports
 protocols such as JMS, STOMP, MQTT, and AMQP. It enables asynchronous
 message exchange in distributed environments, providing reliability,
 scalability, and ease of use. Ideal for cloud and microservice

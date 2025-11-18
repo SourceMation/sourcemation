@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Sourcemation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 28 Oct 2025 14:38:55 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>MySQL</title><link>https://sourcemation.com/catalog/mysql/</link><pubDate>Tue, 28 Oct 2025 14:38:55 +0100</pubDate><guid>https://sourcemation.com/catalog/mysql/</guid><description>&lt;p&gt;MySQL database management system is a widely used open-source relational
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Sourcemation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:22:27 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
+enables processing, indexing, and analysis of large datasets in
+real-time. It functions as a central component of the Elastic Stack,
+which also includes Kibana for data visualization and Logstash for log
+processing. Elasticsearch is utilized in various fields such as log
+analysis, IT infrastructure monitoring, business data analysis,
+content searching, and information security.&lt;/p&gt;</description></item><item><title>MySQL</title><link>https://sourcemation.com/catalog/mysql/</link><pubDate>Tue, 28 Oct 2025 14:38:55 +0100</pubDate><guid>https://sourcemation.com/catalog/mysql/</guid><description>&lt;p&gt;MySQL database management system is a widely used open-source relational
 database. Its famous adopters are WordPress, GitHub, Airbnb and many, many
 more. It&amp;rsquo;s developed and maintained by Oracle Corporation and is available
 under the GNU General Public License (GPL) as well as under a proprietary
@@ -70,13 +76,7 @@ providing a fast and secure process for data migration and system
 updates. It minimizes the risk of errors and downtime, supporting
 software modernization and data conversion. It also offers monitoring
 and rollback mechanisms, ensuring compliance and stability in
-production systems.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Mon, 15 Sep 2025 21:34:46 +0200</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
-enables processing, indexing, and analysis of large datasets in
-real-time. It functions as a central component of the Elastic Stack,
-which also includes Kibana for data visualization and Logstash for log
-processing. Elasticsearch is utilized in various fields such as log
-analysis, IT infrastructure monitoring, business data analysis,
-content searching, and information security.&lt;/p&gt;</description></item><item><title>MongoDB</title><link>https://sourcemation.com/catalog/mongodb/</link><pubDate>Mon, 15 Sep 2025 21:01:24 +0200</pubDate><guid>https://sourcemation.com/catalog/mongodb/</guid><description>&lt;p&gt;MongoDB is a high-performance, document-oriented NoSQL database.
+production systems.&lt;/p&gt;</description></item><item><title>MongoDB</title><link>https://sourcemation.com/catalog/mongodb/</link><pubDate>Mon, 15 Sep 2025 21:01:24 +0200</pubDate><guid>https://sourcemation.com/catalog/mongodb/</guid><description>&lt;p&gt;MongoDB is a high-performance, document-oriented NoSQL database.
 Instead of storing data in rigid tables and rows (like a relational
 database), it stores data in flexible, JSON-like &amp;ldquo;documents&amp;rdquo; within
 &amp;ldquo;collections.&amp;rdquo; This &amp;ldquo;schema-less&amp;rdquo; model allows developers to store and
@@ -88,10 +88,7 @@ database objects in Greenplum DB. Currently it supports to set quota
 limit on schema and role in a given database and limit the amount of
 disk space that a schema or a role can use.&lt;/p&gt;</description></item><item><title>PostgreSQL</title><link>https://sourcemation.com/catalog/postgresql/</link><pubDate>Mon, 15 Sep 2025 20:02:00 +0200</pubDate><guid>https://sourcemation.com/catalog/postgresql/</guid><description>&lt;p&gt;PostgreSQL is acknowledged as a sophisticated Relational Database
 Management System (RDBMS) renowned for its robust support of advanced
-data types.&lt;/p&gt;</description></item><item><title>Prometheus</title><link>https://sourcemation.com/catalog/prometheus/</link><pubDate>Mon, 15 Sep 2025 19:20:32 +0200</pubDate><guid>https://sourcemation.com/catalog/prometheus/</guid><description>&lt;p&gt;Prometheus is a monitoring and alerting system widely used in cloud
-and microservices environments. It is an open-source tool that enables
-the collection of metrics from various components of IT
-infrastructure, such as servers, containers, databases, etc.&lt;/p&gt;</description></item><item><title>Pgadmin</title><link>https://sourcemation.com/catalog/pgadmin/</link><pubDate>Mon, 15 Sep 2025 19:06:25 +0200</pubDate><guid>https://sourcemation.com/catalog/pgadmin/</guid><description>&lt;p&gt;pgAdmin functions as an open-source platform for administering and developing PostgreSQL.&lt;/p&gt;</description></item><item><title>ClickHouse</title><link>https://sourcemation.com/catalog/clickhouse/</link><pubDate>Mon, 15 Sep 2025 17:31:52 +0200</pubDate><guid>https://sourcemation.com/catalog/clickhouse/</guid><description>&lt;p&gt;ClickHouse is an open-source, columnar database specializing in
+data types.&lt;/p&gt;</description></item><item><title>Pgadmin</title><link>https://sourcemation.com/catalog/pgadmin/</link><pubDate>Mon, 15 Sep 2025 19:06:25 +0200</pubDate><guid>https://sourcemation.com/catalog/pgadmin/</guid><description>&lt;p&gt;pgAdmin functions as an open-source platform for administering and developing PostgreSQL.&lt;/p&gt;</description></item><item><title>ClickHouse</title><link>https://sourcemation.com/catalog/clickhouse/</link><pubDate>Mon, 15 Sep 2025 17:31:52 +0200</pubDate><guid>https://sourcemation.com/catalog/clickhouse/</guid><description>&lt;p&gt;ClickHouse is an open-source, columnar database specializing in
 ultra-fast analytics and real-time processing of large data volumes.
 Optimized for handling massive datasets, ClickHouse enables
 lightning-fast execution of complex SQL queries, making it ideal for
