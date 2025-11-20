@@ -1,9 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Observability on Sourcemation</title><link>https://sourcemation.com/categories/observability/</link><description>Recent content in Observability on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:29:41 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/observability/index.xml" rel="self" type="application/rss+xml"/><item><title>Prometheus</title><link>https://sourcemation.com/catalog/prometheus/</link><pubDate>Thu, 06 Nov 2025 10:29:41 +0100</pubDate><guid>https://sourcemation.com/catalog/prometheus/</guid><description>&lt;p&gt;Prometheus is an open-source monitoring and alerting toolkit.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Observability on Sourcemation</title><link>https://sourcemation.com/categories/observability/</link><description>Recent content in Observability on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:30:03 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/observability/index.xml" rel="self" type="application/rss+xml"/><item><title>Prometheus Operator</title><link>https://sourcemation.com/catalog/prometheus-operator/</link><pubDate>Thu, 06 Nov 2025 10:30:03 +0100</pubDate><guid>https://sourcemation.com/catalog/prometheus-operator/</guid><description>&lt;p&gt;The Prometheus Operator simplifies the deployment and management
+of Prometheus and Alertmanager instances on Kubernetes. It introduces
+custom resource definitions (CRDs) for easy configuration and monitoring
+setup. This operator ensures that Prometheus instances are configured
+correctly to collect metrics from your applications. It also handles
+the lifecycle management, including upgrades and backups, for reliable
+monitoring operations. By automating these tasks, the Operator
+significantly reduces the operational burden. It helps maintain a robust
+and scalable observability stack within your Kubernetes clusters.&lt;/p&gt;</description></item><item><title>Prometheus</title><link>https://sourcemation.com/catalog/prometheus/</link><pubDate>Thu, 06 Nov 2025 10:29:41 +0100</pubDate><guid>https://sourcemation.com/catalog/prometheus/</guid><description>&lt;p&gt;Prometheus is an open-source monitoring and alerting toolkit.
 It collects and stores metrics as time series data,
 recording information with a timestamp.
 It features a powerful query language called PromQL,
 allowing users to select and aggregate data in real-time.
-Prometheus is widely used for monitoring dynamic cloud-native environments.&lt;/p&gt;</description></item><item><title>Metrics Server</title><link>https://sourcemation.com/catalog/metrics-server/</link><pubDate>Thu, 06 Nov 2025 10:27:00 +0100</pubDate><guid>https://sourcemation.com/catalog/metrics-server/</guid><description>&lt;p&gt;A cluster-wide aggregator of resource usage data. It collects CPU
+Prometheus is widely used for monitoring dynamic cloud-native environments.&lt;/p&gt;</description></item><item><title>PostgreSQL Exporter</title><link>https://sourcemation.com/catalog/postgres-exporter/</link><pubDate>Thu, 06 Nov 2025 10:29:06 +0100</pubDate><guid>https://sourcemation.com/catalog/postgres-exporter/</guid><description>&lt;p&gt;Postgres-exporter is a powerful Prometheus exporter designed to
+collect comprehensive metrics from PostgreSQL database servers.
+It enables detailed monitoring of database health, performance,
+and resource utilization. This tool is essential for maintaining
+the stability and efficiency of your PostgreSQL environments.&lt;/p&gt;
+&lt;p&gt;It seamlessly integrates with Prometheus for data collection and
+Grafana for intuitive visualization. By providing insights into
+key performance indicators, postgres-exporter helps database
+administrators optimize their systems. It ensures smooth and
+reliable operation of critical database infrastructure.&lt;/p&gt;</description></item><item><title>Node Exporter</title><link>https://sourcemation.com/catalog/node_exporter/</link><pubDate>Thu, 06 Nov 2025 10:27:45 +0100</pubDate><guid>https://sourcemation.com/catalog/node_exporter/</guid><description>&lt;p&gt;The Node Exporter is a crucial tool for monitoring your server&amp;rsquo;s
+health and performance. It exposes a vast array of metrics about the
+host system. These include detailed information on CPU usage, memory
+consumption, disk I/O, and network statistics. Running as a lightweight
+agent on each machine, it collects this vital data. This data is then
+scraped by a Prometheus server for storage, alerting, and analysis,
+ensuring comprehensive infrastructure observability.&lt;/p&gt;</description></item><item><title>Metrics Server</title><link>https://sourcemation.com/catalog/metrics-server/</link><pubDate>Thu, 06 Nov 2025 10:27:00 +0100</pubDate><guid>https://sourcemation.com/catalog/metrics-server/</guid><description>&lt;p&gt;A cluster-wide aggregator of resource usage data. It collects CPU
 and memory usage from all nodes and pods. Metrics Server enables
 horizontal pod autoscaling and custom metrics APIs. It is crucial
 for monitoring and resource management in Kubernetes environments.&lt;/p&gt;</description></item><item><title>Kube State Metrics</title><link>https://sourcemation.com/catalog/kube-state-metrics/</link><pubDate>Thu, 06 Nov 2025 10:26:23 +0100</pubDate><guid>https://sourcemation.com/catalog/kube-state-metrics/</guid><description>&lt;p&gt;Kube-state-metrics is an add-on agent that listens to the
@@ -41,7 +64,14 @@ that notifications are sent out efficiently, reducing alert fatigue.&lt;/p&gt;
 Slack, and custom webhooks. Alertmanager also provides silence
 and inhibition features, allowing users to manage notifications
 during maintenance windows or in response to ongoing incidents.
-This centralized system is crucial for robust monitoring setups.&lt;/p&gt;</description></item><item><title>Matomo</title><link>https://sourcemation.com/catalog/matomo/</link><pubDate>Tue, 28 Oct 2025 14:39:08 +0100</pubDate><guid>https://sourcemation.com/catalog/matomo/</guid><description>&lt;p&gt;Matomo is a leading open-source web analytics platform that is well-known for
+This centralized system is crucial for robust monitoring setups.&lt;/p&gt;</description></item><item><title>Thanos</title><link>https://sourcemation.com/catalog/thanos/</link><pubDate>Thu, 06 Nov 2025 10:19:57 +0100</pubDate><guid>https://sourcemation.com/catalog/thanos/</guid><description>&lt;p&gt;Thanos is a set of components that can be composed into a highly available
+metric system with unlimited storage capacity. It seamlessly integrates
+with Prometheus, extending its capabilities for long-term storage
+and global query views.&lt;/p&gt;
+&lt;p&gt;Thanos overcomes the single-point-of-failure limitation of Prometheus
+by offering components like Sidecar, Querier, Ruler, Store Gateway,
+and Compactor. This makes it ideal for managing metrics in large-scale,
+distributed environments.&lt;/p&gt;</description></item><item><title>Matomo</title><link>https://sourcemation.com/catalog/matomo/</link><pubDate>Tue, 28 Oct 2025 14:39:08 +0100</pubDate><guid>https://sourcemation.com/catalog/matomo/</guid><description>&lt;p&gt;Matomo is a leading open-source web analytics platform that is well-known for
 respecting user privacy and data ownership. This type of analytics is an
 ethical and compliant choice for website owners who want to gain insights into
 their visitors without compromising their privacy and leaking their data to

@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utils on Sourcemation</title><link>https://sourcemation.com/categories/utils/</link><description>Recent content in Utils on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:27:24 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/utils/index.xml" rel="self" type="application/rss+xml"/><item><title>MinIO</title><link>https://sourcemation.com/catalog/minio/</link><pubDate>Thu, 06 Nov 2025 10:27:24 +0100</pubDate><guid>https://sourcemation.com/catalog/minio/</guid><description>&lt;p&gt;MinIO is a high-performance, S3 compatible object storage
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utils on Sourcemation</title><link>https://sourcemation.com/categories/utils/</link><description>Recent content in Utils on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:30:21 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/utils/index.xml" rel="self" type="application/rss+xml"/><item><title>RabbitMQ 4</title><link>https://sourcemation.com/catalog/rabbitmq-4/</link><pubDate>Thu, 06 Nov 2025 10:30:21 +0100</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-4/</guid><description>&lt;p&gt;RabbitMQ is a sophisticated system for message queuing, serving as a
+resilient intermediary solution that facilitates seamless
+communication among different elements within distributed
+applications.&lt;/p&gt;</description></item><item><title>phpMyAdmin</title><link>https://sourcemation.com/catalog/phpmyadmin/</link><pubDate>Thu, 06 Nov 2025 10:28:24 +0100</pubDate><guid>https://sourcemation.com/catalog/phpmyadmin/</guid><description>&lt;p&gt;phpMyAdmin is a free and open-source web-based
+administration tool for MySQL and MariaDB.
+It provides a user-friendly interface to manage databases,
+tables, columns, relations, indexes, users, and permissions.
+Users can perform various operations like creating,
+modifying, or deleting databases and tables,
+executing SQL statements, and importing/exporting data.
+It is widely used by web developers and database
+administrators for its simplicity and comprehensive features.
+The tool offers extensive documentation and community support.&lt;/p&gt;</description></item><item><title>PgPool II</title><link>https://sourcemation.com/catalog/pgpool/</link><pubDate>Thu, 06 Nov 2025 10:28:05 +0100</pubDate><guid>https://sourcemation.com/catalog/pgpool/</guid><description>&lt;p&gt;PgPool-II is an essential middleware for PostgreSQL, designed
+to enhance database performance and reliability. It intelligently
+manages database connections through pooling, significantly
+reducing overhead for client applications. The software also
+offers robust load balancing capabilities, distributing queries
+across multiple PostgreSQL servers to improve scalability.
+Furthermore, PgPool-II provides native replication features,
+ensuring high availability and data redundancy. This
+comprehensive solution helps to build resilient and efficient
+PostgreSQL environments.&lt;/p&gt;</description></item><item><title>MinIO</title><link>https://sourcemation.com/catalog/minio/</link><pubDate>Thu, 06 Nov 2025 10:27:24 +0100</pubDate><guid>https://sourcemation.com/catalog/minio/</guid><description>&lt;p&gt;MinIO is a high-performance, S3 compatible object storage
 solution. It is designed for large-scale AI/ML, data lake, and
 cloud-native applications. MinIO is software-defined, runs on
 any hardware, and is optimized for flash storage. It is built
@@ -73,7 +94,14 @@ services, from virtual machines and storage accounts to web apps
 and databases. It offers a consistent and efficient way to interact with
 your cloud environment, whether you are a developer or an administrator.
 With its intuitive syntax, users can easily create, configure, and manage
-resources with precise control and flexibility.&lt;/p&gt;</description></item><item><title>JDK 17</title><link>https://sourcemation.com/catalog/jdk-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jdk-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+resources with precise control and flexibility.&lt;/p&gt;</description></item><item><title>RabbitMQ Credential Updatater</title><link>https://sourcemation.com/catalog/rabbitmq-default-user-credential-updater/</link><pubDate>Thu, 06 Nov 2025 10:19:17 +0100</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-default-user-credential-updater/</guid><description>&lt;p&gt;This utility is designed to securely update default user
+credentials for RabbitMQ instances. It ensures that standard
+login information is changed, significantly enhancing system
+security. This tool is especially useful in containerized
+and Kubernetes environments, helping prevent unauthorized
+access by modifying well-known default credentials promptly.
+The updater automates the process, making credential management
+efficient and reliable for any messaging infrastructure.&lt;/p&gt;</description></item><item><title>JDK 17</title><link>https://sourcemation.com/catalog/jdk-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jdk-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Based on the official OpenJDK Java Development Kit for the Java 17 Long-Term
 Support (LTS) release, designed for application developers. It includes all the
 tools needed to compile, run, and debug Java applications, such as the javac

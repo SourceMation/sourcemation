@@ -1,9 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on Sourcemation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:29:41 +0100</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>Prometheus</title><link>https://sourcemation.com/catalog/prometheus/</link><pubDate>Thu, 06 Nov 2025 10:29:41 +0100</pubDate><guid>https://sourcemation.com/catalog/prometheus/</guid><description>&lt;p&gt;Prometheus is an open-source monitoring and alerting toolkit.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on Sourcemation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:30:21 +0100</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>RabbitMQ 4</title><link>https://sourcemation.com/catalog/rabbitmq-4/</link><pubDate>Thu, 06 Nov 2025 10:30:21 +0100</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-4/</guid><description>&lt;p&gt;RabbitMQ is a sophisticated system for message queuing, serving as a
+resilient intermediary solution that facilitates seamless
+communication among different elements within distributed
+applications.&lt;/p&gt;</description></item><item><title>Prometheus Operator</title><link>https://sourcemation.com/catalog/prometheus-operator/</link><pubDate>Thu, 06 Nov 2025 10:30:03 +0100</pubDate><guid>https://sourcemation.com/catalog/prometheus-operator/</guid><description>&lt;p&gt;The Prometheus Operator simplifies the deployment and management
+of Prometheus and Alertmanager instances on Kubernetes. It introduces
+custom resource definitions (CRDs) for easy configuration and monitoring
+setup. This operator ensures that Prometheus instances are configured
+correctly to collect metrics from your applications. It also handles
+the lifecycle management, including upgrades and backups, for reliable
+monitoring operations. By automating these tasks, the Operator
+significantly reduces the operational burden. It helps maintain a robust
+and scalable observability stack within your Kubernetes clusters.&lt;/p&gt;</description></item><item><title>Prometheus</title><link>https://sourcemation.com/catalog/prometheus/</link><pubDate>Thu, 06 Nov 2025 10:29:41 +0100</pubDate><guid>https://sourcemation.com/catalog/prometheus/</guid><description>&lt;p&gt;Prometheus is an open-source monitoring and alerting toolkit.
 It collects and stores metrics as time series data,
 recording information with a timestamp.
 It features a powerful query language called PromQL,
 allowing users to select and aggregate data in real-time.
-Prometheus is widely used for monitoring dynamic cloud-native environments.&lt;/p&gt;</description></item><item><title>MinIO</title><link>https://sourcemation.com/catalog/minio/</link><pubDate>Thu, 06 Nov 2025 10:27:24 +0100</pubDate><guid>https://sourcemation.com/catalog/minio/</guid><description>&lt;p&gt;MinIO is a high-performance, S3 compatible object storage
+Prometheus is widely used for monitoring dynamic cloud-native environments.&lt;/p&gt;</description></item><item><title>PostgreSQL repmgr</title><link>https://sourcemation.com/catalog/postgres-repmgr/</link><pubDate>Thu, 06 Nov 2025 10:29:24 +0100</pubDate><guid>https://sourcemation.com/catalog/postgres-repmgr/</guid><description>&lt;p&gt;repmgr is a comprehensive tool for managing PostgreSQL replication clusters.
+It provides utilities to set up standby servers, monitor their status, and
+perform failover operations. repmgr simplifies the administration of highly
+available PostgreSQL environments, ensuring data consistency and continuous
+operation. It supports various replication setups, including streaming
+replication and cascading standbys, offering flexibility for complex
+architectures. This solution helps maintain business continuity by
+automating critical tasks in your database infrastructure.&lt;/p&gt;</description></item><item><title>PostgreSQL Exporter</title><link>https://sourcemation.com/catalog/postgres-exporter/</link><pubDate>Thu, 06 Nov 2025 10:29:06 +0100</pubDate><guid>https://sourcemation.com/catalog/postgres-exporter/</guid><description>&lt;p&gt;Postgres-exporter is a powerful Prometheus exporter designed to
+collect comprehensive metrics from PostgreSQL database servers.
+It enables detailed monitoring of database health, performance,
+and resource utilization. This tool is essential for maintaining
+the stability and efficiency of your PostgreSQL environments.&lt;/p&gt;
+&lt;p&gt;It seamlessly integrates with Prometheus for data collection and
+Grafana for intuitive visualization. By providing insights into
+key performance indicators, postgres-exporter helps database
+administrators optimize their systems. It ensures smooth and
+reliable operation of critical database infrastructure.&lt;/p&gt;</description></item><item><title>Postgres 18</title><link>https://sourcemation.com/catalog/postgres-18/</link><pubDate>Thu, 06 Nov 2025 10:28:44 +0100</pubDate><guid>https://sourcemation.com/catalog/postgres-18/</guid><description>&lt;p&gt;PostgreSQL stands as one of the most sophisticated open-source database systems available, offering enterprise-level
+capabilities with over three decades of continuous development. Known for its exceptional reliability, extensibility,
+and standards compliance, it supports both SQL relational and JSON non-relational querying.&lt;/p&gt;
+&lt;p&gt;Our PostgreSQL 17 container is meticulously built by Sourcemation&amp;rsquo;s automated infrastructure using the latest stable
+release. Running on our optimized Debian 12 Slim base image, this distribution ensures minimal attack surface while
+maintaining full functionality. The build pipeline includes cryptographic verification of all source components,
+delivering a secure and trustworthy database solution for production environments.&lt;/p&gt;</description></item><item><title>phpMyAdmin</title><link>https://sourcemation.com/catalog/phpmyadmin/</link><pubDate>Thu, 06 Nov 2025 10:28:24 +0100</pubDate><guid>https://sourcemation.com/catalog/phpmyadmin/</guid><description>&lt;p&gt;phpMyAdmin is a free and open-source web-based
+administration tool for MySQL and MariaDB.
+It provides a user-friendly interface to manage databases,
+tables, columns, relations, indexes, users, and permissions.
+Users can perform various operations like creating,
+modifying, or deleting databases and tables,
+executing SQL statements, and importing/exporting data.
+It is widely used by web developers and database
+administrators for its simplicity and comprehensive features.
+The tool offers extensive documentation and community support.&lt;/p&gt;</description></item><item><title>PgPool II</title><link>https://sourcemation.com/catalog/pgpool/</link><pubDate>Thu, 06 Nov 2025 10:28:05 +0100</pubDate><guid>https://sourcemation.com/catalog/pgpool/</guid><description>&lt;p&gt;PgPool-II is an essential middleware for PostgreSQL, designed
+to enhance database performance and reliability. It intelligently
+manages database connections through pooling, significantly
+reducing overhead for client applications. The software also
+offers robust load balancing capabilities, distributing queries
+across multiple PostgreSQL servers to improve scalability.
+Furthermore, PgPool-II provides native replication features,
+ensuring high availability and data redundancy. This
+comprehensive solution helps to build resilient and efficient
+PostgreSQL environments.&lt;/p&gt;</description></item><item><title>Node Exporter</title><link>https://sourcemation.com/catalog/node_exporter/</link><pubDate>Thu, 06 Nov 2025 10:27:45 +0100</pubDate><guid>https://sourcemation.com/catalog/node_exporter/</guid><description>&lt;p&gt;The Node Exporter is a crucial tool for monitoring your server&amp;rsquo;s
+health and performance. It exposes a vast array of metrics about the
+host system. These include detailed information on CPU usage, memory
+consumption, disk I/O, and network statistics. Running as a lightweight
+agent on each machine, it collects this vital data. This data is then
+scraped by a Prometheus server for storage, alerting, and analysis,
+ensuring comprehensive infrastructure observability.&lt;/p&gt;</description></item><item><title>MinIO</title><link>https://sourcemation.com/catalog/minio/</link><pubDate>Thu, 06 Nov 2025 10:27:24 +0100</pubDate><guid>https://sourcemation.com/catalog/minio/</guid><description>&lt;p&gt;MinIO is a high-performance, S3 compatible object storage
 solution. It is designed for large-scale AI/ML, data lake, and
 cloud-native applications. MinIO is software-defined, runs on
 any hardware, and is optimized for flash storage. It is built
@@ -150,7 +207,30 @@ that notifications are sent out efficiently, reducing alert fatigue.&lt;/p&gt;
 Slack, and custom webhooks. Alertmanager also provides silence
 and inhibition features, allowing users to manage notifications
 during maintenance windows or in response to ongoing incidents.
-This centralized system is crucial for robust monitoring setups.&lt;/p&gt;</description></item><item><title>JDK 17</title><link>https://sourcemation.com/catalog/jdk-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jdk-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+This centralized system is crucial for robust monitoring setups.&lt;/p&gt;</description></item><item><title>Thanos</title><link>https://sourcemation.com/catalog/thanos/</link><pubDate>Thu, 06 Nov 2025 10:19:57 +0100</pubDate><guid>https://sourcemation.com/catalog/thanos/</guid><description>&lt;p&gt;Thanos is a set of components that can be composed into a highly available
+metric system with unlimited storage capacity. It seamlessly integrates
+with Prometheus, extending its capabilities for long-term storage
+and global query views.&lt;/p&gt;
+&lt;p&gt;Thanos overcomes the single-point-of-failure limitation of Prometheus
+by offering components like Sidecar, Querier, Ruler, Store Gateway,
+and Compactor. This makes it ideal for managing metrics in large-scale,
+distributed environments.&lt;/p&gt;</description></item><item><title>RabbitMQ Messaging Topology Operator</title><link>https://sourcemation.com/catalog/rabbitmq-messaging-topology-operator/</link><pubDate>Thu, 06 Nov 2025 10:19:41 +0100</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-messaging-topology-operator/</guid><description>&lt;p&gt;The RabbitMQ Messaging Topology Operator extends Kubernetes
+with custom resources for managing RabbitMQ messaging.
+It allows users to define and manage RabbitMQ exchanges, queues,
+bindings, and other topologies directly within Kubernetes.
+This operator simplifies the deployment and lifecycle management
+of complex RabbitMQ configurations. It ensures that the desired
+RabbitMQ state is maintained and automatically reconciled.
+By leveraging Kubernetes native objects, it integrates seamlessly
+into existing GitOps and CI/CD pipelines. This enhances automation
+and consistency across environments.&lt;/p&gt;</description></item><item><title>RabbitMQ Credential Updatater</title><link>https://sourcemation.com/catalog/rabbitmq-default-user-credential-updater/</link><pubDate>Thu, 06 Nov 2025 10:19:17 +0100</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-default-user-credential-updater/</guid><description>&lt;p&gt;This utility is designed to securely update default user
+credentials for RabbitMQ instances. It ensures that standard
+login information is changed, significantly enhancing system
+security. This tool is especially useful in containerized
+and Kubernetes environments, helping prevent unauthorized
+access by modifying well-known default credentials promptly.
+The updater automates the process, making credential management
+efficient and reliable for any messaging infrastructure.&lt;/p&gt;</description></item><item><title>JDK 17</title><link>https://sourcemation.com/catalog/jdk-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jdk-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Based on the official OpenJDK Java Development Kit for the Java 17 Long-Term
 Support (LTS) release, designed for application developers. It includes all the
 tools needed to compile, run, and debug Java applications, such as the javac

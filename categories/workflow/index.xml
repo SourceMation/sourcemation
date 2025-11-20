@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on Sourcemation</title><link>https://sourcemation.com/categories/workflow/</link><description>Recent content in Workflow on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:26:03 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on Sourcemation</title><link>https://sourcemation.com/categories/workflow/</link><description>Recent content in Workflow on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:30:21 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>RabbitMQ 4</title><link>https://sourcemation.com/catalog/rabbitmq-4/</link><pubDate>Thu, 06 Nov 2025 10:30:21 +0100</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-4/</guid><description>&lt;p&gt;RabbitMQ is a sophisticated system for message queuing, serving as a
+resilient intermediary solution that facilitates seamless
+communication among different elements within distributed
+applications.&lt;/p&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
 serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Keycloak Config CLI</title><link>https://sourcemation.com/catalog/keycloak-config-cli/</link><pubDate>Thu, 06 Nov 2025 10:25:37 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak-config-cli/</guid><description>&lt;p&gt;Keycloak Config CLI is a powerful tool designed to
 automate the configuration of Keycloak instances.
 It allows administrators to manage realms, clients,
@@ -34,7 +37,16 @@ managing database deployment, high-availability configurations
 (primary/standby replication), rolling updates, backups, and failover
 procedures. It integrates directly with the Kubernetes API, automating
 the complex tasks that a human database administrator would normally
-perform.&lt;/p&gt;</description></item><item><title>ZooKeeper</title><link>https://sourcemation.com/catalog/zookeeper/</link><pubDate>Tue, 21 Oct 2025 01:54:41 +0200</pubDate><guid>https://sourcemation.com/catalog/zookeeper/</guid><description>&lt;p&gt;Apache ZooKeeper is a well-known high-performance, centralized service
+perform.&lt;/p&gt;</description></item><item><title>RabbitMQ Messaging Topology Operator</title><link>https://sourcemation.com/catalog/rabbitmq-messaging-topology-operator/</link><pubDate>Thu, 06 Nov 2025 10:19:41 +0100</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-messaging-topology-operator/</guid><description>&lt;p&gt;The RabbitMQ Messaging Topology Operator extends Kubernetes
+with custom resources for managing RabbitMQ messaging.
+It allows users to define and manage RabbitMQ exchanges, queues,
+bindings, and other topologies directly within Kubernetes.
+This operator simplifies the deployment and lifecycle management
+of complex RabbitMQ configurations. It ensures that the desired
+RabbitMQ state is maintained and automatically reconciled.
+By leveraging Kubernetes native objects, it integrates seamlessly
+into existing GitOps and CI/CD pipelines. This enhances automation
+and consistency across environments.&lt;/p&gt;</description></item><item><title>ZooKeeper</title><link>https://sourcemation.com/catalog/zookeeper/</link><pubDate>Tue, 21 Oct 2025 01:54:41 +0200</pubDate><guid>https://sourcemation.com/catalog/zookeeper/</guid><description>&lt;p&gt;Apache ZooKeeper is a well-known high-performance, centralized service
 providing coordination primitives. It&amp;rsquo;s frequently used with distributed
 applications, as all of them need this kind of synchronization in one form or
 another.&lt;/p&gt;

@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Sourcemation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:27:24 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>MinIO</title><link>https://sourcemation.com/catalog/minio/</link><pubDate>Thu, 06 Nov 2025 10:27:24 +0100</pubDate><guid>https://sourcemation.com/catalog/minio/</guid><description>&lt;p&gt;MinIO is a high-performance, S3 compatible object storage
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Sourcemation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:29:24 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>PostgreSQL repmgr</title><link>https://sourcemation.com/catalog/postgres-repmgr/</link><pubDate>Thu, 06 Nov 2025 10:29:24 +0100</pubDate><guid>https://sourcemation.com/catalog/postgres-repmgr/</guid><description>&lt;p&gt;repmgr is a comprehensive tool for managing PostgreSQL replication clusters.
+It provides utilities to set up standby servers, monitor their status, and
+perform failover operations. repmgr simplifies the administration of highly
+available PostgreSQL environments, ensuring data consistency and continuous
+operation. It supports various replication setups, including streaming
+replication and cascading standbys, offering flexibility for complex
+architectures. This solution helps maintain business continuity by
+automating critical tasks in your database infrastructure.&lt;/p&gt;</description></item><item><title>PostgreSQL Exporter</title><link>https://sourcemation.com/catalog/postgres-exporter/</link><pubDate>Thu, 06 Nov 2025 10:29:06 +0100</pubDate><guid>https://sourcemation.com/catalog/postgres-exporter/</guid><description>&lt;p&gt;Postgres-exporter is a powerful Prometheus exporter designed to
+collect comprehensive metrics from PostgreSQL database servers.
+It enables detailed monitoring of database health, performance,
+and resource utilization. This tool is essential for maintaining
+the stability and efficiency of your PostgreSQL environments.&lt;/p&gt;
+&lt;p&gt;It seamlessly integrates with Prometheus for data collection and
+Grafana for intuitive visualization. By providing insights into
+key performance indicators, postgres-exporter helps database
+administrators optimize their systems. It ensures smooth and
+reliable operation of critical database infrastructure.&lt;/p&gt;</description></item><item><title>Postgres 18</title><link>https://sourcemation.com/catalog/postgres-18/</link><pubDate>Thu, 06 Nov 2025 10:28:44 +0100</pubDate><guid>https://sourcemation.com/catalog/postgres-18/</guid><description>&lt;p&gt;PostgreSQL stands as one of the most sophisticated open-source database systems available, offering enterprise-level
+capabilities with over three decades of continuous development. Known for its exceptional reliability, extensibility,
+and standards compliance, it supports both SQL relational and JSON non-relational querying.&lt;/p&gt;
+&lt;p&gt;Our PostgreSQL 17 container is meticulously built by Sourcemation&amp;rsquo;s automated infrastructure using the latest stable
+release. Running on our optimized Debian 12 Slim base image, this distribution ensures minimal attack surface while
+maintaining full functionality. The build pipeline includes cryptographic verification of all source components,
+delivering a secure and trustworthy database solution for production environments.&lt;/p&gt;</description></item><item><title>phpMyAdmin</title><link>https://sourcemation.com/catalog/phpmyadmin/</link><pubDate>Thu, 06 Nov 2025 10:28:24 +0100</pubDate><guid>https://sourcemation.com/catalog/phpmyadmin/</guid><description>&lt;p&gt;phpMyAdmin is a free and open-source web-based
+administration tool for MySQL and MariaDB.
+It provides a user-friendly interface to manage databases,
+tables, columns, relations, indexes, users, and permissions.
+Users can perform various operations like creating,
+modifying, or deleting databases and tables,
+executing SQL statements, and importing/exporting data.
+It is widely used by web developers and database
+administrators for its simplicity and comprehensive features.
+The tool offers extensive documentation and community support.&lt;/p&gt;</description></item><item><title>PgPool II</title><link>https://sourcemation.com/catalog/pgpool/</link><pubDate>Thu, 06 Nov 2025 10:28:05 +0100</pubDate><guid>https://sourcemation.com/catalog/pgpool/</guid><description>&lt;p&gt;PgPool-II is an essential middleware for PostgreSQL, designed
+to enhance database performance and reliability. It intelligently
+manages database connections through pooling, significantly
+reducing overhead for client applications. The software also
+offers robust load balancing capabilities, distributing queries
+across multiple PostgreSQL servers to improve scalability.
+Furthermore, PgPool-II provides native replication features,
+ensuring high availability and data redundancy. This
+comprehensive solution helps to build resilient and efficient
+PostgreSQL environments.&lt;/p&gt;</description></item><item><title>MinIO</title><link>https://sourcemation.com/catalog/minio/</link><pubDate>Thu, 06 Nov 2025 10:27:24 +0100</pubDate><guid>https://sourcemation.com/catalog/minio/</guid><description>&lt;p&gt;MinIO is a high-performance, S3 compatible object storage
 solution. It is designed for large-scale AI/ML, data lake, and
 cloud-native applications. MinIO is software-defined, runs on
 any hardware, and is optimized for flash storage. It is built

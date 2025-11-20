@@ -49,7 +49,14 @@ real-time. It functions as a central component of the Elastic Stack,
 which also includes Kibana for data visualization and Logstash for log
 processing. Elasticsearch is utilized in various fields such as log
 analysis, IT infrastructure monitoring, business data analysis,
-content searching, and information security.&lt;/p&gt;</description></item><item><title>OpenLDAP</title><link>https://sourcemation.com/catalog/openldap/</link><pubDate>Tue, 28 Oct 2025 14:39:04 +0100</pubDate><guid>https://sourcemation.com/catalog/openldap/</guid><description>&lt;p&gt;OpenLDAP is the most popular open-source implementation of the Lightweight
+content searching, and information security.&lt;/p&gt;</description></item><item><title>RabbitMQ Credential Updatater</title><link>https://sourcemation.com/catalog/rabbitmq-default-user-credential-updater/</link><pubDate>Thu, 06 Nov 2025 10:19:17 +0100</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-default-user-credential-updater/</guid><description>&lt;p&gt;This utility is designed to securely update default user
+credentials for RabbitMQ instances. It ensures that standard
+login information is changed, significantly enhancing system
+security. This tool is especially useful in containerized
+and Kubernetes environments, helping prevent unauthorized
+access by modifying well-known default credentials promptly.
+The updater automates the process, making credential management
+efficient and reliable for any messaging infrastructure.&lt;/p&gt;</description></item><item><title>OpenLDAP</title><link>https://sourcemation.com/catalog/openldap/</link><pubDate>Tue, 28 Oct 2025 14:39:04 +0100</pubDate><guid>https://sourcemation.com/catalog/openldap/</guid><description>&lt;p&gt;OpenLDAP is the most popular open-source implementation of the Lightweight
 Directory Access Protocol (LDAP). It contains all administrator goodies like a
 load balancer/proxy, libraries, clients and of course the server itself.
 OpenLDAP is managed and developed by the OpenLDAP Foundation. OpenLDAP has a
