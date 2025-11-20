@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Sourcemation</title><link>https://sourcemation.com/categories/security/</link><description>Recent content in Security on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:26:03 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
-serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
+serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Keycloak Config CLI</title><link>https://sourcemation.com/catalog/keycloak-config-cli/</link><pubDate>Thu, 06 Nov 2025 10:25:37 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak-config-cli/</guid><description>&lt;p&gt;Keycloak Config CLI is a powerful tool designed to
+automate the configuration of Keycloak instances.
+It allows administrators to manage realms, clients,
+users, and roles through simple command-line
+operations, making setup and deployment highly
+efficient. This utility is ideal for CI/CD pipelines
+and development environments, ensuring consistent
+and repeatable Keycloak configurations. It
+significantly reduces manual effort and potential
+errors in complex Keycloak setups.&lt;/p&gt;</description></item><item><title>Keycloak 25</title><link>https://sourcemation.com/catalog/keycloak-25/</link><pubDate>Thu, 06 Nov 2025 10:25:16 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak-25/</guid><description>&lt;p&gt;Keycloak is an open-source identity and access management
+solution designed for modern applications and services.
+It provides features such as single sign-on (SSO),
+identity brokering, and social login, making it easier
+to secure applications and APIs. Keycloak supports
+standard protocols like OpenID Connect, OAuth 2.0,
+and SAML 2.0, ensuring broad compatibility.
+With its robust administration console and customizability,
+developers can easily integrate and manage user identities
+across various platforms. It helps to centralize user
+authentication and authorization, improving security
+and user experience.&lt;/p&gt;</description></item><item><title>Keycloak</title><link>https://sourcemation.com/catalog/keycloak/</link><pubDate>Thu, 06 Nov 2025 10:24:58 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak/</guid><description>&lt;p&gt;Keycloak is an open-source identity and access management
+solution designed for modern applications and services.
+It provides features such as single sign-on (SSO),
+identity brokering, and social login, making it easier
+to secure applications and APIs. Keycloak supports
+standard protocols like OpenID Connect, OAuth 2.0,
+and SAML 2.0, ensuring broad compatibility.
+With its robust administration console and customizability,
+developers can easily integrate and manage user identities
+across various platforms. It helps to centralize user
+authentication and authorization, improving security
+and user experience.&lt;/p&gt;</description></item><item><title>External Secrets</title><link>https://sourcemation.com/catalog/external-secrets/</link><pubDate>Thu, 06 Nov 2025 10:23:29 +0100</pubDate><guid>https://sourcemation.com/catalog/external-secrets/</guid><description>&lt;p&gt;External Secrets is a Kubernetes operator that synchronizes
+secrets from external secret management systems into native
+Kubernetes &lt;code&gt;Secret&lt;/code&gt; objects. This allows applications
+running in Kubernetes to securely access credentials
+stored in platforms like AWS Secrets Manager, HashiCorp
+Vault, Azure Key Vault, or Google Secret Manager directly.&lt;/p&gt;
+&lt;p&gt;By bridging the gap between Kubernetes and these external
+systems, it significantly enhances security practices by
+centralizing secret management outside the cluster&amp;rsquo;s default
+mechanisms. It reduces the need for manual secret rotation
+and ensures that sensitive data is handled in a more robust
+and compliant manner across your environments. This operator
+is essential for modern cloud-native deployments requiring
+secure and automated credential provisioning and management.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
 enables processing, indexing, and analysis of large datasets in
 real-time. It functions as a central component of the Elastic Stack,
 which also includes Kibana for data visualization and Logstash for log

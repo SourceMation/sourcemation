@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Extensions on Sourcemation</title><link>https://sourcemation.com/categories/extensions/</link><description>Recent content in Extensions on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 28 Oct 2025 14:39:08 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/extensions/index.xml" rel="self" type="application/rss+xml"/><item><title>Matomo</title><link>https://sourcemation.com/catalog/matomo/</link><pubDate>Tue, 28 Oct 2025 14:39:08 +0100</pubDate><guid>https://sourcemation.com/catalog/matomo/</guid><description>&lt;p&gt;Matomo is a leading open-source web analytics platform that is well-known for
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Extensions on Sourcemation</title><link>https://sourcemation.com/categories/extensions/</link><description>Recent content in Extensions on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:23:29 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/extensions/index.xml" rel="self" type="application/rss+xml"/><item><title>External Secrets</title><link>https://sourcemation.com/catalog/external-secrets/</link><pubDate>Thu, 06 Nov 2025 10:23:29 +0100</pubDate><guid>https://sourcemation.com/catalog/external-secrets/</guid><description>&lt;p&gt;External Secrets is a Kubernetes operator that synchronizes
+secrets from external secret management systems into native
+Kubernetes &lt;code&gt;Secret&lt;/code&gt; objects. This allows applications
+running in Kubernetes to securely access credentials
+stored in platforms like AWS Secrets Manager, HashiCorp
+Vault, Azure Key Vault, or Google Secret Manager directly.&lt;/p&gt;
+&lt;p&gt;By bridging the gap between Kubernetes and these external
+systems, it significantly enhances security practices by
+centralizing secret management outside the cluster&amp;rsquo;s default
+mechanisms. It reduces the need for manual secret rotation
+and ensures that sensitive data is handled in a more robust
+and compliant manner across your environments. This operator
+is essential for modern cloud-native deployments requiring
+secure and automated credential provisioning and management.&lt;/p&gt;</description></item><item><title>Matomo</title><link>https://sourcemation.com/catalog/matomo/</link><pubDate>Tue, 28 Oct 2025 14:39:08 +0100</pubDate><guid>https://sourcemation.com/catalog/matomo/</guid><description>&lt;p&gt;Matomo is a leading open-source web analytics platform that is well-known for
 respecting user privacy and data ownership. This type of analytics is an
 ethical and compliant choice for website owners who want to gain insights into
 their visitors without compromising their privacy and leaking their data to

@@ -3,14 +3,45 @@ It collects and stores metrics as time series data,
 recording information with a timestamp.
 It features a powerful query language called PromQL,
 allowing users to select and aggregate data in real-time.
-Prometheus is widely used for monitoring dynamic cloud-native environments.&lt;/p&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
-serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
+Prometheus is widely used for monitoring dynamic cloud-native environments.&lt;/p&gt;</description></item><item><title>Metrics Server</title><link>https://sourcemation.com/catalog/metrics-server/</link><pubDate>Thu, 06 Nov 2025 10:27:00 +0100</pubDate><guid>https://sourcemation.com/catalog/metrics-server/</guid><description>&lt;p&gt;A cluster-wide aggregator of resource usage data. It collects CPU
+and memory usage from all nodes and pods. Metrics Server enables
+horizontal pod autoscaling and custom metrics APIs. It is crucial
+for monitoring and resource management in Kubernetes environments.&lt;/p&gt;</description></item><item><title>Kube State Metrics</title><link>https://sourcemation.com/catalog/kube-state-metrics/</link><pubDate>Thu, 06 Nov 2025 10:26:23 +0100</pubDate><guid>https://sourcemation.com/catalog/kube-state-metrics/</guid><description>&lt;p&gt;Kube-state-metrics is an add-on agent that listens to the
+Kubernetes API server. It generates metrics about the state
+of various objects within your cluster. These raw,
+un-aggregated metrics include details like running pods
+or deployment availability. They are exposed in Prometheus
+text format, easily consumed by monitoring systems.
+This tool enhances cluster visibility and allows for
+building powerful dashboards and alerts.&lt;/p&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
+serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Grafana</title><link>https://sourcemation.com/catalog/grafana/</link><pubDate>Thu, 06 Nov 2025 10:24:39 +0100</pubDate><guid>https://sourcemation.com/catalog/grafana/</guid><description>&lt;p&gt;Grafana is an open-source platform for monitoring and observability.
+It enables users to query, visualize, and alert on metrics from diverse
+data sources. Offering powerful and flexible dashboards, it allows for
+creating, exploring, and sharing crucial data insights seamlessly.
+Grafana integrates effortlessly into existing infrastructures, helping
+teams monitor application performance, network traffic, and system
+health through rich, interactive graphs.&lt;/p&gt;</description></item><item><title>Fluentd</title><link>https://sourcemation.com/catalog/fluentd/</link><pubDate>Thu, 06 Nov 2025 10:23:49 +0100</pubDate><guid>https://sourcemation.com/catalog/fluentd/</guid><description>&lt;p&gt;Fluentd is an open-source data collector, designed to be a
+unified logging layer. It collects data from various sources,
+processes it, and then forwards it to different destinations.
+This tool helps centralize log management across diverse
+environments and applications. It provides a flexible plugin
+architecture, allowing extensive customization for data input,
+buffering, filtering, and output. Fluentd is widely used in
+observability setups for robust and reliable log aggregation.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
 enables processing, indexing, and analysis of large datasets in
 real-time. It functions as a central component of the Elastic Stack,
 which also includes Kibana for data visualization and Logstash for log
 processing. Elasticsearch is utilized in various fields such as log
 analysis, IT infrastructure monitoring, business data analysis,
-content searching, and information security.&lt;/p&gt;</description></item><item><title>Matomo</title><link>https://sourcemation.com/catalog/matomo/</link><pubDate>Tue, 28 Oct 2025 14:39:08 +0100</pubDate><guid>https://sourcemation.com/catalog/matomo/</guid><description>&lt;p&gt;Matomo is a leading open-source web analytics platform that is well-known for
+content searching, and information security.&lt;/p&gt;</description></item><item><title>Alertmanager</title><link>https://sourcemation.com/catalog/alertmanager/</link><pubDate>Thu, 06 Nov 2025 10:20:46 +0100</pubDate><guid>https://sourcemation.com/catalog/alertmanager/</guid><description>&lt;p&gt;Alertmanager is a powerful tool designed to handle alerts sent by
+client applications such as Prometheus. It deduplicates, groups,
+and routes them to the correct receiver integration. This ensures
+that notifications are sent out efficiently, reducing alert fatigue.&lt;/p&gt;
+&lt;p&gt;It supports a wide range of receivers, including email, PagerDuty,
+Slack, and custom webhooks. Alertmanager also provides silence
+and inhibition features, allowing users to manage notifications
+during maintenance windows or in response to ongoing incidents.
+This centralized system is crucial for robust monitoring setups.&lt;/p&gt;</description></item><item><title>Matomo</title><link>https://sourcemation.com/catalog/matomo/</link><pubDate>Tue, 28 Oct 2025 14:39:08 +0100</pubDate><guid>https://sourcemation.com/catalog/matomo/</guid><description>&lt;p&gt;Matomo is a leading open-source web analytics platform that is well-known for
 respecting user privacy and data ownership. This type of analytics is an
 ethical and compliant choice for website owners who want to gain insights into
 their visitors without compromising their privacy and leaking their data to

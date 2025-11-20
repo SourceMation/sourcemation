@@ -3,14 +3,154 @@ It collects and stores metrics as time series data,
 recording information with a timestamp.
 It features a powerful query language called PromQL,
 allowing users to select and aggregate data in real-time.
-Prometheus is widely used for monitoring dynamic cloud-native environments.&lt;/p&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
-serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
+Prometheus is widely used for monitoring dynamic cloud-native environments.&lt;/p&gt;</description></item><item><title>MinIO</title><link>https://sourcemation.com/catalog/minio/</link><pubDate>Thu, 06 Nov 2025 10:27:24 +0100</pubDate><guid>https://sourcemation.com/catalog/minio/</guid><description>&lt;p&gt;MinIO is a high-performance, S3 compatible object storage
+solution. It is designed for large-scale AI/ML, data lake, and
+cloud-native applications. MinIO is software-defined, runs on
+any hardware, and is optimized for flash storage. It is built
+for performance and scalability, handling massive amounts of
+unstructured data. MinIO supports a wide range of use cases
+from edge computing to multi-cloud deployments.&lt;/p&gt;</description></item><item><title>Metrics Server</title><link>https://sourcemation.com/catalog/metrics-server/</link><pubDate>Thu, 06 Nov 2025 10:27:00 +0100</pubDate><guid>https://sourcemation.com/catalog/metrics-server/</guid><description>&lt;p&gt;A cluster-wide aggregator of resource usage data. It collects CPU
+and memory usage from all nodes and pods. Metrics Server enables
+horizontal pod autoscaling and custom metrics APIs. It is crucial
+for monitoring and resource management in Kubernetes environments.&lt;/p&gt;</description></item><item><title>Memcached</title><link>https://sourcemation.com/catalog/memcached/</link><pubDate>Thu, 06 Nov 2025 10:26:43 +0100</pubDate><guid>https://sourcemation.com/catalog/memcached/</guid><description>&lt;p&gt;Memcached is a free and open-source, high-performance, distributed
+memory object caching system. It is generic in nature but intended
+for use in speeding up dynamic web applications by alleviating database
+load. It stores data as key-value pairs in memory, allowing for fast
+retrieval. It&amp;rsquo;s often used to cache data and objects in RAM to reduce
+the number of times an external data source must be read.&lt;/p&gt;</description></item><item><title>Kube State Metrics</title><link>https://sourcemation.com/catalog/kube-state-metrics/</link><pubDate>Thu, 06 Nov 2025 10:26:23 +0100</pubDate><guid>https://sourcemation.com/catalog/kube-state-metrics/</guid><description>&lt;p&gt;Kube-state-metrics is an add-on agent that listens to the
+Kubernetes API server. It generates metrics about the state
+of various objects within your cluster. These raw,
+un-aggregated metrics include details like running pods
+or deployment availability. They are exposed in Prometheus
+text format, easily consumed by monitoring systems.
+This tool enhances cluster visibility and allows for
+building powerful dashboards and alerts.&lt;/p&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
+serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Keycloak Config CLI</title><link>https://sourcemation.com/catalog/keycloak-config-cli/</link><pubDate>Thu, 06 Nov 2025 10:25:37 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak-config-cli/</guid><description>&lt;p&gt;Keycloak Config CLI is a powerful tool designed to
+automate the configuration of Keycloak instances.
+It allows administrators to manage realms, clients,
+users, and roles through simple command-line
+operations, making setup and deployment highly
+efficient. This utility is ideal for CI/CD pipelines
+and development environments, ensuring consistent
+and repeatable Keycloak configurations. It
+significantly reduces manual effort and potential
+errors in complex Keycloak setups.&lt;/p&gt;</description></item><item><title>Keycloak 25</title><link>https://sourcemation.com/catalog/keycloak-25/</link><pubDate>Thu, 06 Nov 2025 10:25:16 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak-25/</guid><description>&lt;p&gt;Keycloak is an open-source identity and access management
+solution designed for modern applications and services.
+It provides features such as single sign-on (SSO),
+identity brokering, and social login, making it easier
+to secure applications and APIs. Keycloak supports
+standard protocols like OpenID Connect, OAuth 2.0,
+and SAML 2.0, ensuring broad compatibility.
+With its robust administration console and customizability,
+developers can easily integrate and manage user identities
+across various platforms. It helps to centralize user
+authentication and authorization, improving security
+and user experience.&lt;/p&gt;</description></item><item><title>Keycloak</title><link>https://sourcemation.com/catalog/keycloak/</link><pubDate>Thu, 06 Nov 2025 10:24:58 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak/</guid><description>&lt;p&gt;Keycloak is an open-source identity and access management
+solution designed for modern applications and services.
+It provides features such as single sign-on (SSO),
+identity brokering, and social login, making it easier
+to secure applications and APIs. Keycloak supports
+standard protocols like OpenID Connect, OAuth 2.0,
+and SAML 2.0, ensuring broad compatibility.
+With its robust administration console and customizability,
+developers can easily integrate and manage user identities
+across various platforms. It helps to centralize user
+authentication and authorization, improving security
+and user experience.&lt;/p&gt;</description></item><item><title>Grafana</title><link>https://sourcemation.com/catalog/grafana/</link><pubDate>Thu, 06 Nov 2025 10:24:39 +0100</pubDate><guid>https://sourcemation.com/catalog/grafana/</guid><description>&lt;p&gt;Grafana is an open-source platform for monitoring and observability.
+It enables users to query, visualize, and alert on metrics from diverse
+data sources. Offering powerful and flexible dashboards, it allows for
+creating, exploring, and sharing crucial data insights seamlessly.
+Grafana integrates effortlessly into existing infrastructures, helping
+teams monitor application performance, network traffic, and system
+health through rich, interactive graphs.&lt;/p&gt;</description></item><item><title>Ghost</title><link>https://sourcemation.com/catalog/ghost/</link><pubDate>Thu, 06 Nov 2025 10:24:16 +0100</pubDate><guid>https://sourcemation.com/catalog/ghost/</guid><description>&lt;p&gt;Ghost is a modern, open-source publishing platform designed
+for creators and businesses. It provides a flexible and
+powerful content management system focused on speed and ease
+of use. With Ghost, you can build a professional blog, a membership
+site, or an online publication. It offers a clean editing
+experience, robust SEO features, and full control over your content.
+Ghost supports newsletters, paid subscriptions, and custom
+themes to help you monetize your work. It is built on Node.js
+and offers a modern, headless CMS approach.&lt;/p&gt;</description></item><item><title>Fluentd</title><link>https://sourcemation.com/catalog/fluentd/</link><pubDate>Thu, 06 Nov 2025 10:23:49 +0100</pubDate><guid>https://sourcemation.com/catalog/fluentd/</guid><description>&lt;p&gt;Fluentd is an open-source data collector, designed to be a
+unified logging layer. It collects data from various sources,
+processes it, and then forwards it to different destinations.
+This tool helps centralize log management across diverse
+environments and applications. It provides a flexible plugin
+architecture, allowing extensive customization for data input,
+buffering, filtering, and output. Fluentd is widely used in
+observability setups for robust and reliable log aggregation.&lt;/p&gt;</description></item><item><title>External Secrets</title><link>https://sourcemation.com/catalog/external-secrets/</link><pubDate>Thu, 06 Nov 2025 10:23:29 +0100</pubDate><guid>https://sourcemation.com/catalog/external-secrets/</guid><description>&lt;p&gt;External Secrets is a Kubernetes operator that synchronizes
+secrets from external secret management systems into native
+Kubernetes &lt;code&gt;Secret&lt;/code&gt; objects. This allows applications
+running in Kubernetes to securely access credentials
+stored in platforms like AWS Secrets Manager, HashiCorp
+Vault, Azure Key Vault, or Google Secret Manager directly.&lt;/p&gt;
+&lt;p&gt;By bridging the gap between Kubernetes and these external
+systems, it significantly enhances security practices by
+centralizing secret management outside the cluster&amp;rsquo;s default
+mechanisms. It reduces the need for manual secret rotation
+and ensures that sensitive data is handled in a more robust
+and compliant manner across your environments. This operator
+is essential for modern cloud-native deployments requiring
+secure and automated credential provisioning and management.&lt;/p&gt;</description></item><item><title>etcd</title><link>https://sourcemation.com/catalog/etcd/</link><pubDate>Thu, 06 Nov 2025 10:23:09 +0100</pubDate><guid>https://sourcemation.com/catalog/etcd/</guid><description>&lt;p&gt;etcd is a distributed reliable key-value store that simplifies
+the coordination and management of critical data in distributed
+systems. It is primarily used to store configuration data,
+state information, and service discovery details, ensuring
+high availability and consistency. Built with strong consistency
+guarantees using the Raft consensus algorithm, etcd is a
+foundational component for Kubernetes and many other cloud-native
+applications. It provides a robust and resilient backend for
+complex architectures, making distributed systems easier to build
+and operate.&lt;/p&gt;</description></item><item><title>Erlang 27</title><link>https://sourcemation.com/catalog/erlang-27/</link><pubDate>Thu, 06 Nov 2025 10:22:51 +0100</pubDate><guid>https://sourcemation.com/catalog/erlang-27/</guid><description>&lt;p&gt;Erlang is a functional programming language and runtime environment
+(known as OTP - Open Telecom Platform) built by Ericsson. Its entire
+design is centered on &amp;ldquo;massive concurrency&amp;rdquo; and &amp;ldquo;high availability.&amp;rdquo;
+It achieves this by using lightweight, isolated processes (not OS
+threads) that communicate via messages (the &amp;ldquo;Actor Model&amp;rdquo;). This &amp;ldquo;let
+it crash&amp;rdquo; philosophy allows for the creation of fault-tolerant systems
+where failures in one part do not bring down the entire application,
+making it ideal for telecom (its original use), messaging (like
+RabbitMQ), and other distributed, high-availability backend systems.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
 enables processing, indexing, and analysis of large datasets in
 real-time. It functions as a central component of the Elastic Stack,
 which also includes Kibana for data visualization and Logstash for log
 processing. Elasticsearch is utilized in various fields such as log
 analysis, IT infrastructure monitoring, business data analysis,
-content searching, and information security.&lt;/p&gt;</description></item><item><title>JDK 17</title><link>https://sourcemation.com/catalog/jdk-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jdk-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+content searching, and information security.&lt;/p&gt;</description></item><item><title>CloudNativePG-18</title><link>https://sourcemation.com/catalog/cnpg-18/</link><pubDate>Thu, 06 Nov 2025 10:22:06 +0100</pubDate><guid>https://sourcemation.com/catalog/cnpg-18/</guid><description>&lt;p&gt;CloudNativePG (CNPG) is a Kubernetes operator designed by PostgreSQL
+experts to manage PostgreSQL database workloads natively on
+Kubernetes. It covers the entire operational lifecycle, automatically
+managing database deployment, high-availability configurations
+(primary/standby replication), rolling updates, backups, and failover
+procedures. It integrates directly with the Kubernetes API, automating
+the complex tasks that a human database administrator would normally
+perform.&lt;/p&gt;</description></item><item><title>Apache Cassandra</title><link>https://sourcemation.com/catalog/cassandra/</link><pubDate>Thu, 06 Nov 2025 10:21:46 +0100</pubDate><guid>https://sourcemation.com/catalog/cassandra/</guid><description>&lt;p&gt;Apache Cassandra is an open-source, distributed NoSQL database
+system designed to handle large amounts of data across many
+commodity servers. It provides high availability with no single
+point of failure. Cassandra offers linear scalability and
+robust fault tolerance, making it ideal for mission-critical
+applications. Its peer-to-peer architecture distributes data
+evenly, ensuring consistent performance and reliability.
+The system supports flexible data models and powerful query
+capabilities for modern data-intensive workloads.&lt;/p&gt;</description></item><item><title>Azure CLI</title><link>https://sourcemation.com/catalog/azure-cli/</link><pubDate>Thu, 06 Nov 2025 10:21:29 +0100</pubDate><guid>https://sourcemation.com/catalog/azure-cli/</guid><description>&lt;p&gt;The Azure Command-Line Interface (CLI) is a powerful, cross-platform
+tool that allows you to connect to Azure and execute administrative
+commands efficiently. It provides a command-line experience for managing
+Azure resources directly from your terminal, making it ideal for
+scripting and automation tasks. The CLI supports a wide range of Azure
+services, from virtual machines and storage accounts to web apps
+and databases. It offers a consistent and efficient way to interact with
+your cloud environment, whether you are a developer or an administrator.
+With its intuitive syntax, users can easily create, configure, and manage
+resources with precise control and flexibility.&lt;/p&gt;</description></item><item><title>Apache HTTP Server</title><link>https://sourcemation.com/catalog/apache/</link><pubDate>Thu, 06 Nov 2025 10:21:08 +0100</pubDate><guid>https://sourcemation.com/catalog/apache/</guid><description>&lt;p&gt;Apache HTTP Server is a free and open-source cross-platform web server software.
+It is one of the most popular web servers globally, powering a significant
+portion of all active websites. Apache offers a robust, modular,
+and extensible architecture, supporting a wide range of features
+and configurations. It provides high performance, reliability, and security,
+making it suitable for diverse web hosting environments and applications.&lt;/p&gt;</description></item><item><title>Alertmanager</title><link>https://sourcemation.com/catalog/alertmanager/</link><pubDate>Thu, 06 Nov 2025 10:20:46 +0100</pubDate><guid>https://sourcemation.com/catalog/alertmanager/</guid><description>&lt;p&gt;Alertmanager is a powerful tool designed to handle alerts sent by
+client applications such as Prometheus. It deduplicates, groups,
+and routes them to the correct receiver integration. This ensures
+that notifications are sent out efficiently, reducing alert fatigue.&lt;/p&gt;
+&lt;p&gt;It supports a wide range of receivers, including email, PagerDuty,
+Slack, and custom webhooks. Alertmanager also provides silence
+and inhibition features, allowing users to manage notifications
+during maintenance windows or in response to ongoing incidents.
+This centralized system is crucial for robust monitoring setups.&lt;/p&gt;</description></item><item><title>JDK 17</title><link>https://sourcemation.com/catalog/jdk-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jdk-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Based on the official OpenJDK Java Development Kit for the Java 17 Long-Term
 Support (LTS) release, designed for application developers. It includes all the
 tools needed to compile, run, and debug Java applications, such as the javac

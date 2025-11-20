@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on Sourcemation</title><link>https://sourcemation.com/categories/workflow/</link><description>Recent content in Workflow on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:26:03 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
-serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>ZooKeeper</title><link>https://sourcemation.com/catalog/zookeeper/</link><pubDate>Tue, 21 Oct 2025 01:54:41 +0200</pubDate><guid>https://sourcemation.com/catalog/zookeeper/</guid><description>&lt;p&gt;Apache ZooKeeper is a well-known high-performance, centralized service
+serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Keycloak Config CLI</title><link>https://sourcemation.com/catalog/keycloak-config-cli/</link><pubDate>Thu, 06 Nov 2025 10:25:37 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak-config-cli/</guid><description>&lt;p&gt;Keycloak Config CLI is a powerful tool designed to
+automate the configuration of Keycloak instances.
+It allows administrators to manage realms, clients,
+users, and roles through simple command-line
+operations, making setup and deployment highly
+efficient. This utility is ideal for CI/CD pipelines
+and development environments, ensuring consistent
+and repeatable Keycloak configurations. It
+significantly reduces manual effort and potential
+errors in complex Keycloak setups.&lt;/p&gt;</description></item><item><title>Keycloak</title><link>https://sourcemation.com/catalog/keycloak/</link><pubDate>Thu, 06 Nov 2025 10:24:58 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak/</guid><description>&lt;p&gt;Keycloak is an open-source identity and access management
+solution designed for modern applications and services.
+It provides features such as single sign-on (SSO),
+identity brokering, and social login, making it easier
+to secure applications and APIs. Keycloak supports
+standard protocols like OpenID Connect, OAuth 2.0,
+and SAML 2.0, ensuring broad compatibility.
+With its robust administration console and customizability,
+developers can easily integrate and manage user identities
+across various platforms. It helps to centralize user
+authentication and authorization, improving security
+and user experience.&lt;/p&gt;</description></item><item><title>Ghost</title><link>https://sourcemation.com/catalog/ghost/</link><pubDate>Thu, 06 Nov 2025 10:24:16 +0100</pubDate><guid>https://sourcemation.com/catalog/ghost/</guid><description>&lt;p&gt;Ghost is a modern, open-source publishing platform designed
+for creators and businesses. It provides a flexible and
+powerful content management system focused on speed and ease
+of use. With Ghost, you can build a professional blog, a membership
+site, or an online publication. It offers a clean editing
+experience, robust SEO features, and full control over your content.
+Ghost supports newsletters, paid subscriptions, and custom
+themes to help you monetize your work. It is built on Node.js
+and offers a modern, headless CMS approach.&lt;/p&gt;</description></item><item><title>CloudNativePG-18</title><link>https://sourcemation.com/catalog/cnpg-18/</link><pubDate>Thu, 06 Nov 2025 10:22:06 +0100</pubDate><guid>https://sourcemation.com/catalog/cnpg-18/</guid><description>&lt;p&gt;CloudNativePG (CNPG) is a Kubernetes operator designed by PostgreSQL
+experts to manage PostgreSQL database workloads natively on
+Kubernetes. It covers the entire operational lifecycle, automatically
+managing database deployment, high-availability configurations
+(primary/standby replication), rolling updates, backups, and failover
+procedures. It integrates directly with the Kubernetes API, automating
+the complex tasks that a human database administrator would normally
+perform.&lt;/p&gt;</description></item><item><title>ZooKeeper</title><link>https://sourcemation.com/catalog/zookeeper/</link><pubDate>Tue, 21 Oct 2025 01:54:41 +0200</pubDate><guid>https://sourcemation.com/catalog/zookeeper/</guid><description>&lt;p&gt;Apache ZooKeeper is a well-known high-performance, centralized service
 providing coordination primitives. It&amp;rsquo;s frequently used with distributed
 applications, as all of them need this kind of synchronization in one form or
 another.&lt;/p&gt;

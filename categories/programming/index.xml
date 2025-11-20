@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 04 Nov 2025 17:03:17 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>JDK 17</title><link>https://sourcemation.com/catalog/jdk-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jdk-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:22:51 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Erlang 27</title><link>https://sourcemation.com/catalog/erlang-27/</link><pubDate>Thu, 06 Nov 2025 10:22:51 +0100</pubDate><guid>https://sourcemation.com/catalog/erlang-27/</guid><description>&lt;p&gt;Erlang is a functional programming language and runtime environment
+(known as OTP - Open Telecom Platform) built by Ericsson. Its entire
+design is centered on &amp;ldquo;massive concurrency&amp;rdquo; and &amp;ldquo;high availability.&amp;rdquo;
+It achieves this by using lightweight, isolated processes (not OS
+threads) that communicate via messages (the &amp;ldquo;Actor Model&amp;rdquo;). This &amp;ldquo;let
+it crash&amp;rdquo; philosophy allows for the creation of fault-tolerant systems
+where failures in one part do not bring down the entire application,
+making it ideal for telecom (its original use), messaging (like
+RabbitMQ), and other distributed, high-availability backend systems.&lt;/p&gt;</description></item><item><title>Azure CLI</title><link>https://sourcemation.com/catalog/azure-cli/</link><pubDate>Thu, 06 Nov 2025 10:21:29 +0100</pubDate><guid>https://sourcemation.com/catalog/azure-cli/</guid><description>&lt;p&gt;The Azure Command-Line Interface (CLI) is a powerful, cross-platform
+tool that allows you to connect to Azure and execute administrative
+commands efficiently. It provides a command-line experience for managing
+Azure resources directly from your terminal, making it ideal for
+scripting and automation tasks. The CLI supports a wide range of Azure
+services, from virtual machines and storage accounts to web apps
+and databases. It offers a consistent and efficient way to interact with
+your cloud environment, whether you are a developer or an administrator.
+With its intuitive syntax, users can easily create, configure, and manage
+resources with precise control and flexibility.&lt;/p&gt;</description></item><item><title>JDK 17</title><link>https://sourcemation.com/catalog/jdk-17/</link><pubDate>Tue, 04 Nov 2025 17:03:17 +0100</pubDate><guid>https://sourcemation.com/catalog/jdk-17/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Based on the official OpenJDK Java Development Kit for the Java 17 Long-Term
 Support (LTS) release, designed for application developers. It includes all the
 tools needed to compile, run, and debug Java applications, such as the javac

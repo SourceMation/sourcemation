@@ -1,10 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Sourcemation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:22:27 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Sourcemation</title><link>https://sourcemation.com/categories/database/</link><description>Recent content in Database on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:27:24 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/database/index.xml" rel="self" type="application/rss+xml"/><item><title>MinIO</title><link>https://sourcemation.com/catalog/minio/</link><pubDate>Thu, 06 Nov 2025 10:27:24 +0100</pubDate><guid>https://sourcemation.com/catalog/minio/</guid><description>&lt;p&gt;MinIO is a high-performance, S3 compatible object storage
+solution. It is designed for large-scale AI/ML, data lake, and
+cloud-native applications. MinIO is software-defined, runs on
+any hardware, and is optimized for flash storage. It is built
+for performance and scalability, handling massive amounts of
+unstructured data. MinIO supports a wide range of use cases
+from edge computing to multi-cloud deployments.&lt;/p&gt;</description></item><item><title>Memcached</title><link>https://sourcemation.com/catalog/memcached/</link><pubDate>Thu, 06 Nov 2025 10:26:43 +0100</pubDate><guid>https://sourcemation.com/catalog/memcached/</guid><description>&lt;p&gt;Memcached is a free and open-source, high-performance, distributed
+memory object caching system. It is generic in nature but intended
+for use in speeding up dynamic web applications by alleviating database
+load. It stores data as key-value pairs in memory, allowing for fast
+retrieval. It&amp;rsquo;s often used to cache data and objects in RAM to reduce
+the number of times an external data source must be read.&lt;/p&gt;</description></item><item><title>etcd</title><link>https://sourcemation.com/catalog/etcd/</link><pubDate>Thu, 06 Nov 2025 10:23:09 +0100</pubDate><guid>https://sourcemation.com/catalog/etcd/</guid><description>&lt;p&gt;etcd is a distributed reliable key-value store that simplifies
+the coordination and management of critical data in distributed
+systems. It is primarily used to store configuration data,
+state information, and service discovery details, ensuring
+high availability and consistency. Built with strong consistency
+guarantees using the Raft consensus algorithm, etcd is a
+foundational component for Kubernetes and many other cloud-native
+applications. It provides a robust and resilient backend for
+complex architectures, making distributed systems easier to build
+and operate.&lt;/p&gt;</description></item><item><title>Elasticsearch</title><link>https://sourcemation.com/catalog/elasticsearch/</link><pubDate>Thu, 06 Nov 2025 10:22:27 +0100</pubDate><guid>https://sourcemation.com/catalog/elasticsearch/</guid><description>&lt;p&gt;Elasticsearch is a powerful search and data analysis engine that
 enables processing, indexing, and analysis of large datasets in
 real-time. It functions as a central component of the Elastic Stack,
 which also includes Kibana for data visualization and Logstash for log
 processing. Elasticsearch is utilized in various fields such as log
 analysis, IT infrastructure monitoring, business data analysis,
-content searching, and information security.&lt;/p&gt;</description></item><item><title>MySQL</title><link>https://sourcemation.com/catalog/mysql/</link><pubDate>Tue, 28 Oct 2025 14:38:55 +0100</pubDate><guid>https://sourcemation.com/catalog/mysql/</guid><description>&lt;p&gt;MySQL database management system is a widely used open-source relational
+content searching, and information security.&lt;/p&gt;</description></item><item><title>CloudNativePG-18</title><link>https://sourcemation.com/catalog/cnpg-18/</link><pubDate>Thu, 06 Nov 2025 10:22:06 +0100</pubDate><guid>https://sourcemation.com/catalog/cnpg-18/</guid><description>&lt;p&gt;CloudNativePG (CNPG) is a Kubernetes operator designed by PostgreSQL
+experts to manage PostgreSQL database workloads natively on
+Kubernetes. It covers the entire operational lifecycle, automatically
+managing database deployment, high-availability configurations
+(primary/standby replication), rolling updates, backups, and failover
+procedures. It integrates directly with the Kubernetes API, automating
+the complex tasks that a human database administrator would normally
+perform.&lt;/p&gt;</description></item><item><title>Apache Cassandra</title><link>https://sourcemation.com/catalog/cassandra/</link><pubDate>Thu, 06 Nov 2025 10:21:46 +0100</pubDate><guid>https://sourcemation.com/catalog/cassandra/</guid><description>&lt;p&gt;Apache Cassandra is an open-source, distributed NoSQL database
+system designed to handle large amounts of data across many
+commodity servers. It provides high availability with no single
+point of failure. Cassandra offers linear scalability and
+robust fault tolerance, making it ideal for mission-critical
+applications. Its peer-to-peer architecture distributes data
+evenly, ensuring consistent performance and reliability.
+The system supports flexible data models and powerful query
+capabilities for modern data-intensive workloads.&lt;/p&gt;</description></item><item><title>MySQL</title><link>https://sourcemation.com/catalog/mysql/</link><pubDate>Tue, 28 Oct 2025 14:38:55 +0100</pubDate><guid>https://sourcemation.com/catalog/mysql/</guid><description>&lt;p&gt;MySQL database management system is a widely used open-source relational
 database. Its famous adopters are WordPress, GitHub, Airbnb and many, many
 more. It&amp;rsquo;s developed and maintained by Oracle Corporation and is available
 under the GNU General Public License (GPL) as well as under a proprietary

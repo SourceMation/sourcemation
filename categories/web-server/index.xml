@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Server on Sourcemation</title><link>https://sourcemation.com/categories/web-server/</link><description>Recent content in Web Server on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:26:03 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/web-server/index.xml" rel="self" type="application/rss+xml"/><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
-serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>WordPress</title><link>https://sourcemation.com/catalog/wordpress/</link><pubDate>Tue, 21 Oct 2025 10:48:50 +0200</pubDate><guid>https://sourcemation.com/catalog/wordpress/</guid><description>&lt;p&gt;WordPress is the world&amp;rsquo;s most popular website builder and content management
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Server on Sourcemation</title><link>https://sourcemation.com/categories/web-server/</link><description>Recent content in Web Server on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:26:43 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/web-server/index.xml" rel="self" type="application/rss+xml"/><item><title>Memcached</title><link>https://sourcemation.com/catalog/memcached/</link><pubDate>Thu, 06 Nov 2025 10:26:43 +0100</pubDate><guid>https://sourcemation.com/catalog/memcached/</guid><description>&lt;p&gt;Memcached is a free and open-source, high-performance, distributed
+memory object caching system. It is generic in nature but intended
+for use in speeding up dynamic web applications by alleviating database
+load. It stores data as key-value pairs in memory, allowing for fast
+retrieval. It&amp;rsquo;s often used to cache data and objects in RAM to reduce
+the number of times an external data source must be read.&lt;/p&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
+serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Ghost</title><link>https://sourcemation.com/catalog/ghost/</link><pubDate>Thu, 06 Nov 2025 10:24:16 +0100</pubDate><guid>https://sourcemation.com/catalog/ghost/</guid><description>&lt;p&gt;Ghost is a modern, open-source publishing platform designed
+for creators and businesses. It provides a flexible and
+powerful content management system focused on speed and ease
+of use. With Ghost, you can build a professional blog, a membership
+site, or an online publication. It offers a clean editing
+experience, robust SEO features, and full control over your content.
+Ghost supports newsletters, paid subscriptions, and custom
+themes to help you monetize your work. It is built on Node.js
+and offers a modern, headless CMS approach.&lt;/p&gt;</description></item><item><title>Apache HTTP Server</title><link>https://sourcemation.com/catalog/apache/</link><pubDate>Thu, 06 Nov 2025 10:21:08 +0100</pubDate><guid>https://sourcemation.com/catalog/apache/</guid><description>&lt;p&gt;Apache HTTP Server is a free and open-source cross-platform web server software.
+It is one of the most popular web servers globally, powering a significant
+portion of all active websites. Apache offers a robust, modular,
+and extensible architecture, supporting a wide range of features
+and configurations. It provides high performance, reliability, and security,
+making it suitable for diverse web hosting environments and applications.&lt;/p&gt;</description></item><item><title>WordPress</title><link>https://sourcemation.com/catalog/wordpress/</link><pubDate>Tue, 21 Oct 2025 10:48:50 +0200</pubDate><guid>https://sourcemation.com/catalog/wordpress/</guid><description>&lt;p&gt;WordPress is the world&amp;rsquo;s most popular website builder and content management
 system (CMS). It is powering over 40% of all websites on the Internet (2025).
 WordPress is built on PHP and can use MySQL or MariaDB as its database backend.
 WordPress is simple, user-friendly, feature-rich and highly customizable.
