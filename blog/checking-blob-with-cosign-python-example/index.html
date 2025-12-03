@@ -1,0 +1,112 @@
+<!doctype html><html lang=en><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><link rel=canonical href=https://sourcemation.com/blog/checking-blob-with-cosign-python-example/><title>Checking BLOB With Cosign - Python Source Code Example | Sourcemation</title><link rel=stylesheet href=/css/z_style.css><link rel=stylesheet href=/css/z_effects.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin=anonymous referrerpolicy=no-referrer><link rel="shortcut icon" href=/images/favicon.ico type=image/x-icon><script src=https://code.jquery.com/jquery-3.7.1.min.js integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin=anonymous></script></head><body><script defer src=https://cloud.umami.is/script.js data-website-id=213f09d3-6821-40fe-81eb-8583ef76ae13></script><div class=site-container><header class=site-header><section class="top container"><div class=brand><a href=/><img src=/images/sm-logo.svg alt="Sourcemation Logo"></a></div><nav class="menu main-menu"><ul><li><a href=/catalog/><span>Catalog</span></a></li><li><a href=/risk-analysis/><span>Risk Analysis</span></a></li><li><a href=/blog/><span>Blog</span></a></li><li><a href=/component/><span>Software Components</span></a></li><li><a href=/contact/><span>Contact</span></a></li></ul><span class="theme-switcher hidden"><img src=/images/day-f.png></span>
+<span class=menu-button tabindex=0><i></i><i></i><i></i></span></nav></section><section class=mobile-section><nav class="menu mobile-menu container"><ul><li><a href=/catalog/><span>Catalog</span></a></li><li><a href=/risk-analysis/><span>Risk Analysis</span></a></li><li><a href=/blog/><span>Blog</span></a></li><li><a href=/component/><span>Software Components</span></a></li><li><a href=/contact/><span>Contact</span></a></li></ul></nav></section></header><main class=main-content><section class="hero hero-minimal"><div class="alpha alpha-ending"></div><div class="body container"><div class="text-body text-body-promo"><h2>Sourcemation - the Single Source of Container Images</h2><p><a href=/blog class=link>Return to blog index</a></p></div></div><div class="alpha alpha-ending"></div></section><article class=page><div class=page-header><div class=container><div class=featured-image style=background-image:url(/images/blog/sigstore_cosign-horizontal-color.svg);height:400px;background-size:cover;background-position:50%;border-radius:8px;margin-bottom:2rem></div><h1 class=title>Checking BLOB With Cosign - Python Source Code Example</h1><p></p><div class=meta><span class=tag>programming</span>
+<span class=tag>python</span>
+<span class=tag>cosign</span>
+<span class=tag>containers</span>
+<span class=date>Published:
+<datetime>2025-11-28</datetime></span></div></div></div><div class="page-content container"><h1 id=checking-blob-with-cosign---python-source-code>Checking blob with cosign - Python source code</h1><p>This article is quite lengthy, as you will see it&rsquo;s just a few commands, but
+the deeper understanding of the topic requires some background information. If
+you are not interested you can skip directly to the example at the end of the
+article (TL;DR).</p><h2 id=cosign>cosign</h2><p>Cosign is a tool well-known for signing and verifying container images. But
+it&rsquo;s much more useful and powerful as it can also <strong>sign and verify any type of
+BLOB</strong>.</p><p><strong>For most of us BLOB is just a fancy name for &ldquo;something&rdquo;</strong>, in most cases a file,
+compiled binary (especially for Linux kernel modules), or archive (tar, zip,
+etc). BLOB is the acronym for Binary Large OBject.</p><p>The cosign itself is owned/managed by the Linux Foundation&rsquo;s sigstore project,
+program is written in Go language, and is open source. The official repository
+is located <a href=https://github.com/sigstore/cosign>on the GitHub</a>. One of my favorite
+things about golang programs/apps is that they are compiled into a single
+binary file (static compilation), which means that they can be easily deployed
+and used on any system as long as the system calls are stable, and you have
+proper architecture binary (amd64/x86_64, arm64/aarch64, etc).</p><p>It makes it perfect to use in containers as you can just download the binary,
+check the signature, and then remove the binary with extra files that it might
+create after use :).</p><h2 id=python-314---pep-761-no-more-gpg-signatures>Python 3.14 - PEP-761 No more GPG signatures</h2><p>The <a href=https://peps.python.org/pep-0761/>PEP-761</a> is now in force from Python
+3.14 onwards. This pep ditches the old way of verifying the Python source code
+with GPG signatures, it&rsquo;s extensive web of trust, long lived GPG keys to a simpler,
+and more modern way of verifying the source code with cosign signatures.</p><h3 id=gpg-vs-cosign>GPG vs cosign</h3><p>PGP - it&rsquo;s standard called Pretty Good Privacy, and GPG - GNU Privacy Guard is the
+most popular implementation of this standard. The GPG is widely used for signing
+and verifying files, encrypting emails, and other electronic communications that
+you can find the PGP and GPG used interchangeably.</p><p>Gnu Privacy Guard (GPG) is a great tool for signing and verifying files, making
+your electronic communications more secure. However, it has some downsides
+including:</p><ul><li>Long lived, hard to manage keys</li><li>Complex web of trust</li><li>Difficult to use in automated systems and containerized builds. Most builds
+install the GPG from OS package manager, which might not have the latest
+version</li><li>GPG signatures are not as user friendly as cosign signatures</li><li>Keyservers likes to be out of sync or just down from time to time</li><li><strong>The GPG command line interface is notoriously difficult to master</strong>,
+learning it is time consuming and most people that I know just document it
+their own way, then forget about, as the discoverability of gpg commands in
+is poor</li></ul><p>GPG advantages include:</p><ul><li>Well known and widely used</li><li>It&rsquo;s one of these standards that &ldquo;if it ain&rsquo;t broke, don&rsquo;t fix it&rdquo; applies</li><li>The web of trust can be useful in many scenarios, including the journalism
+and whistleblowing</li><li>It&rsquo;s much more versatile than cosign</li><li>It feels like real free/libre software in comparison to cosign/sigstore that
+is backed by big corporations</li></ul><p>On the other hand cosign is doing mostly one thing, signing and verifying container
+images, and it&rsquo;s doing it well. The advantages of cosign include:</p><ul><li>Uses short-lived, ephemeral keys</li><li>OIDC (OpenID Connect) identity (e.g., GitHub(Microsoft)/Google)</li><li>Easy to use and learn command line interface</li><li>Designed for automated systems</li><li>Key distribution is simpler and more reliable</li><li>Better suited for containerized builds and automated systems</li><li>Signature in the Rekor transparency log</li></ul><h2 id=python-foundation-way-of-veryfying-the-source-code>Python Foundation way of veryfying the source code</h2><p>The way that the Python Foundation suggests to verify the Python source code is
+a little abysmal for minimalistic systems and approach. The official documentation
+propose the following steps:</p><pre tabindex=0><code>python -m pip install sigstore
+python -m sigstore verify identity \
+  --bundle Python-3.11.0.tgz.sigstore \
+  --cert-identity pablogsal@python.org \
+  --cert-oidc-issuer https://accounts.google.com \
+  Python-3.11.0.tgz
+</code></pre><p>In my opinion this approach has some downsides. The most obvious one is that
+you need the Python and pip installed on the system that is verifying the
+source code. It&rsquo;s not good for a minimalistic, containerized build systems. Of
+course you can create a virtualenv, or just use multi-stage builds where one
+build is for verification and the second one is for actual building the Python,
+but it&rsquo;s just more complex than it should be.</p><p>That&rsquo;s why we decided to investigate it further and find a better way of
+verifying the Python source code with cosign directly :).</p><h2 id=installing-cosign-and-check-python-source-code>Installing Cosign and check Python source code</h2><p>Installing the cosign is quite simple, you can download the binary directly
+from the GitHub:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># You can change the linux to darwin or windows if needed</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># you can set the architecture manually if needed</span>
+</span></span><span style=display:flex><span>TARGETARCH<span style=color:#f92672>=</span><span style=color:#66d9ef>$(</span>uname -m | sed <span style=color:#e6db74>&#39;s/x86_64/amd64/&#39;</span> | sed <span style=color:#e6db74>&#39;s/aarch64/arm64/&#39;</span><span style=color:#66d9ef>)</span>;
+</span></span><span style=display:flex><span>COSIGN_VERSION<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;latest&#34;</span>
+</span></span><span style=display:flex><span>wget -O cosign <span style=color:#e6db74>&#34;https://github.com/sigstore/cosign/releases/</span><span style=color:#e6db74>${</span>COSIGN_VERSION<span style=color:#e6db74>}</span><span style=color:#e6db74>/download/cosign-linux-</span><span style=color:#e6db74>${</span>TARGETARCH<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>
+</span></span><span style=display:flex><span>chmod +x cosign
+</span></span></code></pre></div><p>If you want to keep the cosign binary for later use you can move it to
+<code>/usr/local/bin</code> or any other directory that is in your <code>PATH</code> environment
+variable.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo mv cosign /usr/local/bin/
+</span></span></code></pre></div><h2 id=verifying-the-python-source-code-with-cosign>Verifying the Python source code with cosign</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>PYTHON_VERSION<span style=color:#f92672>=</span>3.14.0
+</span></span><span style=display:flex><span>wget -O python.tar.xz <span style=color:#e6db74>&#34;https://www.python.org/ftp/python/</span>$PYTHON_VERSION<span style=color:#e6db74>/Python-</span>$PYTHON_VERSION<span style=color:#e6db74>.tar.xz&#34;</span>
+</span></span><span style=display:flex><span>wget -O python.tar.xz.sigstore <span style=color:#e6db74>&#34;https://www.python.org/ftp/python/</span>$PYTHON_VERSION<span style=color:#e6db74>/Python-</span>$PYTHON_VERSION<span style=color:#e6db74>.tar.xz.sigstore&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># You can use ./cosign if you didn&#39;t move the binary to /usr/local/bin</span>
+</span></span><span style=display:flex><span>cosign verify-blob <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    --certificate-oidc-issuer <span style=color:#e6db74>&#39;https://github.com/login/oauth&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    --certificate-identity <span style=color:#e6db74>&#39;hugo@python.org&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    --bundle ./python.tar.xz.sigstore <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    ./python.tar.xz
+</span></span></code></pre></div><p>In case of successful verification you should see the output similar to this:</p><pre tabindex=0><code>Verified OK
+</code></pre><p>The <code>certificate-oidc-issuer</code> and <code>certificate-identity</code> values are specific to
+the release manager that is signing the release. The list of release managers,
+their emails, and OIDC issuers can be found
+<a href=https://www.python.org/dev/peps/pep-0761/#release>in the PEP</a></p><h2 id=cleaning-the-files-that-cosign-created>Cleaning the files that cosign created</h2><p>The simplest solution to get the files that the program is opening is to use the <code>strace</code>
+command and then trying to grep the output for the files that are being opened.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>strace cosign verify-blob <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    --certificate-oidc-issuer <span style=color:#e6db74>&#39;https://github.com/login/oauth&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    --certificate-identity <span style=color:#e6db74>&#39;hugo@python.org&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    --bundle ./python.tar.xz.sigstore <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    ./python.tar.xz 2&gt;&amp;<span style=color:#ae81ff>1</span> | grep open
+</span></span></code></pre></div><p>Like always there will be a lot of files, but the one that we are interested in looks like</p><pre tabindex=0><code class=language-log data-lang=log>openat(AT_FDCWD, &#34;/home/Alex/.sigstore/root/remote.json&#34;, O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, &#34;/home/Alex/.sigstore/root/tuf-repo-cdn.sigstore.dev/tuf_tmp780997118&#34;, O_RDWR|O_CREAT|O_EXCL|O_CLOEXEC, 0600) = 4
+openat(AT_FDCWD, &#34;/home/Alex/.sigstore/root/tuf-repo-cdn.sigstore.dev/root.json&#34;, O_RDONLY|O_CLOEXEC) = 4
+openat(AT_FDCWD, &#34;/home/Alex/.sigstore/root/tuf-repo-cdn.sigstore.dev/timestamp.json&#34;, O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, &#34;/home/Alex/.sigstore/root/tuf-repo-cdn.sigstore.dev/tuf_tmp3153099839&#34;, O_RDWR|O_CREAT|O_EXCL|O_CLOEXEC, 0600) = 4
+openat(AT_FDCWD, &#34;/home/Alex/.sigstore/root/tuf-repo-cdn.sigstore.dev/root.json&#34;, O_RDONLY|O_CLOEXEC) = 4
+</code></pre><p>So it&rsquo;s just a matter of removing the <code>.sigstore</code> directory from your home directory.</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>rm -rf ~/.sigstore
+</span></span></code></pre></div><h2 id=tldr---checking-the-python-source-code-with-cosign>TL;DR - Checking the Python Source Code with Cosign</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>TARGETARCH<span style=color:#f92672>=</span><span style=color:#66d9ef>$(</span>uname -m | sed <span style=color:#e6db74>&#39;s/x86_64/amd64/&#39;</span> | sed <span style=color:#e6db74>&#39;s/aarch64/arm64/&#39;</span><span style=color:#66d9ef>)</span>;
+</span></span><span style=display:flex><span>COSIGN_VERSION<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;latest&#34;</span>
+</span></span><span style=display:flex><span>PYTHON_VERSION<span style=color:#f92672>=</span>3.14.0
+</span></span><span style=display:flex><span>wget -O cosign <span style=color:#e6db74>&#34;https://github.com/sigstore/cosign/releases/</span><span style=color:#e6db74>${</span>COSIGN_VERSION<span style=color:#e6db74>}</span><span style=color:#e6db74>/download/cosign-linux-</span><span style=color:#e6db74>${</span>TARGETARCH<span style=color:#e6db74>}</span><span style=color:#e6db74>&#34;</span>;
+</span></span><span style=display:flex><span>chmod +x cosign
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>wget -O python.tar.xz <span style=color:#e6db74>&#34;https://www.python.org/ftp/python/</span>$PYTHON_VERSION<span style=color:#e6db74>/Python-</span>$PYTHON_VERSION<span style=color:#e6db74>.tar.xz&#34;</span>
+</span></span><span style=display:flex><span>wget -O python.tar.xz.sigstore <span style=color:#e6db74>&#34;https://www.python.org/ftp/python/</span>$PYTHON_VERSION<span style=color:#e6db74>/Python-</span>$PYTHON_VERSION<span style=color:#e6db74>.tar.xz.sigstore&#34;</span>
+</span></span><span style=display:flex><span><span style=color:#75715e># You can use cosign if moved the binary to /usr/local/bin or any other directory in your PATH environment variable</span>
+</span></span><span style=display:flex><span>./cosign verify-blob <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    --certificate-oidc-issuer <span style=color:#e6db74>&#39;https://github.com/login/oauth&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    --certificate-identity <span style=color:#e6db74>&#39;hugo@python.org&#39;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    --bundle ./python.tar.xz.sigstore <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span><span style=color:#ae81ff></span>    ./python.tar.xz
+</span></span><span style=display:flex><span>rm -rf ~/.sigstore
+</span></span></code></pre></div><h2 id=conclusion>Conclusion</h2><p>The cosign is a great tool for signing and verifying files, especially in
+containerized workflows and automated systems. The Python Foundation&rsquo;s decision
+to use cosign for signing is controversial. On the one hand, it modernizes the
+process, it&rsquo;s easier for release managers and for users, the short lived keys are
+much safer than long lived GPG keys. In many aspects it&rsquo;s win-win situation, but
+it also has some discussable downsides, still it feels like a step forward.</p><p>The Sourcemation Python 3.14 container images uses the method described in this
+article to verify the source code before building the images, adding small step
+to the supply chain security of images that you are using in your projects.</p><p>Our favorite cool feature of Python 3.14 are colors in the REPL :)
+<img src=/images/blog/python-3.13-python-3.14.png alt="Python 3.13 REPL vs Python 3.14 REPL"></p></div></article></main><div class=footer-after></div><div class=site-footer><section class="footer-links container"><div class=col-1>© 2024-2025 Sourcemation, © 2024-2025 LinuxPolska Sp. z o.o.<br><a href=#>Terms of use</a> | <a href=#>Privacy Policy</a></div><div class=col-2>Made in Europe</div></section><section class="footer-links credits container"><div class=col-1><p>Sourcemation project co-financed by the European Regional Development Fund under the Intelligent Development Operational Program
+Read more [Polish]: <a href=https://linuxpolska.com/pl/projekt-badawczy-system-analizy-ryzyka-open-source/ target=_blank>Linux Polska Website</a></p></div><div class=col-2><a class=source-button href=https://github.com/sourcemation target=_blank rel="noopener noreferrer" aria-label=GitHub><i class="fab fa-github"></i><span>Sourcemation on GitHub</span></a></div></section></div><div class="footer-after hidden"></div></div><script>window.onload=function(){const e=document.querySelector(".slide-in");e&&e.classList.add("active")},$(".site-header .menu-button").click(function(){$(".site-header").toggleClass("menu-open"),$(".site-header .mobile-section").slideToggle(300)})</script></body></html>
