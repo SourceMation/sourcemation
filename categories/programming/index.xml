@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:22:51 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Erlang 27</title><link>https://sourcemation.com/catalog/erlang-27/</link><pubDate>Thu, 06 Nov 2025 10:22:51 +0100</pubDate><guid>https://sourcemation.com/catalog/erlang-27/</guid><description>&lt;p&gt;Erlang is a functional programming language and runtime environment
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 03 Dec 2025 16:57:07 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Python 3.14</title><link>https://sourcemation.com/catalog/python-3.14/</link><pubDate>Wed, 03 Dec 2025 16:57:07 +0100</pubDate><guid>https://sourcemation.com/catalog/python-3.14/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;This version of Python is built from the latest sources by Sourcemation&amp;rsquo;s
+automation team, it receives regular patches and updates. The security support
+for python 3.14 will be maintained until October 31, 2030.&lt;/p&gt;
+&lt;p&gt;Python 3.14 introduces several new features and optimizations, the most notable are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;REPL is now colorful by default, making it easier to read and understand code snippets&lt;/li&gt;
+&lt;li&gt;Better pathlib methods making it easier to work with file paths, making the shutil somewhat obsolete&lt;/li&gt;
+&lt;li&gt;Template strings that are even more powerful and flexible than the f-strings&lt;/li&gt;
+&lt;li&gt;Argparse now can suggest typos&lt;/li&gt;
+&lt;li&gt;Concurrent subinterpreters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And much, much more! For a complete list of changes, please refer to the official documentation at
+&lt;a href="https://docs.python.org/3.14/whatsnew/3.14.html"&gt;https://docs.python.org/3.14/whatsnew/3.14.html&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Erlang 27</title><link>https://sourcemation.com/catalog/erlang-27/</link><pubDate>Thu, 06 Nov 2025 10:22:51 +0100</pubDate><guid>https://sourcemation.com/catalog/erlang-27/</guid><description>&lt;p&gt;Erlang is a functional programming language and runtime environment
 (known as OTP - Open Telecom Platform) built by Ericsson. Its entire
 design is centered on &amp;ldquo;massive concurrency&amp;rdquo; and &amp;ldquo;high availability.&amp;rdquo;
 It achieves this by using lightweight, isolated processes (not OS

@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sourcemation</title><link>https://sourcemation.com/</link><description>Recent content on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 28 Nov 2025 11:47:03 +0100</lastBuildDate><atom:link href="https://sourcemation.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Checking BLOB With Cosign - Python Source Code Example</title><link>https://sourcemation.com/blog/checking-blob-with-cosign-python-example/</link><pubDate>Fri, 28 Nov 2025 11:47:03 +0100</pubDate><guid>https://sourcemation.com/blog/checking-blob-with-cosign-python-example/</guid><description>&lt;h1 id="checking-blob-with-cosign---python-source-code"&gt;Checking blob with cosign - Python source code&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sourcemation</title><link>https://sourcemation.com/</link><description>Recent content on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 03 Dec 2025 16:57:07 +0100</lastBuildDate><atom:link href="https://sourcemation.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Python 3.14</title><link>https://sourcemation.com/catalog/python-3.14/</link><pubDate>Wed, 03 Dec 2025 16:57:07 +0100</pubDate><guid>https://sourcemation.com/catalog/python-3.14/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;This version of Python is built from the latest sources by Sourcemation&amp;rsquo;s
+automation team, it receives regular patches and updates. The security support
+for python 3.14 will be maintained until October 31, 2030.&lt;/p&gt;
+&lt;p&gt;Python 3.14 introduces several new features and optimizations, the most notable are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;REPL is now colorful by default, making it easier to read and understand code snippets&lt;/li&gt;
+&lt;li&gt;Better pathlib methods making it easier to work with file paths, making the shutil somewhat obsolete&lt;/li&gt;
+&lt;li&gt;Template strings that are even more powerful and flexible than the f-strings&lt;/li&gt;
+&lt;li&gt;Argparse now can suggest typos&lt;/li&gt;
+&lt;li&gt;Concurrent subinterpreters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And much, much more! For a complete list of changes, please refer to the official documentation at
+&lt;a href="https://docs.python.org/3.14/whatsnew/3.14.html"&gt;https://docs.python.org/3.14/whatsnew/3.14.html&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Checking BLOB With Cosign - Python Source Code Example</title><link>https://sourcemation.com/blog/checking-blob-with-cosign-python-example/</link><pubDate>Fri, 28 Nov 2025 11:47:03 +0100</pubDate><guid>https://sourcemation.com/blog/checking-blob-with-cosign-python-example/</guid><description>&lt;h1 id="checking-blob-with-cosign---python-source-code"&gt;Checking blob with cosign - Python source code&lt;/h1&gt;
 &lt;p&gt;This article is quite lengthy, as you will see it&amp;rsquo;s just a few commands, but
 the deeper understanding of the topic requires some background information. If
 you are not interested you can skip directly to the example at the end of the
