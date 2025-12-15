@@ -56,6 +56,10 @@ main, .main-content {
     transition: all 0.3s ease;
 }
 
+.logo-dark {
+    display: none;
+}
+
 .site-title:hover .header-logo {
     transform: scale(1.05);
     filter: brightness(1.1);

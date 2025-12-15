@@ -410,12 +410,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 [data-theme="dark"] .site-footer .credits .source-button {
-    border-color: var(--accent-primary);
-    background-color: var(--accent-secondary);
+    border-color: #7D67A1;
+    background-color: #5D428A;
+    color: #DEEBFB;
+}
+
+[data-theme="dark"] .site-footer .credits .source-button span,
+[data-theme="dark"] .site-footer .credits .source-button i {
+    color: #DEEBFB;
 }
 
 [data-theme="dark"] .site-footer .credits .source-button:hover {
     background-color: transparent;
+    color: #DEEBFB;
 }
 
 [data-theme="dark"] .footer-after {
@@ -582,12 +589,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Platform Name & Description */
-.platform-name {
+[data-theme="dark"] .platform-name {
     color: var(--text-primary);
 }
 
-.platform-description {
-    color: var(--text-tertiary);
+[data-theme="dark"] .platform-description {
+    color: var(--text-secondary);
 }
 
 /* Platform Components Link */
@@ -1157,11 +1164,14 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--text-secondary);
 }
 
-/* Images Directory */
+ /*Images Directory*/
 [data-theme="dark"] .images-dir {
     background-color: var(--images-dir-bg);
 }
 
+[data-theme="dark"] .images-dir-on-software {
+    background-color: unset;
+}
 [data-theme="dark"] .images-dir .grid > div {
     background-color: var(--images-dir-item-bg);
     background: linear-gradient(139deg, var(--images-dir-item-bg) 80%, rgba(51, 65, 85, 0.3));
@@ -1441,6 +1451,17 @@ body,
    ============================================================================= */
 html:not([data-theme]) {
     visibility: visible;
+}
+
+/* =============================================================================
+   Logo Switching
+   ============================================================================= */
+[data-theme="dark"] .logo-light {
+    display: none;
+}
+
+[data-theme="dark"] .logo-dark {
+    display: inherit;
 }
 
 /* =============================================================================

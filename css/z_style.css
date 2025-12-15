@@ -52,6 +52,7 @@ strike::before {content: ""; width: 100%; height: 4px; transform--: rotate(-10de
 .site-header .brand {padding-top--: 8px;}
 .site-header .brand a {display: inline-block; height: 30px; padding: 2.5px 5px}
 .site-header .brand a img {height: 30px}
+.logo-dark { display: none; }
 .site-header .menu {color: #5263BA;}
 .site-header .menu ul {list-style-type: none; margin: 0; padding:0; display: inline-block; padding-right--: 20px;}
 .site-header .menu ul li {padding:0; display: inline-block; font-size: 15px;}
