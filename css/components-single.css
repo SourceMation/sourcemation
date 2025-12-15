@@ -1,13 +1,6 @@
 /* Component Single Page Styles */
 
 /* Prevent horizontal overflow */
-* {
-    box-sizing: border-box;
-}
-
-main {
-    overflow-x: hidden;
-}
 
 /* Component Header */
 .component-header {
