@@ -1,9 +1,5 @@
 /* Catalog Components Specific Styles */
 
-* {
-    box-sizing: border-box;
-}
-
 /* Simple Catalog Header */
 .catalog-header {
     text-align: center;
@@ -45,7 +41,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    word-break: break-word;
 }
 
 .component-type {
@@ -65,27 +60,6 @@
     border-radius: 10px;
     margin-bottom: 2rem;
     border-left: 4px solid #007bff;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-}
-
-.catalog-description img {
-    max-width: 100%;
-    height: auto;
-}
-
-.catalog-description pre {
-    overflow-x: auto;
-    max-width: 100%;
-    background: #e9ecef;
-    padding: 1rem;
-    border-radius: 6px;
-}
-
-.catalog-description table {
-    display: block;
-    overflow-x: auto;
-    max-width: 100%;
 }
 
 .catalog-data-section {
@@ -392,10 +366,6 @@
     }
 
     .card {
-        padding: 1.25rem;
-    }
-
-    .catalog-description {
-        padding: 1.25rem;
+        padding: 1.5rem;
     }
 }
