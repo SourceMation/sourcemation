@@ -423,12 +423,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* =============================================================================
-   Footer
+   Footer (main.css overrides - only for dark theme)
+   Note: Light theme footer uses z_style.css purple background (#372752)
    ============================================================================= */
-.site-footer {
-    background: var(--footer-bg);
-    border-top-color: var(--footer-border);
-}
 
 .footer-content {
     border-bottom-color: var(--border-secondary);
