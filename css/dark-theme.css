@@ -1,0 +1,1460 @@
+/* =============================================================================
+   Dark Theme CSS Variables & Styles
+   Using CSS Custom Properties for performant theme switching
+   ============================================================================= */
+
+/* =============================================================================
+   CSS Custom Properties - Light Theme (Default)
+   ============================================================================= */
+:root {
+    /* Background colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-tertiary: #f3f4f6;
+    --bg-card: #ffffff;
+    --bg-input: #ffffff;
+    --bg-code: #f8f9fa;
+    --bg-pre: #1f2937;
+
+    /* Text colors */
+    --text-primary: #111827;
+    --text-secondary: #374151;
+    --text-tertiary: #6b7280;
+    --text-muted: #9ca3af;
+    --text-inverse: #ffffff;
+
+    /* Border colors */
+    --border-primary: #e5e7eb;
+    --border-secondary: #f3f4f6;
+    --border-hover: #3b82f6;
+
+    /* Accent colors */
+    --accent-primary: #3b82f6;
+    --accent-primary-hover: #1d4ed8;
+    --accent-secondary: #2563eb;
+    --accent-success: #059669;
+    --accent-warning: #f59e0b;
+    --accent-danger: #dc2626;
+
+    /* Shadow colors */
+    --shadow-sm: rgba(0, 0, 0, 0.05);
+    --shadow-md: rgba(0, 0, 0, 0.1);
+    --shadow-lg: rgba(0, 0, 0, 0.15);
+    --shadow-accent: rgba(59, 130, 246, 0.2);
+
+    /* Component specific */
+    --header-bg: #ffffff;
+    --header-border: #e5e7eb;
+    --footer-bg: #ffffff;
+    --footer-border: #e5e7eb;
+    --card-bg: #ffffff;
+    --card-border: #e5e7eb;
+    --card-hover-border: #3b82f6;
+    --nav-hover-bg: #eff6ff;
+    --nav-link-color: #374151;
+    --tag-bg: #f3f4f6;
+    --tag-color: #4b5563;
+    --table-header-bg: #f9fafb;
+    --table-border: #f3f4f6;
+
+    /* Gradients */
+    --gradient-page-header: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    --gradient-hero: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --gradient-features-bg: #f8fafc;
+
+    /* z_style.css specific */
+    --home-features-bg: #c2c8f32e;
+    --home-features-card-shadow-light: white;
+    --home-features-card-shadow-dark: #D1D9E6;
+    --images-dir-bg: #E2E5F9;
+    --images-dir-item-bg: white;
+    --software-filter-bg: #c2c8f32e;
+    --filter-item-bg: #E2E5F9;
+    --page-header-bg: #c2c8f32e;
+    --page-content-pre-bg: #E2E5F9;
+}
+
+/* =============================================================================
+   CSS Custom Properties - Dark Theme
+   ============================================================================= */
+[data-theme="dark"] {
+    /* Background colors */
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-tertiary: #334155;
+    --bg-card: #1e293b;
+    --bg-input: #1e293b;
+    --bg-code: #334155;
+    --bg-pre: #0f172a;
+
+    /* Text colors */
+    --text-primary: #f1f5f9;
+    --text-secondary: #e2e8f0;
+    --text-tertiary: #94a3b8;
+    --text-muted: #64748b;
+    --text-inverse: #0f172a;
+
+    /* Border colors */
+    --border-primary: #334155;
+    --border-secondary: #475569;
+    --border-hover: #60a5fa;
+
+    /* Accent colors */
+    --accent-primary: #60a5fa;
+    --accent-primary-hover: #93c5fd;
+    --accent-secondary: #3b82f6;
+    --accent-success: #34d399;
+    --accent-warning: #fbbf24;
+    --accent-danger: #f87171;
+
+    /* Shadow colors */
+    --shadow-sm: rgba(0, 0, 0, 0.3);
+    --shadow-md: rgba(0, 0, 0, 0.4);
+    --shadow-lg: rgba(0, 0, 0, 0.5);
+    --shadow-accent: rgba(96, 165, 250, 0.3);
+
+    /* Component specific */
+    --header-bg: #0f172a;
+    --header-border: #334155;
+    --footer-bg: #0f172a;
+    --footer-border: #334155;
+    --card-bg: #1e293b;
+    --card-border: #334155;
+    --card-hover-border: #60a5fa;
+    --nav-hover-bg: #334155;
+    --nav-link-color: #e2e8f0;
+    --tag-bg: #334155;
+    --tag-color: #e2e8f0;
+    --table-header-bg: #334155;
+    --table-border: #475569;
+
+    /* Gradients */
+    --gradient-page-header: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    --gradient-hero: linear-gradient(135deg, #4c1d95 0%, #581c87 100%);
+    --gradient-features-bg: #1e293b;
+
+    /* z_style.css specific */
+    --home-features-bg: #1e293b;
+    --home-features-card-shadow-light: #0f172a;
+    --home-features-card-shadow-dark: #0f172a;
+    --images-dir-bg: #1e293b;
+    --images-dir-item-bg: #334155;
+    --software-filter-bg: #1e293b;
+    --filter-item-bg: #334155;
+    --page-header-bg: #1e293b;
+    --page-content-pre-bg: #334155;
+}
+
+/* =============================================================================
+   Global Theme Overrides
+   ============================================================================= */
+
+/* Body and HTML */
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+}
+
+/* =============================================================================
+   Header Styles
+   ============================================================================= */
+.site-header {
+    background: var(--header-bg);
+    border-bottom-color: var(--header-border);
+}
+
+[data-theme="dark"] .site-header {
+    box-shadow: 0 4px 12px var(--shadow-md);
+}
+
+/* z_style header menu overrides */
+[data-theme="dark"] .site-header .menu ul li a {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .site-header .menu ul li a::before {
+    background-image: linear-gradient(to bottom, var(--bg-secondary), rgba(96, 165, 250, 0.2) 100%);
+}
+
+[data-theme="dark"] .site-header .menu .menu-button i {
+    background: var(--text-secondary);
+}
+
+.nav-link {
+    color: var(--nav-link-color);
+}
+
+.nav-link:hover {
+    color: var(--accent-primary);
+    background: var(--nav-hover-bg);
+}
+
+/* Mobile menu dark theme */
+[data-theme="dark"] .site-header .mobile-section {
+    background-image: linear-gradient(to right, #1e293b 0%, #334155 100%);
+}
+
+[data-theme="dark"] .site-header .mobile-section ul li a {
+    color: var(--text-primary);
+    border-color: var(--border-primary);
+}
+
+/* =============================================================================
+   Cards and Content Blocks
+   ============================================================================= */
+.content-card,
+.card,
+.software-card,
+.catalog-item,
+.blog-post-item,
+.platform-link,
+.feature-card,
+.blog-preview-card {
+    background: var(--card-bg);
+    border-color: var(--card-border);
+}
+
+.content-card:hover,
+.card:hover,
+.software-card:hover,
+.catalog-item:hover,
+.blog-post-item:hover,
+.platform-link:hover,
+.feature-card:hover,
+.blog-preview-card:hover {
+    border-color: var(--card-hover-border);
+    box-shadow: 0 12px 24px var(--shadow-md);
+}
+
+.content-card-header {
+    background: var(--gradient-page-header);
+    border-bottom-color: var(--border-primary);
+}
+
+.content-card-footer {
+    background: var(--bg-secondary);
+    border-top-color: var(--border-secondary);
+}
+
+/* =============================================================================
+   Headings and Text
+   ============================================================================= */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+}
+
+.page-description {
+    color: var(--text-tertiary);
+}
+
+.catalog-header h1,
+.catalog-single-details h1,
+.blog-header h1,
+.page-header h1,
+.section-header h2 {
+    color: var(--text-primary);
+}
+
+/* Prose content */
+.prose {
+    color: var(--text-secondary);
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    color: var(--text-primary);
+}
+
+.prose a {
+    color: var(--accent-primary);
+}
+
+.prose a:hover {
+    color: var(--accent-primary-hover);
+}
+
+.prose blockquote {
+    border-left-color: var(--border-primary);
+    color: var(--text-tertiary);
+}
+
+.prose code {
+    background: var(--bg-code);
+    color: var(--text-primary);
+}
+
+.prose pre {
+    background: var(--bg-pre);
+    color: var(--text-inverse);
+}
+
+[data-theme="dark"] .prose pre {
+    color: var(--text-primary);
+}
+
+/* =============================================================================
+   Page Headers and Sections
+   ============================================================================= */
+.page-header,
+.catalog-header,
+.blog-header {
+    background: var(--gradient-page-header);
+    border-bottom-color: var(--border-primary);
+}
+
+.features-section,
+.blog-preview-section {
+    background: var(--gradient-features-bg);
+}
+
+.platforms-section {
+    background: var(--bg-primary);
+}
+
+/* =============================================================================
+   Forms and Inputs
+   ============================================================================= */
+.search-input {
+    background-color: var(--bg-input);
+    border-color: var(--border-primary);
+    color: var(--text-primary);
+}
+
+.search-input:focus {
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 3px var(--shadow-accent);
+}
+
+.search-input::placeholder {
+    color: var(--text-muted);
+}
+
+.search-icon {
+    color: var(--text-muted);
+}
+
+/* =============================================================================
+   Tags and Badges
+   ============================================================================= */
+.tag {
+    background: var(--tag-bg);
+    color: var(--tag-color);
+}
+
+.tag:hover {
+    background: var(--nav-hover-bg);
+    color: var(--accent-primary);
+}
+
+.tag-cloud-item {
+    background: var(--card-bg);
+    color: var(--text-secondary);
+    border-color: var(--border-primary);
+}
+
+.tag-cloud-item:hover {
+    background: var(--accent-primary);
+    color: var(--text-inverse);
+    border-color: var(--accent-primary);
+}
+
+.tag-count {
+    background: var(--bg-tertiary);
+    color: var(--text-tertiary);
+}
+
+/* =============================================================================
+   Tables
+   ============================================================================= */
+.metadata-table th,
+.cve-table th {
+    background-color: var(--table-header-bg);
+    color: var(--text-secondary);
+}
+
+.metadata-table td,
+.cve-table td {
+    color: var(--text-tertiary);
+    border-bottom-color: var(--table-border);
+}
+
+.metadata-table th,
+.metadata-table td,
+.cve-table th,
+.cve-table td {
+    border-bottom-color: var(--table-border);
+}
+
+.metadata-table a,
+.cve-link {
+    color: var(--accent-primary);
+}
+
+/* =============================================================================
+   Footer (z_style specific)
+   ============================================================================= */
+[data-theme="dark"] .site-footer {
+    background-color: #1e1b2e;
+    color: var(--text-tertiary);
+}
+
+[data-theme="dark"] .site-footer a {
+    color: var(--text-tertiary);
+}
+
+[data-theme="dark"] .site-footer a:hover {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .site-footer .credits .col-1 {
+    border-top-color: var(--border-primary);
+}
+
+[data-theme="dark"] .site-footer .credits .source-button {
+    border-color: var(--accent-primary);
+    background-color: var(--accent-secondary);
+}
+
+[data-theme="dark"] .site-footer .credits .source-button:hover {
+    background-color: transparent;
+}
+
+[data-theme="dark"] .footer-after {
+    background: linear-gradient(135deg, #4c1d95 0%, #581c87 100%);
+}
+
+/* =============================================================================
+   Footer
+   ============================================================================= */
+.site-footer {
+    background: var(--footer-bg);
+    border-top-color: var(--footer-border);
+}
+
+.footer-content {
+    border-bottom-color: var(--border-secondary);
+}
+
+.copyright {
+    color: var(--text-muted);
+}
+
+.social-link {
+    color: var(--text-tertiary);
+}
+
+.social-link:hover {
+    background: var(--bg-secondary);
+}
+
+/* =============================================================================
+   Buttons
+   ============================================================================= */
+.btn-secondary {
+    color: var(--accent-primary);
+    border-color: var(--accent-primary);
+}
+
+.btn-secondary:hover {
+    background: var(--accent-primary);
+    color: var(--text-inverse);
+}
+
+.btn-outline {
+    color: var(--text-secondary);
+    border-color: var(--border-primary);
+}
+
+.btn-outline:hover {
+    background: var(--text-secondary);
+    color: var(--bg-primary);
+    border-color: var(--text-secondary);
+}
+
+.icon-button {
+    border-color: var(--border-primary);
+    color: var(--text-tertiary);
+}
+
+.icon-button:hover {
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+}
+
+.icon-button.active {
+    border-color: var(--accent-primary);
+    color: var(--accent-primary);
+    background: var(--nav-hover-bg);
+}
+
+/* =============================================================================
+   Catalog Specific (catalog.css)
+   ============================================================================= */
+
+/* Catalog Single Header */
+.catalog-single-header {
+    background: var(--gradient-page-header);
+    border-color: var(--card-border);
+}
+
+[data-theme="dark"] .catalog-single-header {
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    border-color: var(--border-primary);
+}
+
+.catalog-single-logo {
+    border-color: var(--border-primary);
+    background: var(--bg-secondary);
+}
+
+.catalog-single-logo img {
+    background: var(--bg-primary);
+    border-color: var(--border-primary);
+}
+
+[data-theme="dark"] .catalog-single-logo img {
+    background: var(--bg-tertiary);
+    border-color: var(--border-secondary);
+}
+
+[data-theme="dark"] .catalog-single-logo .icon-wrapper {
+    background: linear-gradient(135deg, #3b82f6, #1e40af);
+}
+
+[data-theme="dark"] .catalog-single-details h1 {
+    color: var(--text-primary);
+}
+
+.catalog-single-description,
+.catalog-license {
+    color: var(--text-tertiary);
+}
+
+/* Catalog Platforms Section */
+.catalog-platforms {
+    background: var(--card-bg);
+    border-color: var(--card-border);
+}
+
+[data-theme="dark"] .catalog-platforms {
+    background: var(--card-bg);
+    border-color: var(--border-primary);
+    box-shadow: 0 2px 4px var(--shadow-md);
+}
+
+[data-theme="dark"] .catalog-platforms h2 {
+    color: var(--text-primary);
+}
+
+/* Platform Cards */
+.platform-card {
+    background: var(--bg-secondary);
+    border-color: var(--border-secondary);
+}
+
+[data-theme="dark"] .platform-card {
+    background: var(--bg-tertiary);
+    border-color: var(--border-primary);
+}
+
+.platform-card:hover {
+    border-color: var(--accent-primary);
+}
+
+[data-theme="dark"] .platform-card:hover {
+    box-shadow: 0 4px 12px rgba(96, 165, 250, 0.2);
+    border-color: var(--accent-primary);
+}
+
+/* Platform Link */
+.platform-link {
+    color: inherit;
+}
+
+[data-theme="dark"] .platform-link:hover {
+    background: rgba(96, 165, 250, 0.1);
+}
+
+/* Platform Icon */
+.platform-icon {
+    background: var(--bg-primary);
+}
+
+[data-theme="dark"] .platform-icon {
+    background: var(--bg-secondary);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Platform Name & Description */
+.platform-name {
+    color: var(--text-primary);
+}
+
+.platform-description {
+    color: var(--text-tertiary);
+}
+
+/* Platform Components Link */
+.platform-components-link {
+    border-top-color: var(--border-secondary);
+}
+
+[data-theme="dark"] .platform-components-link {
+    border-top-color: var(--border-primary);
+}
+
+/* Components Link */
+[data-theme="dark"] .components-link {
+    background: linear-gradient(135deg, #059669, #10b981);
+}
+
+[data-theme="dark"] .components-link:hover {
+    background: linear-gradient(135deg, #10b981, #0891b2);
+}
+
+/* Components Link Placeholder */
+[data-theme="dark"] .components-link-placeholder {
+    background: linear-gradient(135deg, #334155, #1e293b);
+    color: var(--text-muted);
+}
+
+/* Content Card */
+.content-card {
+    background: var(--card-bg);
+    border-color: var(--card-border);
+}
+
+[data-theme="dark"] .content-card {
+    background: var(--card-bg);
+    border-color: var(--border-primary);
+    box-shadow: 0 2px 4px var(--shadow-md);
+}
+
+.content-card-header {
+    background: var(--gradient-page-header);
+    border-bottom-color: var(--border-secondary);
+}
+
+[data-theme="dark"] .content-card-header {
+    background: linear-gradient(135deg, #334155, #1e293b);
+    border-bottom-color: var(--border-primary);
+}
+
+[data-theme="dark"] .content-card-header h2 {
+    color: var(--text-primary);
+}
+
+.content-card-body {
+    background: var(--card-bg);
+}
+
+/* Prose content in catalog pages */
+.prose {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .prose {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .prose h1,
+[data-theme="dark"] .prose h2,
+[data-theme="dark"] .prose h3,
+[data-theme="dark"] .prose h4,
+[data-theme="dark"] .prose h5,
+[data-theme="dark"] .prose h6 {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .prose a {
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .prose a:hover {
+    color: var(--accent-primary-hover);
+}
+
+[data-theme="dark"] .prose code {
+    background: var(--bg-code);
+    color: #f472b6;
+}
+
+[data-theme="dark"] .prose pre {
+    background: var(--bg-code);
+    color: var(--text-secondary);
+}
+
+/* Catalog Item Description/Footer */
+.catalog-item-description {
+    color: var(--text-tertiary);
+}
+
+.catalog-item-footer {
+    color: var(--text-muted);
+}
+
+.catalog-item-footer strong {
+    color: var(--text-secondary);
+}
+
+/* Catalog Filters */
+.catalog-filters {
+    background: var(--bg-secondary);
+    border-color: var(--border-primary);
+}
+
+.filter-section h2 {
+    color: var(--text-secondary);
+}
+
+/* =============================================================================
+   Catalog Components Specific (catalog-components.css)
+   ============================================================================= */
+
+/* Catalog Description Box */
+.catalog-description {
+    background: var(--bg-secondary);
+    border-left-color: var(--accent-primary);
+}
+
+[data-theme="dark"] .catalog-description {
+    background: var(--bg-secondary);
+    border-left-color: var(--accent-primary);
+    color: var(--text-secondary);
+}
+
+/* Catalog Data Section */
+.catalog-data-section {
+    color: var(--text-secondary);
+}
+
+/* Score Circle - Overall Score */
+[data-theme="dark"] .circle.overall-score {
+    background: linear-gradient(135deg, #059669, #10b981);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+}
+
+/* Components Grid Items */
+.component-item {
+    background: var(--bg-secondary);
+    border-color: var(--border-secondary);
+}
+
+[data-theme="dark"] .component-item {
+    background: var(--bg-tertiary);
+    border-color: var(--border-primary);
+}
+
+[data-theme="dark"] .component-item:hover {
+    background: var(--bg-secondary);
+}
+
+.component-icon {
+    background: var(--bg-tertiary);
+}
+
+[data-theme="dark"] .component-icon {
+    background: linear-gradient(135deg, #475569, #334155);
+}
+
+.component-name {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .component-name {
+    color: var(--text-secondary);
+}
+
+/* Component status indicators */
+[data-theme="dark"] .component-status.linked {
+    color: var(--accent-success);
+}
+
+[data-theme="dark"] .component-status.unlinked {
+    color: var(--accent-danger);
+}
+
+/* Non-linked components */
+[data-theme="dark"] .component-item:not(:has(.component-link)) .component-name {
+    color: var(--text-muted);
+}
+
+[data-theme="dark"] .component-item:not(:has(.component-link)) .component-icon {
+    background: linear-gradient(135deg, #64748b, #475569);
+    opacity: 0.7;
+}
+
+/* =============================================================================
+   Component Page Specific (components-single.css)
+   ============================================================================= */
+
+/* Component Header */
+.component-header {
+    border-bottom-color: var(--border-primary);
+}
+
+[data-theme="dark"] .component-header {
+    border-bottom-color: var(--border-primary);
+}
+
+[data-theme="dark"] .component-title {
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+[data-theme="dark"] .component-type {
+    background: linear-gradient(135deg, #3b82f6, #1e40af);
+}
+
+/* Card Base Styles - Component Pages */
+.card {
+    background: var(--card-bg);
+    border-color: var(--card-border);
+}
+
+[data-theme="dark"] .card {
+    background: var(--card-bg);
+    border-color: var(--border-primary);
+    box-shadow: 0 1px 3px var(--shadow-md);
+}
+
+[data-theme="dark"] .card:hover {
+    box-shadow: 0 4px 12px var(--shadow-md);
+}
+
+[data-theme="dark"] .card h3 {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .card h4 {
+    color: var(--text-primary);
+}
+
+/* Metadata Table in Cards */
+[data-theme="dark"] .metadata-table table {
+    border-color: var(--border-primary);
+}
+
+[data-theme="dark"] .metadata-table th {
+    background-color: var(--table-header-bg);
+    color: var(--text-secondary);
+    border-bottom-color: var(--table-border);
+}
+
+[data-theme="dark"] .metadata-table td {
+    color: var(--text-tertiary);
+    border-bottom-color: var(--table-border);
+}
+
+[data-theme="dark"] .metadata-table a {
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .metadata-table a:hover {
+    color: var(--accent-primary-hover);
+}
+
+/* Risk Analysis Card */
+[data-theme="dark"] .risk-analysis {
+    background: var(--card-bg);
+}
+
+[data-theme="dark"] .risk-title {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .score-label {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .score-status {
+    color: var(--accent-success);
+}
+
+[data-theme="dark"] .score-description {
+    color: var(--text-tertiary);
+}
+
+/* Score Circles */
+[data-theme="dark"] .circle.activity,
+[data-theme="dark"] .circle.contributors,
+[data-theme="dark"] .circle.code {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+}
+
+[data-theme="dark"] .circle.main-score {
+    background: linear-gradient(135deg, #60a5fa, #a78bfa);
+}
+
+/* CVE Section */
+[data-theme="dark"] .cve-section h3 {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .cve-section h4 {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .cve-table {
+    border-color: var(--border-primary);
+}
+
+[data-theme="dark"] .cve-table th {
+    background-color: var(--table-header-bg);
+    color: var(--text-secondary);
+    border-bottom-color: var(--table-border);
+}
+
+[data-theme="dark"] .cve-table td {
+    color: var(--text-tertiary);
+    border-bottom-color: var(--table-border);
+}
+
+[data-theme="dark"] .cve-link {
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .cve-link:hover {
+    color: var(--accent-primary-hover);
+}
+
+/* Right Sidebar Cards */
+[data-theme="dark"] .right-sidebar .card {
+    background: var(--card-bg);
+    border-color: var(--border-primary);
+}
+
+[data-theme="dark"] .right-sidebar .card h4 {
+    color: var(--text-primary);
+}
+
+/* Programming Languages */
+[data-theme="dark"] .lang-item {
+    border-bottom-color: var(--table-border);
+}
+
+[data-theme="dark"] .lang-name {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .lang-stats {
+    color: var(--text-tertiary);
+}
+
+/* Component Stats */
+[data-theme="dark"] .component-stats .stat-item {
+    border-bottom-color: var(--table-border);
+}
+
+[data-theme="dark"] .stat-label {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .stat-value {
+    color: var(--text-primary);
+}
+
+/* Recent CVEs in Sidebar */
+[data-theme="dark"] .recent-cves .cve-item {
+    border-bottom-color: var(--table-border);
+}
+
+[data-theme="dark"] .cve-id {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .cve-date {
+    color: var(--text-tertiary);
+}
+
+[data-theme="dark"] .cve-more {
+    color: var(--text-tertiary);
+}
+
+/* Contribution Section */
+[data-theme="dark"] .contribution-section h3 {
+    color: var(--text-primary);
+}
+
+.catalog-description {
+    background: var(--bg-secondary);
+    border-left-color: var(--accent-primary);
+}
+
+.component-item {
+    background: var(--bg-secondary);
+    border-color: var(--border-secondary);
+}
+
+.component-item:hover {
+    background: var(--bg-tertiary);
+}
+
+.component-name {
+    color: var(--text-primary);
+}
+
+/* Languages section */
+.lang-item {
+    border-bottom-color: var(--table-border);
+}
+
+.lang-name {
+    color: var(--text-secondary);
+}
+
+.lang-stats {
+    color: var(--text-tertiary);
+}
+
+/* Stats */
+.stat-label {
+    color: var(--text-secondary);
+}
+
+.stat-value {
+    color: var(--text-primary);
+}
+
+.component-stats .stat-item {
+    border-bottom-color: var(--table-border);
+}
+
+/* Risk Analysis */
+.score-label {
+    color: var(--text-secondary);
+}
+
+.score-description {
+    color: var(--text-tertiary);
+}
+
+/* CVE items */
+.recent-cves .cve-item {
+    border-bottom-color: var(--table-border);
+}
+
+.cve-date {
+    color: var(--text-tertiary);
+}
+
+.cve-more {
+    color: var(--text-tertiary);
+}
+
+/* =============================================================================
+   Blog Specific
+   ============================================================================= */
+.blog-post-title {
+    color: var(--text-primary);
+}
+
+.blog-post-item:hover .blog-post-title {
+    color: var(--accent-primary-hover);
+}
+
+.blog-post-excerpt {
+    color: var(--text-secondary);
+}
+
+.blog-read-more {
+    color: var(--accent-primary);
+}
+
+.blog-read-more:hover {
+    color: var(--accent-primary-hover);
+}
+
+/* Blog preview */
+.blog-preview-meta {
+    color: var(--text-tertiary);
+}
+
+.blog-preview-tag {
+    background: var(--nav-hover-bg);
+    color: var(--accent-primary-hover);
+}
+
+.blog-preview-card h3 a {
+    color: var(--text-primary);
+}
+
+.blog-preview-card h3 a:hover {
+    color: var(--accent-primary);
+}
+
+.blog-preview-card p {
+    color: var(--text-tertiary);
+}
+
+.read-more-link {
+    color: var(--accent-primary);
+}
+
+.read-more-link:hover {
+    color: var(--accent-primary-hover);
+}
+
+/* =============================================================================
+   Software Cards (Components List)
+   ============================================================================= */
+.software-card-title {
+    color: var(--text-primary);
+}
+
+.software-card:hover .software-card-title {
+    color: var(--accent-primary);
+}
+
+.software-card-description {
+    color: var(--text-tertiary);
+}
+
+.software-card-footer {
+    color: var(--text-muted);
+    border-top-color: var(--border-secondary);
+}
+
+.software-card-icon {
+    background: var(--shadow-accent);
+    color: var(--accent-primary);
+}
+
+.software-card:hover .software-card-icon {
+    background: rgba(96, 165, 250, 0.25);
+}
+
+/* =============================================================================
+   z_style.css Overrides
+   ============================================================================= */
+
+/* Home Features Section */
+[data-theme="dark"] .home-features {
+    background-color: var(--home-features-bg);
+}
+
+[data-theme="dark"] .home-features .grid > div {
+    box-shadow: -5px -5px 15px var(--home-features-card-shadow-light), 5px 5px 15px var(--home-features-card-shadow-dark);
+    background: var(--card-bg);
+}
+
+[data-theme="dark"] .home-features .grid > div::before {
+    background: linear-gradient(317deg, rgba(51, 65, 85, 0.3), var(--card-bg));
+}
+
+[data-theme="dark"] .home-features .grid > div h3 {
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .home-features .grid > div p {
+    color: var(--text-secondary);
+}
+
+/* Home Platforms */
+[data-theme="dark"] .home-platforms .grid > div:hover {
+    background: var(--bg-secondary);
+}
+
+[data-theme="dark"] .home-platforms .grid > div span {
+    color: var(--text-secondary);
+}
+
+/* Images Directory */
+[data-theme="dark"] .images-dir {
+    background-color: var(--images-dir-bg);
+}
+
+[data-theme="dark"] .images-dir .grid > div {
+    background-color: var(--images-dir-item-bg);
+    background: linear-gradient(139deg, var(--images-dir-item-bg) 80%, rgba(51, 65, 85, 0.3));
+}
+
+[data-theme="dark"] .images-dir .grid > div .item-header a .title {
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .images-dir .grid > div p {
+    color: var(--text-tertiary);
+}
+
+/* Software Filter */
+[data-theme="dark"] .software-filter {
+    background-color: var(--software-filter-bg);
+}
+
+[data-theme="dark"] .software-filter .grid .filter {
+    background-color: var(--filter-item-bg);
+}
+
+[data-theme="dark"] .software-filter .grid .filter i {
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .software-filter .grid .filter span {
+    color: var(--text-secondary);
+}
+
+/* Search Section in z_style */
+[data-theme="dark"] .search-section .wrapper input {
+    background-color: var(--bg-input);
+    color: var(--text-primary);
+    border-color: var(--accent-warning);
+}
+
+[data-theme="dark"] .search-section .wrapper input::placeholder {
+    color: var(--text-muted);
+}
+
+/* Page Styles */
+[data-theme="dark"] .page .page-header {
+    background-color: var(--page-header-bg);
+}
+
+[data-theme="dark"] .page .page-header .title {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .page .page-header p {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .page .page-content h2,
+[data-theme="dark"] .page .page-content h3,
+[data-theme="dark"] .page .page-content h4 {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .page .page-content p {
+    color: var(--text-secondary);
+}
+
+[data-theme="dark"] .page .page-content pre {
+    background-color: var(--page-content-pre-bg);
+    color: var(--text-primary);
+}
+
+/* Article List */
+[data-theme="dark"] .page .article-list article .body h3 {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .page .article-list article .body p {
+    color: var(--text-tertiary);
+}
+
+[data-theme="dark"] .page .article-list article .body .title:hover {
+    color: var(--accent-primary);
+}
+
+/* Cards in z_style */
+[data-theme="dark"] .page .page-content .cards .card {
+    border-color: var(--accent-primary);
+}
+
+[data-theme="dark"] .page .page-content .cards .card .body {
+    color: var(--text-tertiary);
+    background: var(--card-bg);
+}
+
+[data-theme="dark"] .page .page-content .cards .card.main {
+    border-color: var(--accent-warning);
+}
+
+/* Components Directory */
+[data-theme="dark"] .components-dir .grid a {
+    border-color: var(--border-primary);
+}
+
+[data-theme="dark"] .components-dir .grid a i {
+    background-color: var(--bg-tertiary);
+    color: var(--accent-primary);
+}
+
+[data-theme="dark"] .components-dir .grid a h3 {
+    color: var(--text-primary);
+}
+
+[data-theme="dark"] .components-dir .grid a:hover {
+    background-color: var(--bg-secondary);
+}
+
+/* =============================================================================
+   Contact Page
+   ============================================================================= */
+.contact-info {
+    background: var(--bg-secondary);
+    border-left-color: var(--accent-primary);
+}
+
+.contact-info h2 {
+    color: var(--text-primary);
+}
+
+.contact-info strong {
+    color: var(--accent-primary);
+}
+
+/* =============================================================================
+   Meta Information
+   ============================================================================= */
+.meta-info {
+    color: var(--text-tertiary);
+}
+
+.meta-item i {
+    color: var(--accent-primary);
+}
+
+/* =============================================================================
+   CTA Section
+   ============================================================================= */
+[data-theme="dark"] .cta-section {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+}
+
+/* =============================================================================
+   Hero Section
+   ============================================================================= */
+[data-theme="dark"] .hero {
+    background-image: linear-gradient(135deg, #4c1d95 0%, #581c87 100%);
+}
+
+[data-theme="dark"] .hero-section {
+    background: linear-gradient(135deg, #4c1d95 0%, #581c87 100%);
+}
+
+/* =============================================================================
+   Tags Cloud
+   ============================================================================= */
+.tags-cloud {
+    background: var(--bg-secondary);
+    border-color: var(--border-primary);
+}
+
+/* =============================================================================
+   Theme Switcher Button
+   ============================================================================= */
+.theme-switcher {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    color: var(--text-tertiary);
+}
+
+.theme-switcher:hover {
+    background: var(--nav-hover-bg);
+    border-color: var(--border-primary);
+    color: var(--accent-primary);
+}
+
+.theme-switcher i {
+    font-size: 1.25rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.theme-switcher:hover i {
+    transform: rotate(15deg) scale(1.1);
+}
+
+/* Icon swap for dark mode */
+.theme-switcher .theme-icon-light {
+    display: block;
+}
+
+.theme-switcher .theme-icon-dark {
+    display: none;
+}
+
+[data-theme="dark"] .theme-switcher .theme-icon-light {
+    display: none;
+}
+
+[data-theme="dark"] .theme-switcher .theme-icon-dark {
+    display: block;
+    color: #fbbf24;
+}
+
+[data-theme="dark"] .theme-switcher:hover .theme-icon-dark {
+    color: #fcd34d;
+}
+
+/* Mobile theme switcher */
+.mobile-theme-switcher {
+    display: inline-flex !important;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    color: white;
+}
+
+.mobile-theme-switcher:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+[data-theme="dark"] .mobile-theme-switcher {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+[data-theme="dark"] .mobile-theme-switcher .theme-icon-dark {
+    color: #fbbf24;
+}
+
+/* =============================================================================
+   Smooth Theme Transition
+   ============================================================================= */
+html {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body,
+.site-header,
+.site-footer,
+.content-card,
+.card,
+.software-card,
+.catalog-item,
+.blog-post-item,
+.platform-link,
+.feature-card,
+.blog-preview-card,
+.search-input,
+.tag,
+.tag-cloud-item,
+.btn,
+.icon-button,
+.catalog-single-header,
+.catalog-platforms,
+.platform-card,
+.component-item {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* =============================================================================
+   Prevent FOUC (Flash of Unstyled Content)
+   ============================================================================= */
+html:not([data-theme]) {
+    visibility: visible;
+}
+
+/* =============================================================================
+   Print Styles - Force Light Theme
+   ============================================================================= */
+@media print {
+    :root {
+        --bg-primary: #ffffff !important;
+        --bg-secondary: #f8fafc !important;
+        --text-primary: #111827 !important;
+        --text-secondary: #374151 !important;
+    }
+}
+
