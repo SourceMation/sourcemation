@@ -226,7 +226,9 @@ background: linear-gradient(317deg, #C2C8F338, #ffffff); background--: white; cl
 .software-filter .grid.type-environment .filter {flex-basis: 180px; flex-grow: 0;}
 .software-filter .grid .filter i {font-size: 20px; color: var(--lavender)}
 .software-filter .grid .filter span {font-weight: 300; font-size: 14px; color: var(--lavender-text); line-height: 1;}
-.software-filter .grid .filter:hover {}
+.software-filter .grid .filter:hover {
+    background-color: var(--bg-secondary);
+}
 .software-filter .grid .filter.active {background-color: #6565c9;}
 .software-filter .grid .filter.active i {color: white;}
 .software-filter .grid .filter.active span {color: white;}

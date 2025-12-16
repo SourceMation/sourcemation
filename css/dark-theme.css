@@ -143,6 +143,7 @@
     --filter-item-bg: #334155;
     --page-header-bg: #1e293b;
     --page-content-pre-bg: #334155;
+    --twilight: #a78bfa;
 }
 
 /* =============================================================================
@@ -1175,6 +1176,7 @@ h1, h2, h3, h4, h5, h6 {
 [data-theme="dark"] .images-dir .grid > div {
     background-color: var(--images-dir-item-bg);
     background: linear-gradient(139deg, var(--images-dir-item-bg) 80%, rgba(51, 65, 85, 0.3));
+    border: none;
 }
 
 [data-theme="dark"] .images-dir .grid > div .item-header a .title {
@@ -1200,6 +1202,22 @@ h1, h2, h3, h4, h5, h6 {
 
 [data-theme="dark"] .software-filter .grid .filter span {
     color: var(--text-secondary);
+}
+
+[data-theme="dark"] .software-filter .grid .filter:hover {
+    background-color: var(--bg-secondary);
+}
+
+[data-theme="dark"] .software-filter .grid .filter.active {
+    background-color: var(--accent-primary);
+}
+
+[data-theme="dark"] .software-filter .grid .filter.active i {
+    color: var(--text-inverse);
+}
+
+[data-theme="dark"] .software-filter .grid .filter.active span {
+    color: var(--text-inverse);
 }
 
 /* Search Section in z_style */
@@ -1364,6 +1382,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .theme-switcher i {
     font-size: 1.25rem;
+    width: 18px;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
