@@ -1,0 +1,20 @@
+/* Extracted from main.css for single pages */
+
+/* Page Header */
+.page-header {
+    border-bottom: 2px solid #e5e7eb;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.page-header h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+
+/* Prose Content Styling */
+.prose {
+    line-height: 1.7;
+}
