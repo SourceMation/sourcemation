@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Sourcemation</title><link>https://sourcemation.com/categories/security/</link><description>Recent content in Security on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 10:26:03 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Sourcemation</title><link>https://sourcemation.com/categories/security/</link><description>Recent content in Security on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 02 Feb 2026 12:00:00 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Nginx Ingress</title><link>https://sourcemation.com/catalog/nginx-ingress-controller/</link><pubDate>Mon, 02 Feb 2026 12:00:00 +0100</pubDate><guid>https://sourcemation.com/catalog/nginx-ingress-controller/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;The NGINX Ingress Controller is a daemon that runs alongside NGINX in Kubernetes pods. It monitors Ingress resources in the cluster and configures NGINX to load balance traffic to your applications. It provides enterprise-grade traffic management.&lt;/p&gt;
+&lt;p&gt;This Nginx Ingress Controller distribution is compiled and packaged by Sourcemation, based on the upstream source code. It is based on &lt;code&gt;sourcemation/debian-13-slim&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes Ingress resource support&lt;/li&gt;
+&lt;li&gt;SSL/TLS termination and SNI&lt;/li&gt;
+&lt;li&gt;Advanced load balancing and rewriting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Usage:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>OAuth2 Proxy</title><link>https://sourcemation.com/catalog/oauth2-proxy/</link><pubDate>Mon, 02 Feb 2026 10:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/oauth2-proxy/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;OAuth2 Proxy is a reverse proxy and static file server that provides authentication using Providers (Google, GitHub, and others) to validate accounts by email, domain or group.&lt;/p&gt;
+&lt;p&gt;This OAuth2 Proxy distribution is compiled and packaged by Sourcemation, based on the upstream source code. It is based on &lt;code&gt;sourcemation/debian-13-slim&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Authentication via various providers (Google, Azure, OpenID Connect, etc.)&lt;/li&gt;
+&lt;li&gt;Reverse proxy capability&lt;/li&gt;
+&lt;li&gt;Secure user environment (non-root)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Usage:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;docker run --rm -it sourcemation/oauth2-proxy:latest --help
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Kibana</title><link>https://sourcemation.com/catalog/kibana/</link><pubDate>Thu, 06 Nov 2025 10:26:03 +0100</pubDate><guid>https://sourcemation.com/catalog/kibana/</guid><description>&lt;p&gt;Kibana is an advanced tool for data visualization and analysis,
 serving as a key component in the Elastic Stack.&lt;/p&gt;</description></item><item><title>Keycloak Config CLI</title><link>https://sourcemation.com/catalog/keycloak-config-cli/</link><pubDate>Thu, 06 Nov 2025 10:25:37 +0100</pubDate><guid>https://sourcemation.com/catalog/keycloak-config-cli/</guid><description>&lt;p&gt;Keycloak Config CLI is a powerful tool designed to
 automate the configuration of Keycloak instances.
 It allows administrators to manage realms, clients,

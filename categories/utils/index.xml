@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utils on Sourcemation</title><link>https://sourcemation.com/categories/utils/</link><description>Recent content in Utils on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 15 Jan 2026 15:36:05 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/utils/index.xml" rel="self" type="application/rss+xml"/><item><title>pgBadger</title><link>https://sourcemation.com/catalog/pgbadger/</link><pubDate>Thu, 15 Jan 2026 15:36:05 +0100</pubDate><guid>https://sourcemation.com/catalog/pgbadger/</guid><description>&lt;p&gt;pgBadger is a PostgreSQL log analyzer built for speed with fully detailed reports from your PostgreSQL log file. It is a small script written in Perl that outperforms any other log analyzer.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utils on Sourcemation</title><link>https://sourcemation.com/categories/utils/</link><description>Recent content in Utils on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 02 Feb 2026 12:00:00 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/utils/index.xml" rel="self" type="application/rss+xml"/><item><title>NATS</title><link>https://sourcemation.com/catalog/nats/</link><pubDate>Mon, 02 Feb 2026 12:00:00 +0100</pubDate><guid>https://sourcemation.com/catalog/nats/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;NATS is a high-performance messaging system designed for modern distributed systems. It supports at-most-once and at-least-once delivery, and is designed to be lightweight and fast, making it ideal for microservices, IoT, and cloud-native architectures.&lt;/p&gt;
+&lt;p&gt;This NATS distribution is compiled and packaged by Sourcemation, based on the upstream source code. It is based on &lt;code&gt;sourcemation/debian-13-slim&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;High performance and low latency&lt;/li&gt;
+&lt;li&gt;Pub/Sub, Request-Reply, and Queuing patterns&lt;/li&gt;
+&lt;li&gt;Cloud-native friendly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Usage:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;docker run --rm -it sourcemation/nats:latest --help
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>OAuth2 Proxy</title><link>https://sourcemation.com/catalog/oauth2-proxy/</link><pubDate>Mon, 02 Feb 2026 10:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/oauth2-proxy/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;OAuth2 Proxy is a reverse proxy and static file server that provides authentication using Providers (Google, GitHub, and others) to validate accounts by email, domain or group.&lt;/p&gt;
+&lt;p&gt;This OAuth2 Proxy distribution is compiled and packaged by Sourcemation, based on the upstream source code. It is based on &lt;code&gt;sourcemation/debian-13-slim&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Authentication via various providers (Google, Azure, OpenID Connect, etc.)&lt;/li&gt;
+&lt;li&gt;Reverse proxy capability&lt;/li&gt;
+&lt;li&gt;Secure user environment (non-root)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Usage:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;docker run --rm -it sourcemation/oauth2-proxy:latest --help
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>pgBadger</title><link>https://sourcemation.com/catalog/pgbadger/</link><pubDate>Thu, 15 Jan 2026 15:36:05 +0100</pubDate><guid>https://sourcemation.com/catalog/pgbadger/</guid><description>&lt;p&gt;pgBadger is a PostgreSQL log analyzer built for speed with fully detailed reports from your PostgreSQL log file. It is a small script written in Perl that outperforms any other log analyzer.&lt;/p&gt;
 &lt;p&gt;It is written in pure Perl and does not use any additional Perl modules. So, it can be used on any architecture where Perl is installed. It is very fast and can process huge log files.&lt;/p&gt;
 &lt;h2 id="features"&gt;Features&lt;/h2&gt;
 &lt;p&gt;pgBadger is designed to handle large log files efficiently and provides a wealth of information about your PostgreSQL instance&amp;rsquo;s performance.&lt;/p&gt;</description></item><item><title>RabbitMQ 4</title><link>https://sourcemation.com/catalog/rabbitmq-4/</link><pubDate>Thu, 06 Nov 2025 10:30:21 +0100</pubDate><guid>https://sourcemation.com/catalog/rabbitmq-4/</guid><description>&lt;p&gt;RabbitMQ is a sophisticated system for message queuing, serving as a
