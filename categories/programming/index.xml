@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 03 Dec 2025 16:57:07 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Python 3.14</title><link>https://sourcemation.com/catalog/python-3.14/</link><pubDate>Wed, 03 Dec 2025 16:57:07 +0100</pubDate><guid>https://sourcemation.com/catalog/python-3.14/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Mar 2026 20:11:51 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Golang 1.26</title><link>https://sourcemation.com/catalog/golang-1.26/</link><pubDate>Wed, 18 Mar 2026 20:11:51 +0100</pubDate><guid>https://sourcemation.com/catalog/golang-1.26/</guid><description>&lt;p&gt;This image features Go 1.26, the stable release of the Go programming language,
+designed to enhance performance, it was released February 2026.&lt;/p&gt;
+&lt;p&gt;The most significant updates in Go 1.26 are heavily focused on performance and
+language refinements. A major highlight is the &lt;strong&gt;&amp;lsquo;Green Tea&amp;rsquo; Garbage Collector&lt;/strong&gt;,
+now enabled by default, which improves locality and CPU scalability, reducing GC
+overhead by &lt;strong&gt;10–40%&lt;/strong&gt; for most programs. The language itself adds a powerful
+convenience with &lt;strong&gt;&lt;code&gt;new&lt;/code&gt; expressions&lt;/strong&gt;, allowing pointers to be initialized
+with values directly (e.g., &lt;code&gt;new(time.Now())&lt;/code&gt;). Additionally, Go 1.26 lifts
+restrictions on &lt;strong&gt;generic self-reference&lt;/strong&gt;, enabling more complex recursive type
+constraints. Performance gains extend to the standard library, where
+&lt;strong&gt;&lt;code&gt;io.ReadAll&lt;/code&gt; is now 2x faster&lt;/strong&gt;, and cgo call overhead has been reduced by ~30%.
+The release also introduces the &lt;strong&gt;&lt;code&gt;errors.AsType&lt;/code&gt;&lt;/strong&gt; generic function for type-safe
+error handling and new packages like &lt;strong&gt;&lt;code&gt;crypto/hpke&lt;/code&gt;&lt;/strong&gt; for hybrid public key
+encryption.&lt;/p&gt;</description></item><item><title>Python 3.14</title><link>https://sourcemation.com/catalog/python-3.14/</link><pubDate>Wed, 03 Dec 2025 16:57:07 +0100</pubDate><guid>https://sourcemation.com/catalog/python-3.14/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;This version of Python is built from the latest sources by Sourcemation&amp;rsquo;s
 automation team, it receives regular patches and updates. The security support
 for python 3.14 will be maintained until October 31, 2030.&lt;/p&gt;
