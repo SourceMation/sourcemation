@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on Sourcemation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Mar 2026 20:11:51 +0100</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>Golang 1.26</title><link>https://sourcemation.com/catalog/golang-1.26/</link><pubDate>Wed, 18 Mar 2026 20:11:51 +0100</pubDate><guid>https://sourcemation.com/catalog/golang-1.26/</guid><description>&lt;p&gt;This image features Go 1.26, the stable release of the Go programming language,
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on Sourcemation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Apr 2026 10:18:10 +0200</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tomcat 11</title><link>https://sourcemation.com/catalog/tomcat-11/</link><pubDate>Fri, 03 Apr 2026 10:18:10 +0200</pubDate><guid>https://sourcemation.com/catalog/tomcat-11/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Apache Tomcat 11.x is an open-source implementation of the Jakarta Servlet, Jakarta Pages, Jakarta Expression Language,
+Jakarta WebSocket, Jakarta Authentication, and Jakarta Annotations technologies. It is the first Apache Tomcat release
+to support the Jakarta EE 11 specification.&lt;/p&gt;
+&lt;p&gt;Tomcat 11 builds on the namespace changes introduced in Tomcat 10, continuing to support the &lt;code&gt;jakarta.*&lt;/code&gt; namespace
+while providing support for the latest Jakarta EE 11 features. It is designed for high-performance, modern Java
+web applications that require the most recent specifications and enhancements.&lt;/p&gt;</description></item><item><title>Tomcat 10</title><link>https://sourcemation.com/catalog/tomcat-10/</link><pubDate>Fri, 03 Apr 2026 10:18:07 +0200</pubDate><guid>https://sourcemation.com/catalog/tomcat-10/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Apache Tomcat 10.x is an open-source implementation of the Jakarta Servlet, Jakarta Pages, Jakarta Expression Language,
+Jakarta WebSocket, Jakarta Authentication, and Jakarta Annotations technologies. It is the first Apache Tomcat release
+to support the Jakarta EE 9 specification.&lt;/p&gt;
+&lt;p&gt;A key change in Tomcat 10 is the transition from the &lt;code&gt;javax.*&lt;/code&gt; namespace to the &lt;code&gt;jakarta.*&lt;/code&gt; namespace, following the
+move of Java EE to the Eclipse Foundation and its rebranding as Jakarta EE. Applications that run on Tomcat 9 and
+earlier will need to be refactored or migrated to use the new namespace to run on Tomcat 10.&lt;/p&gt;</description></item><item><title>Tomcat 9</title><link>https://sourcemation.com/catalog/tomcat-9/</link><pubDate>Fri, 03 Apr 2026 10:18:05 +0200</pubDate><guid>https://sourcemation.com/catalog/tomcat-9/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Apache Tomcat 9.x is an open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and
+Java WebSocket technologies. It is the first Apache Tomcat release to support the Servlet 4.0 specification, which
+includes support for HTTP/2.&lt;/p&gt;
+&lt;p&gt;Tomcat 9 provides a stable and mature environment for deploying Java web applications. It is widely used in
+production environments for its performance, reliability, and ease of configuration. Sourcemation&amp;rsquo;s Tomcat 9
+container is built on our secure foundation, ensuring a production-ready and optimized deployment for your
+legacy and modern Java web applications.&lt;/p&gt;</description></item><item><title>JRE-25</title><link>https://sourcemation.com/catalog/jre-25/</link><pubDate>Fri, 03 Apr 2026 10:18:03 +0200</pubDate><guid>https://sourcemation.com/catalog/jre-25/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;JRE 25 is the Java Runtime Environment derived from the JDK 25 Long-Term Support (LTS) release, and it&amp;rsquo;s intended for
+end-users or servers that only need to run pre-compiled Java applications. It contains the core components, primarily
+the Java Virtual Machine (JVM) and core class libraries, but omits development tools like the compiler (javac).&lt;/p&gt;
+&lt;p&gt;Any application running on JRE 25 gains the benefits of the Java 25 platform, including the latest performance
+improvements, memory management optimizations, and security enhancements. Sourcemation&amp;rsquo;s JRE 25 container is
+built on our secure foundation, providing a lightweight and production-ready environment for modern Java
+workloads.&lt;/p&gt;</description></item><item><title>JDK-25</title><link>https://sourcemation.com/catalog/jdk-25/</link><pubDate>Fri, 03 Apr 2026 10:17:58 +0200</pubDate><guid>https://sourcemation.com/catalog/jdk-25/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;JDK 25 is the official Java Development Kit for the Java 25 Long-Term Support (LTS) release, designed for application
+developers. It includes all the tools needed to compile, debug, and run Java applications, such as the javac compiler
+and the Java Virtual Machine.&lt;/p&gt;
+&lt;p&gt;As an LTS release, JDK 25 provides a stable and high-performance foundation for enterprise applications. It continues
+the evolution of the Java platform, building upon previous innovations like Virtual Threads and Pattern Matching,
+while introducing new language enhancements and performance optimizations that simplify development and improve
+runtime efficiency.&lt;/p&gt;</description></item><item><title>Golang 1.26</title><link>https://sourcemation.com/catalog/golang-1.26/</link><pubDate>Wed, 18 Mar 2026 20:11:51 +0100</pubDate><guid>https://sourcemation.com/catalog/golang-1.26/</guid><description>&lt;p&gt;This image features Go 1.26, the stable release of the Go programming language,
 designed to enhance performance, it was released February 2026.&lt;/p&gt;
 &lt;p&gt;The most significant updates in Go 1.26 are heavily focused on performance and
 language refinements. A major highlight is the &lt;strong&gt;&amp;lsquo;Green Tea&amp;rsquo; Garbage Collector&lt;/strong&gt;,

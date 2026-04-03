@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utils on Sourcemation</title><link>https://sourcemation.com/categories/utils/</link><description>Recent content in Utils on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 02 Feb 2026 12:00:00 +0100</lastBuildDate><atom:link href="https://sourcemation.com/categories/utils/index.xml" rel="self" type="application/rss+xml"/><item><title>NATS</title><link>https://sourcemation.com/catalog/nats/</link><pubDate>Mon, 02 Feb 2026 12:00:00 +0100</pubDate><guid>https://sourcemation.com/catalog/nats/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Utils on Sourcemation</title><link>https://sourcemation.com/categories/utils/</link><description>Recent content in Utils on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Apr 2026 10:18:03 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/utils/index.xml" rel="self" type="application/rss+xml"/><item><title>JRE-25</title><link>https://sourcemation.com/catalog/jre-25/</link><pubDate>Fri, 03 Apr 2026 10:18:03 +0200</pubDate><guid>https://sourcemation.com/catalog/jre-25/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;JRE 25 is the Java Runtime Environment derived from the JDK 25 Long-Term Support (LTS) release, and it&amp;rsquo;s intended for
+end-users or servers that only need to run pre-compiled Java applications. It contains the core components, primarily
+the Java Virtual Machine (JVM) and core class libraries, but omits development tools like the compiler (javac).&lt;/p&gt;
+&lt;p&gt;Any application running on JRE 25 gains the benefits of the Java 25 platform, including the latest performance
+improvements, memory management optimizations, and security enhancements. Sourcemation&amp;rsquo;s JRE 25 container is
+built on our secure foundation, providing a lightweight and production-ready environment for modern Java
+workloads.&lt;/p&gt;</description></item><item><title>JDK-25</title><link>https://sourcemation.com/catalog/jdk-25/</link><pubDate>Fri, 03 Apr 2026 10:17:58 +0200</pubDate><guid>https://sourcemation.com/catalog/jdk-25/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;JDK 25 is the official Java Development Kit for the Java 25 Long-Term Support (LTS) release, designed for application
+developers. It includes all the tools needed to compile, debug, and run Java applications, such as the javac compiler
+and the Java Virtual Machine.&lt;/p&gt;
+&lt;p&gt;As an LTS release, JDK 25 provides a stable and high-performance foundation for enterprise applications. It continues
+the evolution of the Java platform, building upon previous innovations like Virtual Threads and Pattern Matching,
+while introducing new language enhancements and performance optimizations that simplify development and improve
+runtime efficiency.&lt;/p&gt;</description></item><item><title>NATS</title><link>https://sourcemation.com/catalog/nats/</link><pubDate>Mon, 02 Feb 2026 12:00:00 +0100</pubDate><guid>https://sourcemation.com/catalog/nats/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;NATS is a high-performance messaging system designed for modern distributed systems. It supports at-most-once and at-least-once delivery, and is designed to be lightweight and fast, making it ideal for microservices, IoT, and cloud-native architectures.&lt;/p&gt;
 &lt;p&gt;This NATS distribution is compiled and packaged by Sourcemation, based on the upstream source code. It is based on &lt;code&gt;sourcemation/debian-13-slim&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Features:&lt;/strong&gt;&lt;/p&gt;
