@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on Sourcemation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 03 Apr 2026 10:18:10 +0200</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>Tomcat 11</title><link>https://sourcemation.com/catalog/tomcat-11/</link><pubDate>Fri, 03 Apr 2026 10:18:10 +0200</pubDate><guid>https://sourcemation.com/catalog/tomcat-11/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on Sourcemation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2026 17:00:19 +0200</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>JDK 8</title><link>https://sourcemation.com/catalog/jdk-8/</link><pubDate>Wed, 13 May 2026 17:00:19 +0200</pubDate><guid>https://sourcemation.com/catalog/jdk-8/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Based on the official OpenJDK Java Development Kit for the Java 8 Long-Term
+Support (LTS) release, designed for application developers. It includes all the
+tools needed to compile, run, and debug Java applications, such as the javac
+compiler and the Java Virtual Machine.&lt;/p&gt;
+&lt;p&gt;JDK 8&amp;rsquo;s community support end of life date is November 2026, making it a
+legacy choice for users seeking to run existing applications that require
+this specific version.&lt;/p&gt;</description></item><item><title>JRE 8</title><link>https://sourcemation.com/catalog/jre-8/</link><pubDate>Wed, 13 May 2026 17:00:16 +0200</pubDate><guid>https://sourcemation.com/catalog/jre-8/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;Based on the official OpenJDK JRE for the Java 8 Long-Term Support (LTS)
+release, designed for application runtimes. It includes all the tools needed to run Java applications, such as the Java Virtual Machine (JVM), core libraries, and standard utilities.&lt;/p&gt;
+&lt;p&gt;JDK/JRE 8 community support end of life date is November 2026, making it a
+legacy choice for users seeking to run existing applications that require
+this specific version.&lt;/p&gt;
+&lt;p&gt;Sourcemation&amp;rsquo;s JRE 8 container images are based on the popular
+Temurin/Adoptium binary builds, and are made to be drop-in replacements for
+Temurin/Adoptium images, providing the same reliability and performance with
+the added benefits of using Debian as the base operating system for better
+compatibility, security, stability, and additional Sourcemation value-added
+features.&lt;/p&gt;</description></item><item><title>Tomcat 11</title><link>https://sourcemation.com/catalog/tomcat-11/</link><pubDate>Fri, 03 Apr 2026 10:18:10 +0200</pubDate><guid>https://sourcemation.com/catalog/tomcat-11/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Apache Tomcat 11.x is an open-source implementation of the Jakarta Servlet, Jakarta Pages, Jakarta Expression Language,
 Jakarta WebSocket, Jakarta Authentication, and Jakarta Annotations technologies. It is the first Apache Tomcat release
 to support the Jakarta EE 11 specification.&lt;/p&gt;
