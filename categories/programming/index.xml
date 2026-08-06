@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 13 May 2026 17:00:19 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>JDK 8</title><link>https://sourcemation.com/catalog/jdk-8/</link><pubDate>Wed, 13 May 2026 17:00:19 +0200</pubDate><guid>https://sourcemation.com/catalog/jdk-8/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Aug 2026 12:00:00 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>GCC-17</title><link>https://sourcemation.com/catalog/gcc-17/</link><pubDate>Thu, 06 Aug 2026 12:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/gcc-17/</guid><description>&lt;p&gt;GCC 17 represents the active development trunk of the GNU Compiler
+Collection, targeting a stable release in Spring 2027. Serving as the
+experimental vanguard of the toolchain, its development focuses on setting up
+the initial infrastructure for the upcoming C++29 standard and expanding
+on modern hardware features.&lt;/p&gt;
+&lt;p&gt;One of the highlight early changes in GCC 17 is a significant optimization in the
+generic x86 tuning table, which adjusts the branch misprediction cost scale factor.
+This change encourages branchless execution paths (such as if-conversion) on modern,
+deep-pipelined Intel and AMD processors, showing up to a 12% performance improvement
+in SPEC CPU 2017 benchmarks. It continues to serve as the cutting-edge baseline
+for testing early features, language standard revisions, and hardware-specific optimizations.&lt;/p&gt;</description></item><item><title>JDK 8</title><link>https://sourcemation.com/catalog/jdk-8/</link><pubDate>Wed, 13 May 2026 17:00:19 +0200</pubDate><guid>https://sourcemation.com/catalog/jdk-8/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Based on the official OpenJDK Java Development Kit for the Java 8 Long-Term
 Support (LTS) release, designed for application developers. It includes all the
 tools needed to compile, run, and debug Java applications, such as the javac
@@ -267,16 +277,16 @@ GNU17 to GNU23. It also dramatically expands its language support by
 introducing a new front-end for the COBOL programming language. As a
 core component of open-source development, it translates source code
 into optimized machine code while providing powerful new features like
-incremental Link-Time Optimization (LTO) to speed up builds.&lt;/p&gt;</description></item><item><title>GCC-16</title><link>https://sourcemation.com/catalog/gcc-16/</link><pubDate>Tue, 16 Sep 2025 14:41:14 +0200</pubDate><guid>https://sourcemation.com/catalog/gcc-16/</guid><description>&lt;p&gt;GCC 16, representing the current development trunk of the GNU Compiler
-Collection, is the next major iteration of the foundational
-open-source toolchain. As the default compiler for the Linux
-ecosystem, its development is focused on pushing language standards
-forward, primarily by introducing experimental support for the
-upcoming C++26 standard (such as std::function_ref). It continues to
-be the critical utility that translates human-readable C, C++, and
-other languages into the optimized machine code that powers the
-open-source world, with a focus on new optimization techniques and
-hardware support.&lt;/p&gt;</description></item><item><title>ArgoCD</title><link>https://sourcemation.com/catalog/argocd/</link><pubDate>Mon, 15 Sep 2025 22:40:00 +0200</pubDate><guid>https://sourcemation.com/catalog/argocd/</guid><description>&lt;p&gt;ArgoCD is a declarative, version-controlled application deployment
+incremental Link-Time Optimization (LTO) to speed up builds.&lt;/p&gt;</description></item><item><title>GCC-16</title><link>https://sourcemation.com/catalog/gcc-16/</link><pubDate>Tue, 16 Sep 2025 14:41:14 +0200</pubDate><guid>https://sourcemation.com/catalog/gcc-16/</guid><description>&lt;p&gt;GCC 16 is a major release of the GNU Compiler Collection that brings
+substantial upgrades to standard language support, diagnostics, and
+optimizations. A primary milestone in this version is the transition of the
+default C++ language standard to GNU++20, bringing features like concepts,
+coroutines, and ranges out-of-the-box.&lt;/p&gt;
+&lt;p&gt;Beyond upgrading defaults, GCC 16 serves as an early testing ground for future
+standards, introducing rich experimental support for the C++26 reflection
+specification (via &lt;code&gt;-freflection&lt;/code&gt;), C++26 contracts, and expansion statements.
+It also introduces a new experimental compiler front-end for the Algol 68
+programming language (&lt;code&gt;ga68&lt;/code&gt;).&lt;/p&gt;</description></item><item><title>ArgoCD</title><link>https://sourcemation.com/catalog/argocd/</link><pubDate>Mon, 15 Sep 2025 22:40:00 +0200</pubDate><guid>https://sourcemation.com/catalog/argocd/</guid><description>&lt;p&gt;ArgoCD is a declarative, version-controlled application deployment
 tool designed to automate and manage application configurations and
 environments. It follows the GitOps pattern, utilizing Git
 repositories as the source of truth for defining the desired
