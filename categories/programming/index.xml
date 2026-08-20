@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 06 Aug 2026 12:00:00 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>GCC-17</title><link>https://sourcemation.com/catalog/gcc-17/</link><pubDate>Thu, 06 Aug 2026 12:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/gcc-17/</guid><description>&lt;p&gt;GCC 17 represents the active development trunk of the GNU Compiler
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming on Sourcemation</title><link>https://sourcemation.com/categories/programming/</link><description>Recent content in Programming on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Aug 2026 12:00:00 +0200</lastBuildDate><atom:link href="https://sourcemation.com/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>NodeJS 26</title><link>https://sourcemation.com/catalog/nodejs-26/</link><pubDate>Thu, 20 Aug 2026 12:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/nodejs-26/</guid><description>&lt;p&gt;NodeJS 26 delivers exceptional runtime performance and modernizes the
+JavaScript ecosystem with several powerful language standards.
+In this release, the modern and immutable Temporal API is enabled
+by default, solving legacy Date object mutability and timezone issues.
+It incorporates the V8 14.6 engine, introducing Map Upsert methods
+such as getOrInsert and lazy Iterator sequencing via Iterator.concat.
+The built-in HTTP client Undici is upgraded to version 8.0, while
+the default buffer pool size has been increased to 64 KiB.&lt;/p&gt;</description></item><item><title>Ruby 3.4</title><link>https://sourcemation.com/catalog/ruby-3.4/</link><pubDate>Thu, 20 Aug 2026 12:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/ruby-3.4/</guid><description>&lt;p&gt;Ruby 3.4 is an easy-to-use, interpreted, dynamically-typed,
+and object-oriented programming language designed for productivity.
+This version introduces Prism as the default parser, enhancing
+performance, error tolerance, and long-term maintainability.
+It also features the new &amp;ldquo;it&amp;rdquo; block parameter for cleaner block
+references and Happy Eyeballs v2 for faster connection resolution.
+Additionally, the JSON parser is optimized to be up to 1.5x faster,
+while YJIT memory usage tracking is significantly improved.&lt;/p&gt;</description></item><item><title>Ruby 4.0</title><link>https://sourcemation.com/catalog/ruby-4.0/</link><pubDate>Thu, 20 Aug 2026 12:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/ruby-4.0/</guid><description>&lt;p&gt;Ruby 4.0 is a milestone release marking the 30th anniversary
+of the language, focusing on runtime evolution and concurrency.
+A major highlight is the introduction of Ruby::Box, which provides
+isolated, container-like execution environments in a single process.
+This version also features the experimental method-based ZJIT compiler
+and an optimized, production-ready Ractor concurrency API.
+Additionally, the widely used Set and Pathname libraries are now
+promoted to core classes for enhanced, out-of-the-box performance.&lt;/p&gt;</description></item><item><title>GCC-17</title><link>https://sourcemation.com/catalog/gcc-17/</link><pubDate>Thu, 06 Aug 2026 12:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/gcc-17/</guid><description>&lt;p&gt;GCC 17 represents the active development trunk of the GNU Compiler
 Collection, targeting a stable release in Spring 2027. Serving as the
 experimental vanguard of the toolchain, its development focuses on setting up
 the initial infrastructure for the upcoming C++29 standard and expanding
