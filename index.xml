@@ -646,7 +646,11 @@ management layer, handling tasks like authentication (OAuth2, JWT),
 authorization, rate limiting, and traffic transformation via a
 &amp;ldquo;plugin&amp;rdquo; architecture. By intercepting and proxying all requests, Kong
 also provides critical observability metrics, logs, and traces for
-monitoring API performance.&lt;/p&gt;</description></item><item><title>Debian 11 Slim</title><link>https://sourcemation.com/catalog/debian-11-slim/</link><pubDate>Tue, 16 Sep 2025 15:44:01 +0200</pubDate><guid>https://sourcemation.com/catalog/debian-11-slim/</guid><description>&lt;p&gt;This is the minimal (&amp;ldquo;slim&amp;rdquo;) variant of the official Docker image for
+monitoring API performance.&lt;/p&gt;</description></item><item><title>Debian 11 Slim</title><link>https://sourcemation.com/catalog/debian-11-slim/</link><pubDate>Tue, 16 Sep 2025 15:44:01 +0200</pubDate><guid>https://sourcemation.com/catalog/debian-11-slim/</guid><description>&lt;p&gt;&lt;strong&gt;Deprecation Notice: Debian 11 (&amp;ldquo;Bullseye&amp;rdquo;) has been deprecated.
+This minimal image is maintained solely for legacy application
+compatibility. It is strongly recommended to migrate workloads to
+Debian 12 Slim or Debian 13 Slim.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is the minimal (&amp;ldquo;slim&amp;rdquo;) variant of the official Docker image for
 Debian 11 (codenamed &amp;ldquo;Bullseye&amp;rdquo;), which now serves as the &amp;ldquo;oldstable&amp;rdquo;
 release. It&amp;rsquo;s a &amp;ldquo;minbase&amp;rdquo; install of Debian where non-essential
 files—such as man pages, documentation, and extra utilities—have been
