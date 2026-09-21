@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on Sourcemation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 20 Aug 2026 12:00:00 +0200</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>NodeJS 26</title><link>https://sourcemation.com/catalog/nodejs-26/</link><pubDate>Thu, 20 Aug 2026 12:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/nodejs-26/</guid><description>&lt;p&gt;NodeJS 26 delivers exceptional runtime performance and modernizes the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Catalog on Sourcemation</title><link>https://sourcemation.com/catalog/</link><description>Recent content in Software Catalog on Sourcemation</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 21 Sep 2026 09:53:18 +0200</lastBuildDate><atom:link href="https://sourcemation.com/catalog/index.xml" rel="self" type="application/rss+xml"/><item><title>Golang 1.27</title><link>https://sourcemation.com/catalog/golang-1.27/</link><pubDate>Mon, 21 Sep 2026 09:53:18 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.27/</guid><description>&lt;p&gt;This image features Go 1.27, the stable release of the Go programming
+language, designed to enhance performance and developer convenience,
+released in August 2026.&lt;/p&gt;
+&lt;p&gt;Go 1.27 brings major improvements, notably introducing generic methods
+on concrete types, struct literal keys for initializing nested or
+embedded structs directly, and generalized function type inference
+across all assignment contexts. The standard library features a major
+redesign with &lt;code&gt;encoding/json/v2&lt;/code&gt; offering safe, fast, and configurable
+JSON processing alongside native support for generating and parsing
+UUIDs. For security-conscious environments, Go 1.27 integrates the
+ML-DSA post-quantum signature scheme into &lt;code&gt;crypto/tls&lt;/code&gt; and
+&lt;code&gt;crypto/x509&lt;/code&gt;. Additionally, memory allocation routines have been
+optimized for small objects, reducing allocation costs by up to 30% and
+delivering a general performance boost.&lt;/p&gt;</description></item><item><title>NodeJS 26</title><link>https://sourcemation.com/catalog/nodejs-26/</link><pubDate>Thu, 20 Aug 2026 12:00:00 +0200</pubDate><guid>https://sourcemation.com/catalog/nodejs-26/</guid><description>&lt;p&gt;NodeJS 26 delivers exceptional runtime performance and modernizes the
 JavaScript ecosystem with several powerful language standards.
 In this release, the modern and immutable Temporal API is enabled
 by default, solving legacy Date object mutability and timezone issues.
