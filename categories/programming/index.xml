@@ -156,7 +156,12 @@ a powerful templating engine, and generates a complete, ready-to-deploy
 static website (HTML, CSS, JS). Its robust feature set includes a built-in
 asset pipeline (Hugo Pipes), flexible content and data modeling, and native
 support for fetching content from external APIs, making it a versatile tool
-for everything from simple blogs to large corporate websites.&lt;/p&gt;</description></item><item><title>Golang 1.25</title><link>https://sourcemation.com/catalog/golang-1.25/</link><pubDate>Wed, 24 Sep 2025 14:40:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.25/</guid><description>&lt;p&gt;This image features Go 1.25, the stable release of the Go programming language, designed to enhance performance, it
+for everything from simple blogs to large corporate websites.&lt;/p&gt;</description></item><item><title>Golang 1.25</title><link>https://sourcemation.com/catalog/golang-1.25/</link><pubDate>Wed, 24 Sep 2025 14:40:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.25/</guid><description>&lt;p&gt;&lt;strong&gt;Deprecation Notice: Golang 1.25 has reached End-of-Life (EOL)
+following the release of Go 1.27 and no longer receives upstream
+security updates. This image is maintained on our updated Debian 13
+Slim base image solely for legacy compatibility. Migration to Go 1.26
+or Go 1.27 is strongly recommended.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This image features Go 1.25, the stable release of the Go programming language, designed to enhance performance, it
 was released August 2025.&lt;/p&gt;
 &lt;p&gt;The most significant updates in Go 1.25 are heavily focused on performance and
 developer tooling. A major highlight is the introduction of a new experimental
@@ -168,13 +173,13 @@ Furthermore, the release introduces the new &lt;code&gt;testing/synctest&lt;/cod
 simplifies the process of writing reliable tests for concurrent code by
 providing a virtualized time environment, enhancing code quality and
 robustness.&lt;/p&gt;</description></item><item><title>NodeJS 20</title><link>https://sourcemation.com/catalog/nodejs-20/</link><pubDate>Wed, 17 Sep 2025 13:39:33 +0200</pubDate><guid>https://sourcemation.com/catalog/nodejs-20/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Deprecation Notice: NodeJS 20 reached End-of-Life (EOL) in
+April 2026 and no longer receives upstream security updates. This image
+is maintained on our updated Debian 13 Slim base image for legacy
+compatibility. Migration to Node.js 22 or newer is strongly recommended.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Node.js 20 offers a mature and reliable platform for JavaScript development, supporting everything from lightweight
 utilities to enterprise-grade applications. Its proven stability and extensive ecosystem make it an excellent choice for
-production environments requiring long-term support.&lt;/p&gt;
-&lt;p&gt;Sourcemation&amp;rsquo;s Node.js 20 distribution is built on our hardened Debian 12 Slim base image and includes Yarn Classic
-package manager for enhanced dependency management. This build-optimized version contains all necessary compilation
-tools and development packages, ensuring seamless integration with complex Node.js projects that require native module
-compilation and advanced build workflows.&lt;/p&gt;</description></item><item><title>NodeJS 22</title><link>https://sourcemation.com/catalog/nodejs-22/</link><pubDate>Wed, 17 Sep 2025 13:36:50 +0200</pubDate><guid>https://sourcemation.com/catalog/nodejs-22/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
+production environments requiring long-term support.&lt;/p&gt;</description></item><item><title>NodeJS 22</title><link>https://sourcemation.com/catalog/nodejs-22/</link><pubDate>Wed, 17 Sep 2025 13:36:50 +0200</pubDate><guid>https://sourcemation.com/catalog/nodejs-22/</guid><description>&lt;h2 id="description"&gt;Description&lt;/h2&gt;
 &lt;p&gt;Node.js 22 provides a robust foundation for developing modern JavaScript applications across diverse use cases, from
 simple automation scripts to complex enterprise platforms. Its asynchronous, event-driven architecture enables efficient
 handling of concurrent operations while maintaining excellent performance characteristics.&lt;/p&gt;
@@ -258,7 +263,12 @@ threads) that communicate via messages (the &amp;ldquo;Actor Model&amp;rdquo;). 
 it crash&amp;rdquo; philosophy allows for the creation of fault-tolerant systems
 where failures in one part do not bring down the entire application,
 making it ideal for telecom (its original use), messaging (like
-RabbitMQ), and other distributed, high-availability backend systems.&lt;/p&gt;</description></item><item><title>Golang 1.23</title><link>https://sourcemation.com/catalog/golang-1.23/</link><pubDate>Tue, 16 Sep 2025 14:51:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.23/</guid><description>&lt;p&gt;This is the Go programming language, version 1.23 (released August
+RabbitMQ), and other distributed, high-availability backend systems.&lt;/p&gt;</description></item><item><title>Golang 1.23</title><link>https://sourcemation.com/catalog/golang-1.23/</link><pubDate>Tue, 16 Sep 2025 14:51:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.23/</guid><description>&lt;p&gt;&lt;strong&gt;Deprecation Notice: Golang 1.23 has reached End-of-Life (EOL)
+and no longer receives upstream security updates. This image is
+maintained on our updated Debian 13 Slim base image solely for legacy
+compatibility. Migration to a supported Go release (Go 1.26 or Go 1.27)
+is strongly recommended.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is the Go programming language, version 1.23 (released August
 2024). This major release finalized a significant new language
 feature: range-over functions, which allows iterating over function
 calls in for&amp;hellip;range loops, greatly simplifying iterative code. This
@@ -266,7 +276,12 @@ version also brought major updates to its toolchain, significantly
 reducing the build time overhead for Profile-Guided Optimization (PGO)
 and fixing a long-standing source of memory leaks by garbage
 collecting time.Timer and time.Ticker objects even if their Stop
-methods are not called.&lt;/p&gt;</description></item><item><title>Golang 1.24</title><link>https://sourcemation.com/catalog/golang-1.24/</link><pubDate>Tue, 16 Sep 2025 14:51:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.24/</guid><description>&lt;p&gt;This is the Go programming language, version 1.24 (released February
+methods are not called.&lt;/p&gt;</description></item><item><title>Golang 1.24</title><link>https://sourcemation.com/catalog/golang-1.24/</link><pubDate>Tue, 16 Sep 2025 14:51:02 +0200</pubDate><guid>https://sourcemation.com/catalog/golang-1.24/</guid><description>&lt;p&gt;&lt;strong&gt;Deprecation Notice: Golang 1.24 has reached End-of-Life (EOL)
+and no longer receives upstream security updates. This image is
+maintained on our updated Debian 13 Slim base image solely for legacy
+compatibility. Migration to a supported Go release (Go 1.26 or Go 1.27)
+is strongly recommended.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is the Go programming language, version 1.24 (released February
 2025). This release focused heavily on runtime and toolchain
 performance. Key features include a new implementation for maps based
 on Swiss Tables, resulting in faster map operations and 2-3% lower CPU
